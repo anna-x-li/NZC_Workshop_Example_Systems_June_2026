@@ -1,0 +1,6 @@
+{
+  "ConstraintScaling": true,
+  "OutputLayout": "wide",
+  "AutoCreateLocations": true,
+  "co2_cap_mode": "NATIONAL_NODE_CAP_ONLY"
+}

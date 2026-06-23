@@ -1,0 +1,18 @@
+{
+  "PeriodLengths": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "DiscountRate": 0.045,
+  "SolutionAlgorithm": "Monolithic",
+  "co2_cap_mode": "AGGREGATE_ORDINARY_EMISSION_EDGE_CAP",
+  "WriteFullTimeseries": true,
+  "DualExportsEnabled": true,
+  "OverwriteResults": true,
+  "OutputDir": "results_002"
+}

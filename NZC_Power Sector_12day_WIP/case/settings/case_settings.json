@@ -1,0 +1,7 @@
+{
+    "PeriodLengths":  [
+                          5
+                      ],
+    "DiscountRate":  0.045,
+    "SolutionAlgorithm":  "Myopic"
+}

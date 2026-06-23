@@ -1,0 +1,45 @@
+2026-06-23 18:55:15 | INFO | 1 | MacroEnergy | run_tools.jl:123 | Running case at c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case
+2026-06-23 18:55:15 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from ..\..\..\..\c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\user_additions
+2026-06-23 18:55:15 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
+2026-06-23 18:55:15 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\system_data.json
+2026-06-23 18:55:15 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-06-23 18:55:16 | WARN | 1 | MacroEnergy | load_json_inputs.jl:137 | Could not find: "locations", full path: C:\Users\Liyun\MACRO_NZC\locations
+2026-06-23 18:55:16 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-06-23 18:55:58 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 43.74 seconds
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 43.74 seconds
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | case.jl:15 | *** Generating case ***
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | case_settings.jl:129 | Configuring case
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | case_settings.jl:154 |  -- Setting solution algorithm
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | case_settings.jl:165 |  -- Solution algorithm set to MacroEnergy.Myopic()
+2026-06-23 18:55:59 | WARN | 1 | MacroEnergy | case_settings.jl:184 | No myopic settings specified, using default settings
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | case_settings.jl:185 | Configuring myopic
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | case.jl:30 | Generating systems
+2026-06-23 18:55:59 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-06-23 18:56:01 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-06-23 18:56:15 | INFO | 1 | MacroEnergy | generate_system.jl:43 | Done generating system. It took 15.75 seconds
+2026-06-23 18:56:16 | INFO | 1 | MacroEnergy | case.jl:54 |  -- Discounting fixed costs for period 1
+2026-06-23 18:56:16 | INFO | 1 | MacroEnergy | case.jl:57 |  -- Computing retirement case for period 1
+2026-06-23 18:56:16 | INFO | 1 | MacroEnergy | case.jl:45 | *** Done generating case. It took 16.93 seconds ***
+2026-06-23 18:56:16 | INFO | 1 | MacroEnergy | solver.jl:26 | *** Running simulation with myopic iteration ***
+2026-06-23 18:56:16 | INFO | 1 | MacroEnergy | myopic.jl:57 |  -- Generating model for period 1
+2026-06-23 18:56:17 | INFO | 1 | MacroEnergy | myopic.jl:74 |  -- Adding linking variables
+2026-06-23 18:56:18 | INFO | 1 | MacroEnergy | myopic.jl:77 |  -- Defining available capacity
+2026-06-23 18:56:19 | INFO | 1 | MacroEnergy | myopic.jl:80 |  -- Generating planning model
+2026-06-23 18:56:21 | INFO | 1 | MacroEnergy | myopic.jl:88 |  -- Including age-based retirements
+2026-06-23 18:56:21 | INFO | 1 | MacroEnergy | myopic.jl:91 |  -- Generating operational model
+2026-06-23 18:56:34 | INFO | 1 | MacroEnergy | scaling.jl:67 | Scaling constraints and RHS
+2026-06-23 18:57:04 | INFO | 1 | MacroEnergy | myopic.jl:124 |  -- Writing outputs for period 1
+2026-06-23 18:57:06 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\capacity.csv
+2026-06-23 18:57:14 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing total discounted costs to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\costs.csv
+2026-06-23 18:57:15 | INFO | 1 | MacroEnergy | write_cost.jl:79 | Writing total undiscounted costs to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\undiscounted_costs.csv
+2026-06-23 18:57:18 | INFO | 1 | MacroEnergy | write_cost.jl:565 | Writing detailed discounted costs by type to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\costs_by_type.csv
+2026-06-23 18:57:18 | INFO | 1 | MacroEnergy | write_cost.jl:573 | Writing detailed discounted costs by zone to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\costs_by_zone.csv
+2026-06-23 18:57:18 | INFO | 1 | MacroEnergy | write_cost.jl:565 | Writing detailed undiscounted costs by type to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\undiscounted_costs_by_type.csv
+2026-06-23 18:57:18 | INFO | 1 | MacroEnergy | write_cost.jl:573 | Writing detailed undiscounted costs by zone to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\undiscounted_costs_by_zone.csv
+2026-06-23 18:57:18 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\flows.csv
+2026-06-23 18:57:29 | INFO | 1 | MacroEnergy | write_non_served_demand.jl:44 | Writing non-served demand results to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\non_served_demand.csv
+2026-06-23 18:57:29 | INFO | 1 | MacroEnergy | write_storage_level.jl:58 | Writing storage level results to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\storage_level.csv
+2026-06-23 18:57:30 | INFO | 1 | MacroEnergy | write_curtailment.jl:44 | Writing curtailment results to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\curtailment.csv
+2026-06-23 18:57:31 | INFO | 1 | MacroEnergy | write_time_weights.jl:49 | Writing time weights to c:\Users\Liyun\MACRO_NZC\NZC_Power Sector_12day_WIP\case\results_tdr12days_06232026\results\time_weights.csv
+2026-06-23 18:57:32 | INFO | 1 | MacroEnergy | myopic.jl:137 | Writing settings file

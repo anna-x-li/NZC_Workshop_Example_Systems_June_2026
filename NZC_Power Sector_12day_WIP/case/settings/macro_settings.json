@@ -4,6 +4,6 @@
     "AutoCreateLocations":  true,
     "DualExportsEnabled":  false,
     "OverwriteResults":  true,
-    "OutputDir":  "results_tdr12days_06232026",
+    "OutputDir":  "results_tdr12days_062026",
     "EnableJuMPStringNames": true
 }

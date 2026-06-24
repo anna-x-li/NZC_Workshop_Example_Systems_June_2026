@@ -3269,222 +3269,604 @@
     {
       "type": "CO2Captured",
       "global_data": {
-        "time_interval": "CO2Captured"
+        "time_interval": "CO2Captured",
+        "constraints": {
+          "BalanceConstraint": true
+        }
       },
       "instance_data": [
         {
-          "id": "co2_captured_national_period1",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region12Anhui_to_Hehuai"
         },
         {
-          "id": "co2_storage_national_period1",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": false
-          }
+          "id": "co2_transported_Region12Anhui_to_Region17Hubei"
         },
         {
-          "id": "co2captured_Region10Jiangsu",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region12Anhui_to_Region14Jiangxi"
         },
         {
-          "id": "co2captured_Region11Zhejiang",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region12Anhui_to_Region15Shandong"
         },
         {
-          "id": "co2captured_Region12Anhui",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region1Beijing_to_BohaiOnshore"
         },
         {
-          "id": "co2captured_Region13Fujian",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region1Beijing_to_Erlian"
         },
         {
-          "id": "co2captured_Region14Jiangxi",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region1Beijing_to_Region3Hebei"
         },
         {
-          "id": "co2captured_Region15Shandong",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region1Beijing_to_Region5Innermongolia"
         },
         {
-          "id": "co2captured_Region16Henan",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region1Beijing_to_Region2Tianjin"
         },
         {
-          "id": "co2captured_Region17Hubei",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region22Chongqing_to_Region24Guizhou"
         },
         {
-          "id": "co2captured_Region18Hunan",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region22Chongqing_to_Jianghan"
         },
         {
-          "id": "co2captured_Region19Guangdong",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region22Chongqing_to_Nanxiang"
         },
         {
-          "id": "co2captured_Region1Beijing",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region22Chongqing_to_Region27Shaanxi"
         },
         {
-          "id": "co2captured_Region20Guangxi",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region22Chongqing_to_Region23Sichuan"
         },
         {
-          "id": "co2captured_Region21Hainan",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region22Chongqing_to_SichuanBasin"
         },
         {
-          "id": "co2captured_Region22Chongqing",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Erlian_to_BohaiOffshore"
         },
         {
-          "id": "co2captured_Region23Sichuan",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region13Fujian_to_EastChinaSea"
         },
         {
-          "id": "co2captured_Region24Guizhou",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region13Fujian_to_Region19Guangdong"
         },
         {
-          "id": "co2captured_Region25Yunnan",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region13Fujian_to_Region14Jiangxi"
         },
         {
-          "id": "co2captured_Region26Tibet",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region13Fujian_to_PearlRiverMouth"
         },
         {
-          "id": "co2captured_Region27Shaanxi",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region28Gansu_to_Region30Ningxia"
         },
         {
-          "id": "co2captured_Region28Gansu",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region28Gansu_to_Region29Qinghai"
         },
         {
-          "id": "co2captured_Region29Qinghai",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region28Gansu_to_SichuanBasin"
         },
         {
-          "id": "co2captured_Region2Tianjin",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region19Guangdong_to_Region20Guangxi"
         },
         {
-          "id": "co2captured_Region30Ningxia",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region19Guangdong_to_Region21Hainan"
         },
         {
-          "id": "co2captured_Region31Xinjiang",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region19Guangdong_to_PearlRiverMouth"
         },
         {
-          "id": "co2captured_Region3Hebei",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region20Guangxi_to_BeibuGulf"
         },
         {
-          "id": "co2captured_Region4Shanxi",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region20Guangxi_to_Region24Guizhou"
         },
         {
-          "id": "co2captured_Region5Innermongolia",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region20Guangxi_to_Region21Hainan"
         },
         {
-          "id": "co2captured_Region6Liaoning",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region20Guangxi_to_Region25Yunnan"
         },
         {
-          "id": "co2captured_Region7Jilin",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region24Guizhou_to_Region25Yunnan"
         },
         {
-          "id": "co2captured_Region8Heilongjiang",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region21Hainan_to_BeibuGulf"
         },
         {
-          "id": "co2captured_Region9Shanghai",
-          "constraints": {
-            "BalanceConstraint": true
-          }
+          "id": "co2_transported_Region21Hainan_to_PearlRiverMouth"
         },
         {
-          "id": "co2storage_Region10Jiangsu",
+          "id": "co2_transported_Region21Hainan_to_Qiongdongnan"
+        },
+        {
+          "id": "co2_transported_Region3Hebei_to_BohaiOnshore"
+        },
+        {
+          "id": "co2_transported_Region3Hebei_to_Region16Henan"
+        },
+        {
+          "id": "co2_transported_Region3Hebei_to_Region5Innermongolia"
+        },
+        {
+          "id": "co2_transported_Region3Hebei_to_Qinshui"
+        },
+        {
+          "id": "co2_transported_Region3Hebei_to_Region15Shandong"
+        },
+        {
+          "id": "co2_transported_Region3Hebei_to_Region4Shanxi"
+        },
+        {
+          "id": "co2_transported_Region8Heilongjiang_to_Hailar"
+        },
+        {
+          "id": "co2_transported_Region8Heilongjiang_to_Sanjiang"
+        },
+        {
+          "id": "co2_transported_Region8Heilongjiang_to_Songliao"
+        },
+        {
+          "id": "co2_transported_Region16Henan_to_Hehuai"
+        },
+        {
+          "id": "co2_transported_Region16Henan_to_Nanxiang"
+        },
+        {
+          "id": "co2_transported_Region16Henan_to_Qinshui"
+        },
+        {
+          "id": "co2_transported_Region17Hubei_to_Hehuai"
+        },
+        {
+          "id": "co2_transported_Region17Hubei_to_Region18Hunan"
+        },
+        {
+          "id": "co2_transported_Region17Hubei_to_Jianghan"
+        },
+        {
+          "id": "co2_transported_Region17Hubei_to_Nanxiang"
+        },
+        {
+          "id": "co2_transported_Region18Hunan_to_Region22Chongqing"
+        },
+        {
+          "id": "co2_transported_Region18Hunan_to_Region19Guangdong"
+        },
+        {
+          "id": "co2_transported_Region18Hunan_to_Region20Guangxi"
+        },
+        {
+          "id": "co2_transported_Region18Hunan_to_Region24Guizhou"
+        },
+        {
+          "id": "co2_transported_Region18Hunan_to_Jianghan"
+        },
+        {
+          "id": "co2_transported_Region5Innermongolia_to_Erlian"
+        },
+        {
+          "id": "co2_transported_Region5Innermongolia_to_Region30Ningxia"
+        },
+        {
+          "id": "co2_transported_Region5Innermongolia_to_Ordos"
+        },
+        {
+          "id": "co2_transported_Region5Innermongolia_to_YingenEjina"
+        },
+        {
+          "id": "co2_transported_Region10Jiangsu_to_Region12Anhui"
+        },
+        {
+          "id": "co2_transported_Region10Jiangsu_to_Region15Shandong"
+        },
+        {
+          "id": "co2_transported_Region10Jiangsu_to_Subei"
+        },
+        {
+          "id": "co2_transported_Region10Jiangsu_to_Region11Zhejiang"
+        },
+        {
+          "id": "co2_transported_Region14Jiangxi_to_Region19Guangdong"
+        },
+        {
+          "id": "co2_transported_Region14Jiangxi_to_Region17Hubei"
+        },
+        {
+          "id": "co2_transported_Region14Jiangxi_to_Region18Hunan"
+        },
+        {
+          "id": "co2_transported_Region7Jilin_to_Region8Heilongjiang"
+        },
+        {
+          "id": "co2_transported_Region7Jilin_to_NorthYellowSea"
+        },
+        {
+          "id": "co2_transported_Region7Jilin_to_Sanjiang"
+        },
+        {
+          "id": "co2_transported_Region7Jilin_to_Songliao"
+        },
+        {
+          "id": "co2_transported_Region6Liaoning_to_BohaiOffshore"
+        },
+        {
+          "id": "co2_transported_Region6Liaoning_to_Erlian"
+        },
+        {
+          "id": "co2_transported_Region6Liaoning_to_Region7Jilin"
+        },
+        {
+          "id": "co2_transported_Region6Liaoning_to_NorthYellowSea"
+        },
+        {
+          "id": "co2_transported_Region6Liaoning_to_Songliao"
+        },
+        {
+          "id": "co2_transported_Nanxiang_to_Hehuai"
+        },
+        {
+          "id": "co2_transported_Nanxiang_to_Jianghan"
+        },
+        {
+          "id": "co2_transported_Nanxiang_to_Qinshui"
+        },
+        {
+          "id": "co2_transported_Region30Ningxia_to_Ordos"
+        },
+        {
+          "id": "co2_transported_Region30Ningxia_to_YingenEjina"
+        },
+        {
+          "id": "co2_transported_Ordos_to_Qinshui"
+        },
+        {
+          "id": "co2_transported_Qaidam_to_Tarim"
+        },
+        {
+          "id": "co2_transported_Qaidam_to_YingenEjina"
+        },
+        {
+          "id": "co2_transported_Region29Qinghai_to_Region30Ningxia"
+        },
+        {
+          "id": "co2_transported_Region29Qinghai_to_Qaidam"
+        },
+        {
+          "id": "co2_transported_Region29Qinghai_to_YingenEjina"
+        },
+        {
+          "id": "co2_transported_Region27Shaanxi_to_Region28Gansu"
+        },
+        {
+          "id": "co2_transported_Region27Shaanxi_to_Nanxiang"
+        },
+        {
+          "id": "co2_transported_Region27Shaanxi_to_Region30Ningxia"
+        },
+        {
+          "id": "co2_transported_Region27Shaanxi_to_Ordos"
+        },
+        {
+          "id": "co2_transported_Region27Shaanxi_to_Qinshui"
+        },
+        {
+          "id": "co2_transported_Region27Shaanxi_to_SichuanBasin"
+        },
+        {
+          "id": "co2_transported_Region15Shandong_to_BohaiOffshore"
+        },
+        {
+          "id": "co2_transported_Region15Shandong_to_BohaiOnshore"
+        },
+        {
+          "id": "co2_transported_Region15Shandong_to_Hehuai"
+        },
+        {
+          "id": "co2_transported_Region15Shandong_to_Region16Henan"
+        },
+        {
+          "id": "co2_transported_Region15Shandong_to_NorthYellowSea"
+        },
+        {
+          "id": "co2_transported_Region15Shandong_to_SouthYellowSea"
+        },
+        {
+          "id": "co2_transported_Region15Shandong_to_Subei"
+        },
+        {
+          "id": "co2_transported_Region9Shanghai_to_EastChinaSea"
+        },
+        {
+          "id": "co2_transported_Region9Shanghai_to_Region10Jiangsu"
+        },
+        {
+          "id": "co2_transported_Region9Shanghai_to_SouthYellowSea"
+        },
+        {
+          "id": "co2_transported_Region9Shanghai_to_Subei"
+        },
+        {
+          "id": "co2_transported_Region9Shanghai_to_Region11Zhejiang"
+        },
+        {
+          "id": "co2_transported_Region4Shanxi_to_Region5Innermongolia"
+        },
+        {
+          "id": "co2_transported_Region4Shanxi_to_Ordos"
+        },
+        {
+          "id": "co2_transported_Region4Shanxi_to_Qinshui"
+        },
+        {
+          "id": "co2_transported_Region23Sichuan_to_Region28Gansu"
+        },
+        {
+          "id": "co2_transported_Region23Sichuan_to_Region24Guizhou"
+        },
+        {
+          "id": "co2_transported_Region23Sichuan_to_Region29Qinghai"
+        },
+        {
+          "id": "co2_transported_Region23Sichuan_to_SichuanBasin"
+        },
+        {
+          "id": "co2_transported_Region23Sichuan_to_Region26Tibet"
+        },
+        {
+          "id": "co2_transported_Region23Sichuan_to_Region25Yunnan"
+        },
+        {
+          "id": "co2_transported_Songliao_to_Erlian"
+        },
+        {
+          "id": "co2_transported_Songliao_to_Hailar"
+        },
+        {
+          "id": "co2_transported_Region2Tianjin_to_BohaiOffshore"
+        },
+        {
+          "id": "co2_transported_Region2Tianjin_to_BohaiOnshore"
+        },
+        {
+          "id": "co2_transported_Region2Tianjin_to_Erlian"
+        },
+        {
+          "id": "co2_transported_Region26Tibet_to_Qaidam"
+        },
+        {
+          "id": "co2_transported_Region26Tibet_to_Region29Qinghai"
+        },
+        {
+          "id": "co2_transported_Region26Tibet_to_Tarim"
+        },
+        {
+          "id": "co2_transported_TurpanHami_to_Junggar"
+        },
+        {
+          "id": "co2_transported_TurpanHami_to_Qaidam"
+        },
+        {
+          "id": "co2_transported_TurpanHami_to_YingenEjina"
+        },
+        {
+          "id": "co2_transported_Region31Xinjiang_to_Junggar"
+        },
+        {
+          "id": "co2_transported_Region31Xinjiang_to_Qaidam"
+        },
+        {
+          "id": "co2_transported_Region31Xinjiang_to_Tarim"
+        },
+        {
+          "id": "co2_transported_Region31Xinjiang_to_TurpanHami"
+        },
+        {
+          "id": "co2_transported_Region25Yunnan_to_BeibuGulf"
+        },
+        {
+          "id": "co2_transported_Region25Yunnan_to_Region26Tibet"
+        },
+        {
+          "id": "co2_transported_Region11Zhejiang_to_Region12Anhui"
+        },
+        {
+          "id": "co2_transported_Region11Zhejiang_to_EastChinaSea"
+        },
+        {
+          "id": "co2_transported_Region11Zhejiang_to_Region13Fujian"
+        },
+        {
+          "id": "co2_transported_Region11Zhejiang_to_Region14Jiangxi"
+        },
+        {
+          "id": "co2_transported_Region20Guangxi_to_BeibuGulf"
+        },
+        {
+          "id": "co2_transported_Region21Hainan_to_BeibuGulf"
+        },
+        {
+          "id": "co2_transported_Region25Yunnan_to_BeibuGulf"
+        }
+      ]
+    },
+    {
+      "type": "CO2Captured",
+      "global_data": {
+        "time_interval": "CO2Captured",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "co2captured_Region1Beijing"
+        },
+        {
+          "id": "co2captured_Region2Tianjin"
+        },
+        {
+          "id": "co2captured_Region3Hebei"
+        },
+        {
+          "id": "co2captured_Region4Shanxi"
+        },
+        {
+          "id": "co2captured_Region5Innermongolia"
+        },
+        {
+          "id": "co2captured_Region6Liaoning"
+        },
+        {
+          "id": "co2captured_Region7Jilin"
+        },
+        {
+          "id": "co2captured_Region8Heilongjiang"
+        },
+        {
+          "id": "co2captured_Region9Shanghai"
+        },
+        {
+          "id": "co2captured_Region10Jiangsu"
+        },
+        {
+          "id": "co2captured_Region11Zhejiang"
+        },
+        {
+          "id": "co2captured_Region12Anhui"
+        },
+        {
+          "id": "co2captured_Region13Fujian"
+        },
+        {
+          "id": "co2captured_Region14Jiangxi"
+        },
+        {
+          "id": "co2captured_Region15Shandong"
+        },
+        {
+          "id": "co2captured_Region16Henan"
+        },
+        {
+          "id": "co2captured_Region17Hubei"
+        },
+        {
+          "id": "co2captured_Region18Hunan"
+        },
+        {
+          "id": "co2captured_Region19Guangdong"
+        },
+        {
+          "id": "co2captured_Region20Guangxi"
+        },
+        {
+          "id": "co2captured_Region21Hainan"
+        },
+        {
+          "id": "co2captured_Region22Chongqing"
+        },
+        {
+          "id": "co2captured_Region23Sichuan"
+        },
+        {
+          "id": "co2captured_Region24Guizhou"
+        },
+        {
+          "id": "co2captured_Region25Yunnan"
+        },
+        {
+          "id": "co2captured_Region26Tibet"
+        },
+        {
+          "id": "co2captured_Region27Shaanxi"
+        },
+        {
+          "id": "co2captured_Region28Gansu"
+        },
+        {
+          "id": "co2captured_Region29Qinghai"
+        },
+        {
+          "id": "co2captured_Region30Ningxia"
+        },
+        {
+          "id": "co2captured_Region31Xinjiang"
+        }
+      ]
+    },
+    {
+      "type": "CO2Captured",
+      "global_data": {
+        "time_interval": "CO2Captured",
+        "constraints": {
+          "BalanceConstraint": false
+        }
+      },
+      "instance_data": [
+        {
+          "id": "co2_storage_Songliao",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 80650000
+            "CO2StorageConstraint": 14958904.11
           }
         },
         {
-          "id": "co2storage_Region11Zhejiang",
+          "id": "co2_storage_TurpanHami",
           "constraints": {
-            "BalanceConstraint": false,
+            "CO2StorageConstraint": true
+          },
+          "rhs_policy": {
+            "CO2StorageConstraint": 7298630.137
+          }
+        },
+        {
+          "id": "co2_storage_Subei",
+          "constraints": {
+            "CO2StorageConstraint": true
+          },
+          "rhs_policy": {
+            "CO2StorageConstraint": 9567123.288
+          }
+        },
+        {
+          "id": "co2_storage_BohaiOnshore",
+          "constraints": {
+            "CO2StorageConstraint": true
+          },
+          "rhs_policy": {
+            "CO2StorageConstraint": 7956164.384
+          }
+        },
+        {
+          "id": "co2_storage_Qaidam",
+          "constraints": {
+            "CO2StorageConstraint": true
+          },
+          "rhs_policy": {
+            "CO2StorageConstraint": 6641095.89
+          }
+        },
+        {
+          "id": "co2_storage_Nanxiang",
+          "constraints": {
+            "CO2StorageConstraint": true
+          },
+          "rhs_policy": {
+            "CO2StorageConstraint": 2005479.452
+          }
+        },
+        {
+          "id": "co2_storage_Sanjiang",
+          "constraints": {
+            "CO2StorageConstraint": true
+          },
+          "rhs_policy": {
+            "CO2StorageConstraint": 1742465.753
+          }
+        },
+        {
+          "id": "co2_storage_Hailar",
+          "constraints": {
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
@@ -3492,293 +3874,147 @@
           }
         },
         {
-          "id": "co2storage_Region12Anhui",
+          "id": "co2_storage_Jianghan",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 21790000
+            "CO2StorageConstraint": 624657.5342
           }
         },
         {
-          "id": "co2storage_Region13Fujian",
+          "id": "co2_storage_Tarim",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 0
+            "CO2StorageConstraint": 30805479.45
           }
         },
         {
-          "id": "co2storage_Region14Jiangxi",
+          "id": "co2_storage_Ordos",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 0
+            "CO2StorageConstraint": 1808219.178
           }
         },
         {
-          "id": "co2storage_Region15Shandong",
+          "id": "co2_storage_YingenEjina",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 54130000
+            "CO2StorageConstraint": 2531506.849
           }
         },
         {
-          "id": "co2storage_Region16Henan",
+          "id": "co2_storage_Hehuai",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 41870000
+            "CO2StorageConstraint": 16339726.03
           }
         },
         {
-          "id": "co2storage_Region17Hubei",
+          "id": "co2_storage_Qinshui",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 11360000
+            "CO2StorageConstraint": 854794.5205
           }
         },
         {
-          "id": "co2storage_Region18Hunan",
+          "id": "co2_storage_Erlian",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 50000
+            "CO2StorageConstraint": 2202739.726
           }
         },
         {
-          "id": "co2storage_Region19Guangdong",
+          "id": "co2_storage_Junggar",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 0
+            "CO2StorageConstraint": 5227397.26
           }
         },
         {
-          "id": "co2storage_Region1Beijing",
+          "id": "co2_storage_SichuanBasin",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 26660000
+            "CO2StorageConstraint": 4701369.863
           }
         },
         {
-          "id": "co2storage_Region20Guangxi",
+          "id": "co2_storage_BohaiOffshore",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 0
+            "CO2StorageConstraint": 11441095.89
           }
         },
         {
-          "id": "co2storage_Region21Hainan",
+          "id": "co2_storage_NorthYellowSea",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 0
+            "CO2StorageConstraint": 1742465.753
           }
         },
         {
-          "id": "co2storage_Region22Chongqing",
+          "id": "co2_storage_SouthYellowSea",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 20000
+            "CO2StorageConstraint": 3649315.068
           }
         },
         {
-          "id": "co2storage_Region23Sichuan",
+          "id": "co2_storage_EastChinaSea",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 300000
+            "CO2StorageConstraint": 30345205.48
           }
         },
         {
-          "id": "co2storage_Region24Guizhou",
+          "id": "co2_storage_PearlRiverMouth",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 20000
+            "CO2StorageConstraint": 12558904.11
           }
         },
         {
-          "id": "co2storage_Region25Yunnan",
+          "id": "co2_storage_BeibuGulf",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 20000
+            "CO2StorageConstraint": 5983561.644
           }
         },
         {
-          "id": "co2storage_Region26Tibet",
+          "id": "co2_storage_Qiongdongnan",
           "constraints": {
-            "BalanceConstraint": false,
             "CO2StorageConstraint": true
           },
           "rhs_policy": {
-            "CO2StorageConstraint": 0
-          }
-        },
-        {
-          "id": "co2storage_Region27Shaanxi",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 1520000
-          }
-        },
-        {
-          "id": "co2storage_Region28Gansu",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 1760000
-          }
-        },
-        {
-          "id": "co2storage_Region29Qinghai",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 33790000
-          }
-        },
-        {
-          "id": "co2storage_Region2Tianjin",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 140920000
-          }
-        },
-        {
-          "id": "co2storage_Region30Ningxia",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 1160000
-          }
-        },
-        {
-          "id": "co2storage_Region31Xinjiang",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 13300000
-          }
-        },
-        {
-          "id": "co2storage_Region3Hebei",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 56790000
-          }
-        },
-        {
-          "id": "co2storage_Region4Shanxi",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 110000
-          }
-        },
-        {
-          "id": "co2storage_Region5Innermongolia",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 6480000
-          }
-        },
-        {
-          "id": "co2storage_Region6Liaoning",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 32760000
-          }
-        },
-        {
-          "id": "co2storage_Region7Jilin",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 11780000
-          }
-        },
-        {
-          "id": "co2storage_Region8Heilongjiang",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 16650000
-          }
-        },
-        {
-          "id": "co2storage_Region9Shanghai",
-          "constraints": {
-            "BalanceConstraint": false,
-            "CO2StorageConstraint": true
-          },
-          "rhs_policy": {
-            "CO2StorageConstraint": 0
+            "CO2StorageConstraint": 12591780.82
           }
         }
       ]

@@ -2613,7 +2613,7 @@
           }
         },
         {
-          "id": "co2_sink_national_period1",
+          "id": "co2_sink_national",
           "constraints": {
             "BalanceConstraint": false,
             "CO2CapConstraint": true

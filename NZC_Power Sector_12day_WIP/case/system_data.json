@@ -14,7 +14,12 @@
                 "path": "system/nodes_1"
             },
             "assets": {
-                "path": "assets/assets_1"
+                "electricity": {"path": "assets/assets_1/electricity"},
+                "hydrogen":    {"path": "assets/assets_1/hydrogen"},
+                "storage":     {"path": "assets/assets_1/storage"},
+                "transmission":{"path": "assets/assets_1/transmission"},
+                "co2":         {"path": "assets/assets_1/co2"},
+                "industrial":  {"path": "assets/assets_1/industrial"}
             },
             "time_data": {
                 "path": "system/time_data_1.json"
@@ -37,7 +42,10 @@
                 "path": "system/nodes_2"
             },
             "assets": {
-                "path": "assets/assets_2"
+                "electricity": {"path": "assets/assets_2/electricity"},
+                "storage":     {"path": "assets/assets_2/storage"},
+                "transmission":{"path": "assets/assets_2/transmission"},
+                "co2":         {"path": "assets/assets_2/co2"}
             },
             "time_data": {
                 "path": "system/time_data_2.json"
@@ -60,7 +68,10 @@
                 "path": "system/nodes_3"
             },
             "assets": {
-                "path": "assets/assets_3"
+                "electricity": {"path": "assets/assets_3/electricity"},
+                "storage":     {"path": "assets/assets_3/storage"},
+                "transmission":{"path": "assets/assets_3/transmission"},
+                "co2":         {"path": "assets/assets_3/co2"}
             },
             "time_data": {
                 "path": "system/time_data_3.json"
@@ -83,7 +94,10 @@
                 "path": "system/nodes_4"
             },
             "assets": {
-                "path": "assets/assets_4"
+                "electricity": {"path": "assets/assets_4/electricity"},
+                "storage":     {"path": "assets/assets_4/storage"},
+                "transmission":{"path": "assets/assets_4/transmission"},
+                "co2":         {"path": "assets/assets_4/co2"}
             },
             "time_data": {
                 "path": "system/time_data_4.json"
@@ -106,7 +120,10 @@
                 "path": "system/nodes_5"
             },
             "assets": {
-                "path": "assets/assets_5"
+                "electricity": {"path": "assets/assets_5/electricity"},
+                "storage":     {"path": "assets/assets_5/storage"},
+                "transmission":{"path": "assets/assets_5/transmission"},
+                "co2":         {"path": "assets/assets_5/co2"}
             },
             "time_data": {
                 "path": "system/time_data_5.json"
@@ -129,7 +146,10 @@
                 "path": "system/nodes_6"
             },
             "assets": {
-                "path": "assets/assets_6"
+                "electricity": {"path": "assets/assets_6/electricity"},
+                "storage":     {"path": "assets/assets_6/storage"},
+                "transmission":{"path": "assets/assets_6/transmission"},
+                "co2":         {"path": "assets/assets_6/co2"}
             },
             "time_data": {
                 "path": "system/time_data_6.json"
@@ -152,7 +172,10 @@
                 "path": "system/nodes_7"
             },
             "assets": {
-                "path": "assets/assets_7"
+                "electricity": {"path": "assets/assets_7/electricity"},
+                "storage":     {"path": "assets/assets_7/storage"},
+                "transmission":{"path": "assets/assets_7/transmission"},
+                "co2":         {"path": "assets/assets_7/co2"}
             },
             "time_data": {
                 "path": "system/time_data_7.json"

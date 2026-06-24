@@ -13,7 +13,12 @@
     "CrudeSteel": 1,
     "SteelScrap": 1,
     "IronOre": 1,
-    "DRI": 1
+    "DRI": 1,
+    "Aluminum": 1,
+    "Alumina": 1,
+    "Bauxite": 1,
+    "AluminumScrap": 1,
+    "Graphite": 1
   },
   "NumberOfSubperiods": 12,
   "HoursPerSubperiod": {
@@ -30,7 +35,12 @@
     "CrudeSteel": 24,
     "SteelScrap": 24,
     "IronOre": 24,
-    "DRI": 24
+    "DRI": 24,
+    "Aluminum": 24,
+    "Alumina": 24,
+    "Bauxite": 24,
+    "AluminumScrap": 24,
+    "Graphite": 24
   },
   "TotalHoursModeled": 8760,
   "SubPeriodMap": {

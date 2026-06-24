@@ -4688,6 +4688,1829 @@
           "id": "crudesteel_Region31Xinjiang"
         }
       ]
+    },
+    {
+      "type": "Aluminum",
+      "global_data": {
+        "time_interval": "Aluminum",
+        "constraints": {
+          "AggregatedDemandConstraint": true,
+          "BalanceConstraint": false
+        }
+      },
+      "instance_data": [
+        {
+          "id": "aluminum_Region1Beijing",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 67358.99697152768
+          }
+        },
+        {
+          "id": "aluminum_Region2Tianjin",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 129494.93279970864
+          }
+        },
+        {
+          "id": "aluminum_Region12Anhui",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3333426.189587671
+          }
+        },
+        {
+          "id": "aluminum_Region9Shanghai",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 93650.38719494842
+          }
+        },
+        {
+          "id": "aluminum_Region22Chongqing",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1532365.8206713712
+          }
+        },
+        {
+          "id": "aluminum_Region13Fujian",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2282599.757990406
+          }
+        },
+        {
+          "id": "aluminum_Region28Gansu",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1108260.9748300249
+          }
+        },
+        {
+          "id": "aluminum_Region19Guangdong",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 4031495.254661136
+          }
+        },
+        {
+          "id": "aluminum_Region20Guangxi",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2849688.5533761256
+          }
+        },
+        {
+          "id": "aluminum_Region24Guizhou",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2542728.8073068867
+          }
+        },
+        {
+          "id": "aluminum_Region21Hainan",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 431972.9068531345
+          }
+        },
+        {
+          "id": "aluminum_Region3Hebei",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2786100.523010316
+          }
+        },
+        {
+          "id": "aluminum_Region8Heilongjiang",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 566125.5056815069
+          }
+        },
+        {
+          "id": "aluminum_Region16Henan",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2764759.9076842023
+          }
+        },
+        {
+          "id": "aluminum_Region17Hubei",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2308469.505392644
+          }
+        },
+        {
+          "id": "aluminum_Region18Hunan",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2594332.0849074065
+          }
+        },
+        {
+          "id": "aluminum_Region5Innermongolia",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 848156.9601665393
+          }
+        },
+        {
+          "id": "aluminum_Region10Jiangsu",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3587362.848696433
+          }
+        },
+        {
+          "id": "aluminum_Region14Jiangxi",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2356435.38784367
+          }
+        },
+        {
+          "id": "aluminum_Region7Jilin",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 524553.0573410575
+          }
+        },
+        {
+          "id": "aluminum_Region6Liaoning",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1279351.041199191
+          }
+        },
+        {
+          "id": "aluminum_Region30Ningxia",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 465117.17410014896
+          }
+        },
+        {
+          "id": "aluminum_Region29Qinghai",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 287991.7408873942
+          }
+        },
+        {
+          "id": "aluminum_Region27Shaanxi",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1599769.6730620225
+          }
+        },
+        {
+          "id": "aluminum_Region15Shandong",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3751723.795537971
+          }
+        },
+        {
+          "id": "aluminum_Region4Shanxi",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1319446.188669386
+          }
+        },
+        {
+          "id": "aluminum_Region23Sichuan",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3410771.571960904
+          }
+        },
+        {
+          "id": "aluminum_Region26Tibet",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 0.0
+          }
+        },
+        {
+          "id": "aluminum_Region31Xinjiang",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 947099.1367997264
+          }
+        },
+        {
+          "id": "aluminum_Region25Yunnan",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3085096.3567430032
+          }
+        },
+        {
+          "id": "aluminum_Region11Zhejiang",
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3114294.958073537
+          }
+        }
+      ]
+    },
+    {
+      "type": "Alumina",
+      "global_data": {
+        "time_interval": "Alumina",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "alumina_produced_Region1Beijing"
+        },
+        {
+          "id": "alumina_produced_Region2Tianjin"
+        },
+        {
+          "id": "alumina_produced_Region12Anhui"
+        },
+        {
+          "id": "alumina_produced_Region9Shanghai"
+        },
+        {
+          "id": "alumina_produced_Region22Chongqing"
+        },
+        {
+          "id": "alumina_produced_Region13Fujian"
+        },
+        {
+          "id": "alumina_produced_Region28Gansu"
+        },
+        {
+          "id": "alumina_produced_Region19Guangdong"
+        },
+        {
+          "id": "alumina_produced_Region20Guangxi"
+        },
+        {
+          "id": "alumina_produced_Region24Guizhou"
+        },
+        {
+          "id": "alumina_produced_Region21Hainan"
+        },
+        {
+          "id": "alumina_produced_Region3Hebei"
+        },
+        {
+          "id": "alumina_produced_Region8Heilongjiang"
+        },
+        {
+          "id": "alumina_produced_Region16Henan"
+        },
+        {
+          "id": "alumina_produced_Region17Hubei"
+        },
+        {
+          "id": "alumina_produced_Region18Hunan"
+        },
+        {
+          "id": "alumina_produced_Region5Innermongolia"
+        },
+        {
+          "id": "alumina_produced_Region10Jiangsu"
+        },
+        {
+          "id": "alumina_produced_Region14Jiangxi"
+        },
+        {
+          "id": "alumina_produced_Region7Jilin"
+        },
+        {
+          "id": "alumina_produced_Region6Liaoning"
+        },
+        {
+          "id": "alumina_produced_Region30Ningxia"
+        },
+        {
+          "id": "alumina_produced_Region29Qinghai"
+        },
+        {
+          "id": "alumina_produced_Region27Shaanxi"
+        },
+        {
+          "id": "alumina_produced_Region15Shandong"
+        },
+        {
+          "id": "alumina_produced_Region4Shanxi"
+        },
+        {
+          "id": "alumina_produced_Region23Sichuan"
+        },
+        {
+          "id": "alumina_produced_Region26Tibet"
+        },
+        {
+          "id": "alumina_produced_Region31Xinjiang"
+        },
+        {
+          "id": "alumina_produced_Region25Yunnan"
+        },
+        {
+          "id": "alumina_produced_Region11Zhejiang"
+        }
+      ]
+    },
+    {
+      "type": "AluminumScrap",
+      "global_data": {
+        "time_interval": "AluminumScrap",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "aluminumscrap_source_Region1Beijing",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                1.5395773587450223
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region2Tianjin",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                2.95977487157226
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region12Anhui",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                76.18978487322444
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region9Shanghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                2.140501228425245
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region22Chongqing",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                35.0242110020967
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region13Fujian",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                52.17178201101106
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region28Gansu",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                25.33074394130629
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region19Guangdong",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                92.14505997747958
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region20Guangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                65.13333294002635
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region24Guizhou",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                58.11736927753176
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region21Hainan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                9.873301813913205
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region3Hebei",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                63.67994592062384
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region8Heilongjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                12.939533691746378
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region16Henan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                63.19217844107453
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region17Hubei",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                52.76306868640164
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region18Hunan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                59.296829207203466
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region5Innermongolia",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                19.385728874293726
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region10Jiangsu",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                81.99383701913834
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region14Jiangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                53.85939122583968
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region7Jilin",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                11.989341392422096
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region6Liaoning",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                29.241229612574408
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region30Ningxia",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                10.630857088188845
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region29Qinghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                6.582425269236301
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region27Shaanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                36.56481358970208
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region15Shandong",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                85.75051992411223
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region4Shanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                30.15765628185435
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region23Sichuan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                77.95761404021219
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region26Tibet",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                0.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region31Xinjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                21.647180823077854
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region25Yunnan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                70.5138840234806
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region11Zhejiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                71.18125597877433
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "Bauxite",
+      "global_data": {
+        "time_interval": "Bauxite",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "bauxite_source_Region1Beijing",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region2Tianjin",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region12Anhui",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region9Shanghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region22Chongqing",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region13Fujian",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region28Gansu",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region19Guangdong",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region20Guangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region24Guizhou",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region21Hainan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region3Hebei",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region8Heilongjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region16Henan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region17Hubei",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region18Hunan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region5Innermongolia",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region10Jiangsu",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region14Jiangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region7Jilin",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region6Liaoning",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region30Ningxia",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region29Qinghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region27Shaanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region15Shandong",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region4Shanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region23Sichuan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region26Tibet",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region31Xinjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region25Yunnan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region11Zhejiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "Graphite",
+      "global_data": {
+        "time_interval": "Graphite",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "graphite_source_Region1Beijing",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region2Tianjin",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region12Anhui",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region9Shanghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region22Chongqing",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region13Fujian",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region28Gansu",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region19Guangdong",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region20Guangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region24Guizhou",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region21Hainan",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region3Hebei",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region8Heilongjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region16Henan",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region17Hubei",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region18Hunan",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region5Innermongolia",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region10Jiangsu",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region14Jiangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region7Jilin",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region6Liaoning",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region30Ningxia",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region29Qinghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region27Shaanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region15Shandong",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region4Shanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region23Sichuan",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region26Tibet",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region31Xinjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region25Yunnan",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "graphite_source_Region11Zhejiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                750.0
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        }
+      ]
     }
   ]
 }

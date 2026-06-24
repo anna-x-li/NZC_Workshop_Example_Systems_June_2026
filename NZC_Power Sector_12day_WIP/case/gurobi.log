@@ -882,3 +882,302 @@ Optimal objective 1.39893490e+12
 
 
 User-callback calls 1511, time in user-callback 0.01 sec
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 10:18:54 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 10:19:17 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.5.0 25F80)
+
+CPU model: Apple M4 Pro
+Thread count: 14 physical cores, 14 logical processors, using up to 8 threads
+
+Non-default parameters:
+Method  2
+BarConvTol  0.0001
+Crossover  0
+NumericFocus  1
+Threads  8
+
+Optimize a model with 1524154 rows, 1053766 columns and 4807933 nonzeros (Min)
+Model fingerprint: 0x5c64ce93
+Model has 457472 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+06]
+  Objective range  [2e+01, 3e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e+00, 1e+06]
+Presolve removed 961518 rows and 721946 columns
+Presolve time: 1.30s
+Presolved: 562636 rows, 331820 columns, 2391136 nonzeros
+Ordering time: 2.48s
+Ordering time: 3.03s
+
+Barrier statistics:
+ Dense cols : 561
+ AA' NZ     : 5.117e+06
+ Factor NZ  : 1.417e+07 (roughly 500 MB of memory)
+ Factor Ops : 1.912e+09 (less than 1 second per iteration)
+ Threads    : 8
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.86584103e+16 -3.88766137e+15  4.50e+09 4.35e-10  1.97e+13     5s
+   1   2.61836501e+16 -1.08299634e+16  4.04e+09 8.62e+05  1.13e+13     5s
+   2   1.94953501e+16 -1.28573068e+16  2.66e+09 4.84e+05  7.35e+12     5s
+   3   2.12247100e+16 -1.41824726e+16  1.41e+09 2.87e+05  4.15e+12     6s
+   4   2.19890426e+16 -1.48208230e+16  9.97e+08 1.12e+05  2.59e+12     6s
+   5   2.24064456e+16 -1.45281601e+16  8.97e+08 6.10e+04  2.23e+12     6s
+   6   2.07164346e+16 -1.41747369e+16  4.09e+08 3.72e+04  1.07e+12     6s
+   7   1.48136611e+16 -1.30893796e+16  1.84e+08 1.02e+04  4.75e+11     6s
+   8   5.10600204e+15 -1.09896612e+16  4.45e+07 9.64e+02  1.19e+11     6s
+   9   1.84888535e+15 -7.71553913e+15  2.32e+07 1.78e+02  5.91e+10     7s
+  10   1.82913000e+15 -6.90838381e+15  1.16e+07 1.35e+02  3.36e+10     7s
+  11   1.56448910e+15 -4.83849984e+15  8.56e+06 5.07e+01  2.31e+10     7s
+  12   1.04624533e+15 -2.33467032e+15  4.90e+06 3.69e+00  1.13e+10     7s
+  13   2.50645075e+14 -1.04197817e+15  7.90e+05 5.11e-01  2.43e+09     7s
+  14   1.03605156e+14 -9.31904639e+14  2.33e+05 4.42e-01  1.46e+09     7s
+  15   5.94543903e+13 -3.57298301e+14  9.34e+04 7.69e-02  5.46e+08     8s
+  16   3.56947722e+13 -1.78002826e+14  4.11e+04 2.40e-02  2.67e+08     8s
+  17   2.52725917e+13 -7.24302776e+13  2.30e+04 4.16e-03  1.21e+08     8s
+  18   1.57879807e+13 -2.87483216e+13  1.05e+04 1.13e-03  5.42e+07     8s
+  19   1.12058790e+13 -1.05951085e+13  6.76e+03 3.21e-04  2.67e+07     8s
+  20   8.94474875e+12 -7.48469863e+12  5.05e+03 2.18e-04  2.00e+07     8s
+  21   7.63341194e+12 -3.69349631e+12  4.06e+03 1.09e-04  1.38e+07     8s
+  22   6.94332139e+12 -2.52480275e+12  3.55e+03 7.79e-05  1.16e+07     9s
+  23   6.00144380e+12 -1.42598251e+12  2.93e+03 7.30e-05  9.05e+06     9s
+  24   5.00583436e+12 -3.42544218e+11  2.27e+03 3.80e-05  6.50e+06     9s
+  25   4.08207427e+12  1.00545108e+11  1.66e+03 3.90e-05  4.81e+06     9s
+  26   3.56548894e+12  5.50130674e+11  1.32e+03 2.39e-05  3.64e+06     9s
+  27   2.82772458e+12  8.84822833e+11  8.61e+02 8.18e-06  2.33e+06    10s
+  28   2.45820116e+12  1.04425956e+12  6.37e+02 4.57e-06  1.69e+06    10s
+  29   2.22083685e+12  1.11730872e+12  4.91e+02 3.09e-06  1.32e+06    10s
+  30   2.04571609e+12  1.14608656e+12  3.79e+02 2.72e-06  1.07e+06    10s
+  31   1.97017993e+12  1.19262964e+12  3.32e+02 2.11e-06  9.22e+05    10s
+  32   1.84772773e+12  1.22816656e+12  2.61e+02 1.67e-06  7.32e+05    10s
+  33   1.72575844e+12  1.27073708e+12  1.89e+02 1.17e-06  5.36e+05    11s
+  34   1.65298649e+12  1.30176633e+12  1.44e+02 8.42e-07  4.12e+05    11s
+  35   1.60392465e+12  1.32304820e+12  1.14e+02 6.29e-07  3.29e+05    11s
+  36   1.55847061e+12  1.34436155e+12  8.57e+01 4.28e-07  2.50e+05    11s
+  37   1.52175744e+12  1.35978683e+12  6.41e+01 2.97e-07  1.88e+05    11s
+  38   1.49326285e+12  1.37133140e+12  4.81e+01 1.97e-07  1.41e+05    12s
+  39   1.46720923e+12  1.37807597e+12  3.43e+01 1.43e-07  1.03e+05    12s
+  40   1.45655711e+12  1.38443059e+12  2.90e+01 9.15e-08  8.32e+04    12s
+  41   1.44334000e+12  1.38817099e+12  2.25e+01 6.37e-08  6.35e+04    12s
+  42   1.43397519e+12  1.39027682e+12  1.78e+01 4.89e-08  5.03e+04    12s
+  43   1.42483108e+12  1.39247203e+12  1.31e+01 3.40e-08  3.72e+04    13s
+  44   1.41864397e+12  1.39384288e+12  1.01e+01 2.79e-08  2.85e+04    13s
+  45   1.41531467e+12  1.39494351e+12  8.39e+00 2.33e-08  2.34e+04    13s
+  46   1.41282469e+12  1.39560308e+12  7.12e+00 2.22e-08  1.98e+04    13s
+  47   1.41001465e+12  1.39628524e+12  5.66e+00 2.20e-08  1.57e+04    14s
+  48   1.40805103e+12  1.39694646e+12  4.60e+00 2.12e-08  1.27e+04    14s
+  49   1.40717587e+12  1.39722509e+12  4.17e+00 2.19e-08  1.14e+04    14s
+  50   1.40548160e+12  1.39748200e+12  3.29e+00 2.17e-08  9.17e+03    14s
+  51   1.40439230e+12  1.39783080e+12  2.74e+00 2.14e-08  7.52e+03    14s
+  52   1.40319477e+12  1.39802749e+12  2.16e+00 2.13e-08  5.92e+03    15s
+  53   1.40271384e+12  1.39813549e+12  1.92e+00 1.99e-08  5.25e+03    15s
+  54   1.40232597e+12  1.39825252e+12  1.72e+00 1.85e-08  4.67e+03    15s
+  55   1.40176248e+12  1.39827065e+12  1.43e+00 1.82e-08  4.00e+03    15s
+  56   1.40127526e+12  1.39840719e+12  1.18e+00 1.53e-08  3.29e+03    15s
+  57   1.40075467e+12  1.39847938e+12  9.29e-01 1.31e-08  2.61e+03    16s
+  58   1.40051255e+12  1.39854941e+12  8.11e-01 1.08e-08  2.25e+03    16s
+  59   1.40037386e+12  1.39857847e+12  7.42e-01 1.01e-08  2.06e+03    16s
+  60   1.40029963e+12  1.39865157e+12  7.06e-01 9.00e-09  1.89e+03    16s
+  61   1.40015388e+12  1.39865906e+12  6.37e-01 8.93e-09  1.71e+03    16s
+  62   1.39989440e+12  1.39870567e+12  5.13e-01 8.42e-09  1.36e+03    17s
+  63   1.39961534e+12  1.39871917e+12  3.75e-01 8.73e-09  1.03e+03    17s
+  64   1.39953599e+12  1.39873031e+12  3.37e-01 8.63e-09  9.23e+02    17s
+  65   1.39943816e+12  1.39875325e+12  2.90e-01 8.18e-09  7.85e+02    17s
+  66   1.39925676e+12  1.39877828e+12  2.02e-01 7.45e-09  5.48e+02    17s
+  67   1.39915124e+12  1.39879903e+12  1.51e-01 7.45e-09  4.03e+02    18s
+  68   1.39908771e+12  1.39880801e+12  1.21e-01 6.16e-09  3.20e+02    18s
+  69   1.39900677e+12  1.39881492e+12  8.20e-02 6.05e-09  2.20e+02    18s
+  70   1.39893571e+12  1.39881875e+12  4.86e-02 5.72e-09  1.34e+02    18s
+
+Barrier solved model in 70 iterations and 18.13 seconds (28.96 work units)
+Optimal objective 1.39893571e+12
+
+
+User-callback calls 3073, time in user-callback 0.00 sec
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 10:52:14 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 10:52:35 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.5.0 25F80)
+
+CPU model: Apple M4 Pro
+Thread count: 14 physical cores, 14 logical processors, using up to 8 threads
+
+Non-default parameters:
+Method  2
+BarConvTol  0.0001
+Crossover  0
+NumericFocus  1
+Threads  8
+
+Optimize a model with 2394512 rows, 1570832 columns and 7349039 nonzeros (Min)
+Model fingerprint: 0xd11c9cb1
+Model has 538423 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+06]
+  Objective range  [2e+01, 3e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+06]
+Presolve removed 652339 rows and 224068 columns
+Presolve time: 0.27s
+
+Barrier solved model in 0 iterations and 0.27 seconds (0.47 work units)
+Model is infeasible
+
+User-callback calls 28, time in user-callback 0.00 sec
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 10:55:18 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 10:55:34 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.5.0 25F80)
+
+CPU model: Apple M4 Pro
+Thread count: 14 physical cores, 14 logical processors, using up to 8 threads
+
+Non-default parameters:
+Method  2
+BarConvTol  0.0001
+Crossover  0
+NumericFocus  1
+Threads  8
+
+Optimize a model with 2385584 rows, 1570832 columns and 7340687 nonzeros (Min)
+Model fingerprint: 0x80099ac0
+Model has 538423 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+06]
+  Objective range  [2e+01, 3e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+06]
+Presolve removed 643411 rows and 224068 columns
+Presolve time: 0.31s
+
+Barrier solved model in 0 iterations and 0.31 seconds (0.47 work units)
+Model is infeasible
+
+User-callback calls 28, time in user-callback 0.00 sec
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 10:56:19 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 10:56:33 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.5.0 25F80)
+
+CPU model: Apple M4 Pro
+Thread count: 14 physical cores, 14 logical processors, using up to 8 threads
+
+Non-default parameters:
+Method  2
+BarConvTol  0.0001
+Crossover  0
+NumericFocus  1
+Threads  8
+
+Optimize a model with 2385584 rows, 1570832 columns and 7340687 nonzeros (Min)
+Model fingerprint: 0x80099ac0
+Model has 538423 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+06]
+  Objective range  [2e+01, 3e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+06]
+Presolve removed 643411 rows and 224068 columns
+Presolve time: 0.25s
+
+Barrier solved model in 0 iterations and 0.25 seconds (0.47 work units)
+Model is infeasible
+
+User-callback calls 28, time in user-callback 0.00 sec
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 11:13:04 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 11:13:19 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.5.0 25F80)
+
+CPU model: Apple M4 Pro
+Thread count: 14 physical cores, 14 logical processors, using up to 8 threads
+
+Non-default parameters:
+Method  2
+BarConvTol  0.0001
+Crossover  0
+NumericFocus  1
+Threads  8
+
+Optimize a model with 2477514 rows, 1654439 columns and 7566307 nonzeros (Min)
+Model fingerprint: 0x2d3f35ed
+Model has 538481 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+06]
+  Objective range  [2e+01, 3e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+06]
+Presolve removed 685229 rows and 265886 columns
+Presolve time: 0.26s
+
+Barrier solved model in 0 iterations and 0.26 seconds (0.49 work units)
+Model is infeasible
+
+User-callback calls 28, time in user-callback 0.00 sec
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 11:16:38 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 11:20:18 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+
+Gurobi 13.0.0 (mac64[arm]) logging started Wed Jun 24 11:20:51 2026
+
+Set parameter LogFile to value "/Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Power Sector_12day_WIP/case/gurobi.log"
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 25.5.0 25F80)
+
+CPU model: Apple M4 Pro
+Thread count: 14 physical cores, 14 logical processors, using up to 8 threads
+
+Non-default parameters:
+Method  2
+BarConvTol  0.0001
+Crossover  0
+NumericFocus  1
+Threads  8
+
+Optimize a model with 2477514 rows, 1654439 columns and 7566307 nonzeros (Min)
+Model fingerprint: 0x2d3f35ed
+Model has 538481 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+06]
+  Objective range  [2e+01, 3e+08]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+06]
+Presolve removed 685229 rows and 265886 columns
+Presolve time: 0.23s
+
+Barrier solved model in 0 iterations and 0.23 seconds (0.49 work units)
+Model is infeasible
+
+User-callback calls 28, time in user-callback 0.00 sec

@@ -2099,7 +2099,7 @@
     },
     {
       "type": "Cement",
-        "global_data": {
+      "global_data": {
         "constraints": {
           "BalanceConstraint": false
         }
@@ -3780,6 +3780,912 @@
           "rhs_policy": {
             "CO2StorageConstraint": 0
           }
+        }
+      ]
+    },
+    {
+      "type": "IronOre",
+      "global_data": {
+        "time_interval": "IronOre",
+        "constraints": {
+          "BalanceConstraint": false
+        }
+      },
+      "instance_data": [
+        {
+          "id": "ironore_source"
+        }
+      ]
+    },
+    {
+      "type": "SteelScrap",
+      "global_data": {
+        "time_interval": "SteelScrap",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "steelscrap_source_Region1Beijing",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                1226.68798
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region2Tianjin",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                529.195864
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region3Hebei",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                1348.93192
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region4Shanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                653.042051
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region5Innermongolia",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                628.085183
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region6Liaoning",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                540.196544
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region7Jilin",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                254.77778
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region8Heilongjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                325.075727
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region9Shanghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                1018.04948
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region10Jiangsu",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                2450.44483
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region11Zhejiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                1571.8055
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region12Anhui",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                851.752849
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region13Fujian",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                952.081838
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region14Jiangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                589.568881
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region15Shandong",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                1910.20262
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region16Henan",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                927.662839
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region17Hubei",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                711.895654
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region18Hunan",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                668.003517
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region19Guangdong",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                1873.77417
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region20Guangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                361.448579
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region21Hainan",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                88.505516
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region22Chongqing",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                449.216063
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region23Sichuan",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                902.462817
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region24Guizhou",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                291.082078
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region25Yunnan",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                445.44866
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region26Tibet",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                0
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region27Shaanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                418.514805
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region28Gansu",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                163.086315
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region29Qinghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                49.2073305
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region30Ningxia",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                62.5736641
+              ]
+            }
+          }
+        },
+        {
+          "id": "steelscrap_source_Region31Xinjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                10
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                231.798921
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "DRI",
+      "global_data": {
+        "time_interval": "DRI",
+        "constraints": {
+          "BalanceConstraint": false
+        }
+      },
+      "instance_data": [
+        {
+          "id": "dri_Region1Beijing"
+        },
+        {
+          "id": "dri_Region2Tianjin"
+        },
+        {
+          "id": "dri_Region3Hebei"
+        },
+        {
+          "id": "dri_Region4Shanxi"
+        },
+        {
+          "id": "dri_Region5Innermongolia"
+        },
+        {
+          "id": "dri_Region6Liaoning"
+        },
+        {
+          "id": "dri_Region7Jilin"
+        },
+        {
+          "id": "dri_Region8Heilongjiang"
+        },
+        {
+          "id": "dri_Region9Shanghai"
+        },
+        {
+          "id": "dri_Region10Jiangsu"
+        },
+        {
+          "id": "dri_Region11Zhejiang"
+        },
+        {
+          "id": "dri_Region12Anhui"
+        },
+        {
+          "id": "dri_Region13Fujian"
+        },
+        {
+          "id": "dri_Region14Jiangxi"
+        },
+        {
+          "id": "dri_Region15Shandong"
+        },
+        {
+          "id": "dri_Region16Henan"
+        },
+        {
+          "id": "dri_Region17Hubei"
+        },
+        {
+          "id": "dri_Region18Hunan"
+        },
+        {
+          "id": "dri_Region19Guangdong"
+        },
+        {
+          "id": "dri_Region20Guangxi"
+        },
+        {
+          "id": "dri_Region21Hainan"
+        },
+        {
+          "id": "dri_Region22Chongqing"
+        },
+        {
+          "id": "dri_Region23Sichuan"
+        },
+        {
+          "id": "dri_Region24Guizhou"
+        },
+        {
+          "id": "dri_Region25Yunnan"
+        },
+        {
+          "id": "dri_Region26Tibet"
+        },
+        {
+          "id": "dri_Region27Shaanxi"
+        },
+        {
+          "id": "dri_Region28Gansu"
+        },
+        {
+          "id": "dri_Region29Qinghai"
+        },
+        {
+          "id": "dri_Region30Ningxia"
+        },
+        {
+          "id": "dri_Region31Xinjiang"
+        }
+      ]
+    },
+    {
+      "type": "CrudeSteel",
+      "global_data": {
+        "time_interval": "CrudeSteel",
+        "constraints": {
+          "BalanceConstraint": false
+        }
+      },
+      "instance_data": [
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 57216335
+          },
+          "id": "crudesteel_Region1Beijing"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 25073006
+          },
+          "id": "crudesteel_Region2Tianjin"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 60311840
+          },
+          "id": "crudesteel_Region3Hebei"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 34165582
+          },
+          "id": "crudesteel_Region4Shanxi"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 32987879
+          },
+          "id": "crudesteel_Region5Innermongolia"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 25420638
+          },
+          "id": "crudesteel_Region6Liaoning"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 14837706
+          },
+          "id": "crudesteel_Region7Jilin"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 17338078
+          },
+          "id": "crudesteel_Region8Heilongjiang"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 42244096
+          },
+          "id": "crudesteel_Region9Shanghai"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 109135912
+          },
+          "id": "crudesteel_Region10Jiangsu"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 63909888
+          },
+          "id": "crudesteel_Region11Zhejiang"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 46399591
+          },
+          "id": "crudesteel_Region12Anhui"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 45966914
+          },
+          "id": "crudesteel_Region13Fujian"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 32289330
+          },
+          "id": "crudesteel_Region14Jiangxi"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 78014188
+          },
+          "id": "crudesteel_Region15Shandong"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 45433710
+          },
+          "id": "crudesteel_Region16Henan"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 37085855
+          },
+          "id": "crudesteel_Region17Hubei"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 35378081
+          },
+          "id": "crudesteel_Region18Hunan"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 78224336
+          },
+          "id": "crudesteel_Region19Guangdong"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 18477334
+          },
+          "id": "crudesteel_Region20Guangxi"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 35378112
+          },
+          "id": "crudesteel_Region21Hainan"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 20237668
+          },
+          "id": "crudesteel_Region22Chongqing"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 41147880
+          },
+          "id": "crudesteel_Region23Sichuan"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 15551677
+          },
+          "id": "crudesteel_Region24Guizhou"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 22734877
+          },
+          "id": "crudesteel_Region25Yunnan"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 20865316
+          },
+          "id": "crudesteel_Region27Shaanxi"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 7924880
+          },
+          "id": "crudesteel_Region28Gansu"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2504113
+          },
+          "id": "crudesteel_Region29Qinghai"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3193568
+          },
+          "id": "crudesteel_Region30Ningxia"
+        },
+        {
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 11341310
+          },
+          "id": "crudesteel_Region31Xinjiang"
         }
       ]
     }

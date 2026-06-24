@@ -9,7 +9,11 @@
     "Heat": 1,
     "Biomass": 1,
     "CO2Captured": 1,
-    "Cement": 1
+    "Cement": 1,
+    "CrudeSteel": 1,
+    "SteelScrap": 1,
+    "IronOre": 1,
+    "DRI": 1
   },
   "NumberOfSubperiods": 12,
   "HoursPerSubperiod": {
@@ -22,7 +26,11 @@
     "Heat": 24,
     "Biomass": 24,
     "CO2Captured": 24,
-    "Cement":24
+    "Cement":24,
+    "CrudeSteel": 24,
+    "SteelScrap": 24,
+    "IronOre": 24,
+    "DRI": 24
   },
   "TotalHoursModeled": 8760,
   "SubPeriodMap": {

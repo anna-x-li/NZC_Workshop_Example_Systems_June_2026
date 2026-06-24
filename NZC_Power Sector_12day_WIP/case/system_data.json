@@ -13,9 +13,23 @@
             "nodes": {
                 "path": "system/nodes_1.json"
             },
-            "assets": {
-                "path": "assets/assets_1"
-            },
+            "assets": [
+                {
+                    "path": "assets/assets_1"
+                },
+                {
+                    "path": "assets/assets_1/steel"
+                },
+                {
+                    "path": "assets/assets_2/cement"
+                },
+                {
+                    "path": "assets/assets_3/electricity"
+                },
+                {
+                    "path": "assets/assets_3/hydrogen"
+                }
+            ],
             "time_data": {
                 "path": "system/time_data_1.json"
             },

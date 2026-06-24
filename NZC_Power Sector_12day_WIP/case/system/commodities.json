@@ -9,6 +9,10 @@
     "Heat",
     "Biomass",
     "CO2Captured",
-    "Cement"
+    "Cement",
+    "CrudeSteel",
+    "SteelScrap",
+    "IronOre",
+    "DRI"
   ]
 }

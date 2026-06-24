@@ -9,6 +9,11 @@
     "Heat",
     "Biomass",
     "CO2Captured",
-    "Cement"
+    "Cement",
+    "Aluminum",
+    "Alumina",
+    "Bauxite",
+    "AluminumScrap",
+    "Graphite"
   ]
 }

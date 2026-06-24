@@ -56,7 +56,7 @@
             "type": "CO2",
             "unidirectional": true,
             "has_capacity": false,
-            "end_vertex": "co2_sink_national_period1"
+            "end_vertex": "co2_sink_national"
           }
         }
       },

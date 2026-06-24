@@ -76,7 +76,7 @@
             "commodity": "CO2",
             "unidirectional": true,
             "has_capacity": false,
-            "end_vertex": "co2_sink_national_period1"
+            "end_vertex": "co2_sink_national"
           },
           "co2_captured_edge": {
             "commodity": "CO2Captured",

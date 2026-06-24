@@ -1,0 +1,2 @@
+Type,id,constraints--BalanceConstraint,time_interval
+Electricity,hydro_source,false,Electricity

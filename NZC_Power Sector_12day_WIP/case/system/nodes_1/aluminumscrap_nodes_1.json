@@ -1,0 +1,511 @@
+{
+  "nodes": [
+    {
+      "type": "AluminumScrap",
+      "global_data": {
+        "time_interval": "AluminumScrap",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "aluminumscrap_source_Region1Beijing",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                1.5395773587450223
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region2Tianjin",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                2.95977487157226
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region12Anhui",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                76.18978487322444
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region9Shanghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                2.140501228425245
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region22Chongqing",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                35.0242110020967
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region13Fujian",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                52.17178201101106
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region28Gansu",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                25.33074394130629
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region19Guangdong",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                92.14505997747958
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region20Guangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                65.13333294002635
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region24Guizhou",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                58.11736927753176
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region21Hainan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                9.873301813913205
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region3Hebei",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                63.67994592062384
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region8Heilongjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                12.939533691746378
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region16Henan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                63.19217844107453
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region17Hubei",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                52.76306868640164
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region18Hunan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                59.296829207203466
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region5Innermongolia",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                19.385728874293726
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region10Jiangsu",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                81.99383701913834
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region14Jiangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                53.85939122583968
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region7Jilin",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                11.989341392422096
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region6Liaoning",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                29.241229612574408
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region30Ningxia",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                10.630857088188845
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region29Qinghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                6.582425269236301
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region27Shaanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                36.56481358970208
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region15Shandong",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                85.75051992411223
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region4Shanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                30.15765628185435
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region23Sichuan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                77.95761404021219
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region26Tibet",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                0.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region31Xinjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                21.647180823077854
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region25Yunnan",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                70.5138840234806
+              ]
+            }
+          }
+        },
+        {
+          "id": "aluminumscrap_source_Region11Zhejiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                2131.9444444444443
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                71.18125597877433
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

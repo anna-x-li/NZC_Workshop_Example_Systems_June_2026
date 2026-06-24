@@ -1,0 +1,293 @@
+{
+  "nodes": [
+    {
+      "type": "Cement",
+      "global_data": {
+        "constraints": {
+          "BalanceConstraint": false
+        }
+      },
+      "instance_data": [
+        {
+          "id": "cement_Region1Beijing",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2594328.75
+          }
+        },
+        {
+          "id": "cement_Region2Tianjin",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 5015069.583333334
+          }
+        },
+        {
+          "id": "cement_Region3Hebei",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 110451676.66666667
+          }
+        },
+        {
+          "id": "cement_Region4Shanxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 52382214.583333336
+          }
+        },
+        {
+          "id": "cement_Region5Innermongolia",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 33441817.083333336
+          }
+        },
+        {
+          "id": "cement_Region6Liaoning",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 50327872.91666667
+          }
+        },
+        {
+          "id": "cement_Region7Jilin",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 20969189.166666668
+          }
+        },
+        {
+          "id": "cement_Region8Heilongjiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 22537624.583333336
+          }
+        },
+        {
+          "id": "cement_Region9Shanghai",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3607599.166666667
+          }
+        },
+        {
+          "id": "cement_Region10Jiangsu",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 140053663.33333334
+          }
+        },
+        {
+          "id": "cement_Region11Zhejiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 122110810.83333334
+          }
+        },
+        {
+          "id": "cement_Region12Anhui",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 132478575.0
+          }
+        },
+        {
+          "id": "cement_Region13Fujian",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 89665443.75
+          }
+        },
+        {
+          "id": "cement_Region14Jiangxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 93555978.75
+          }
+        },
+        {
+          "id": "cement_Region15Shandong",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 149069893.33333334
+          }
+        },
+        {
+          "id": "cement_Region16Henan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 110176983.75
+          }
+        },
+        {
+          "id": "cement_Region17Hubei",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 91791386.25
+          }
+        },
+        {
+          "id": "cement_Region18Hunan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 103153623.33333334
+          }
+        },
+        {
+          "id": "cement_Region19Guangdong",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 158120129.1666667
+          }
+        },
+        {
+          "id": "cement_Region20Guangxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 113888090.83333334
+          }
+        },
+        {
+          "id": "cement_Region21Hainan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 17152049.583333336
+          }
+        },
+        {
+          "id": "cement_Region22Chongqing",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 59998669.583333336
+          }
+        },
+        {
+          "id": "cement_Region23Sichuan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 136090797.5
+          }
+        },
+        {
+          "id": "cement_Region24Guizhou",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 102545837.5
+          }
+        },
+        {
+          "id": "cement_Region25Yunnan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 123549275.83333334
+          }
+        },
+        {
+          "id": "cement_Region26Tibet",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 0.0
+          }
+        },
+        {
+          "id": "cement_Region27Shaanxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 63524630.41666667
+          }
+        },
+        {
+          "id": "cement_Region28Gansu",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 44445958.75
+          }
+        },
+        {
+          "id": "cement_Region29Qinghai",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 11516358.333333334
+          }
+        },
+        {
+          "id": "cement_Region30Ningxia",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 18453943.75
+          }
+        },
+        {
+          "id": "cement_Region31Xinjiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 38050550.41666667
+          }
+        }
+      ]
+    }
+  ]
+}

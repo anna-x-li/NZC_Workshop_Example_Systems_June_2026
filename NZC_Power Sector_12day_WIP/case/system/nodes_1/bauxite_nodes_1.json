@@ -1,0 +1,511 @@
+{
+  "nodes": [
+    {
+      "type": "Bauxite",
+      "global_data": {
+        "time_interval": "Bauxite",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "bauxite_source_Region1Beijing",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region2Tianjin",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region12Anhui",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region9Shanghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region22Chongqing",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region13Fujian",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region28Gansu",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region19Guangdong",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region20Guangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region24Guizhou",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region21Hainan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region3Hebei",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region8Heilongjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region16Henan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region17Hubei",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region18Hunan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region5Innermongolia",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region10Jiangsu",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region14Jiangxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region7Jilin",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region6Liaoning",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region30Ningxia",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region29Qinghai",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region27Shaanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region15Shandong",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region4Shanxi",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region23Sichuan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region26Tibet",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region31Xinjiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region25Yunnan",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        },
+        {
+          "id": "bauxite_source_Region11Zhejiang",
+          "supply": {
+            "seg1": {
+              "price": [
+                67.5
+              ],
+              "min": [
+                0.0
+              ],
+              "max": [
+                100000.0
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

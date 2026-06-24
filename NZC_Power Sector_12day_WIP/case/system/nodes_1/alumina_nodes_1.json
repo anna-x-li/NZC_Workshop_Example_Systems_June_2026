@@ -1,0 +1,108 @@
+{
+  "nodes": [
+    {
+      "type": "Alumina",
+      "global_data": {
+        "time_interval": "Alumina",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "alumina_produced_Region1Beijing"
+        },
+        {
+          "id": "alumina_produced_Region2Tianjin"
+        },
+        {
+          "id": "alumina_produced_Region12Anhui"
+        },
+        {
+          "id": "alumina_produced_Region9Shanghai"
+        },
+        {
+          "id": "alumina_produced_Region22Chongqing"
+        },
+        {
+          "id": "alumina_produced_Region13Fujian"
+        },
+        {
+          "id": "alumina_produced_Region28Gansu"
+        },
+        {
+          "id": "alumina_produced_Region19Guangdong"
+        },
+        {
+          "id": "alumina_produced_Region20Guangxi"
+        },
+        {
+          "id": "alumina_produced_Region24Guizhou"
+        },
+        {
+          "id": "alumina_produced_Region21Hainan"
+        },
+        {
+          "id": "alumina_produced_Region3Hebei"
+        },
+        {
+          "id": "alumina_produced_Region8Heilongjiang"
+        },
+        {
+          "id": "alumina_produced_Region16Henan"
+        },
+        {
+          "id": "alumina_produced_Region17Hubei"
+        },
+        {
+          "id": "alumina_produced_Region18Hunan"
+        },
+        {
+          "id": "alumina_produced_Region5Innermongolia"
+        },
+        {
+          "id": "alumina_produced_Region10Jiangsu"
+        },
+        {
+          "id": "alumina_produced_Region14Jiangxi"
+        },
+        {
+          "id": "alumina_produced_Region7Jilin"
+        },
+        {
+          "id": "alumina_produced_Region6Liaoning"
+        },
+        {
+          "id": "alumina_produced_Region30Ningxia"
+        },
+        {
+          "id": "alumina_produced_Region29Qinghai"
+        },
+        {
+          "id": "alumina_produced_Region27Shaanxi"
+        },
+        {
+          "id": "alumina_produced_Region15Shandong"
+        },
+        {
+          "id": "alumina_produced_Region4Shanxi"
+        },
+        {
+          "id": "alumina_produced_Region23Sichuan"
+        },
+        {
+          "id": "alumina_produced_Region26Tibet"
+        },
+        {
+          "id": "alumina_produced_Region31Xinjiang"
+        },
+        {
+          "id": "alumina_produced_Region25Yunnan"
+        },
+        {
+          "id": "alumina_produced_Region11Zhejiang"
+        }
+      ]
+    }
+  ]
+}

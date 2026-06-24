@@ -21,7 +21,7 @@
         {
             "ConstraintScaling": true,
             "EnableJuMPDirectModel": false,
-            "EnableJuMPStringNames": false,
+            "EnableJuMPStringNames": true,
             "AllowImplicitTopLevelCommodities": true,
             "WriteSubcommodities": true,
             "OverwriteResults": true,

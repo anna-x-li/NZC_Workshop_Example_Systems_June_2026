@@ -6747,6 +6747,887 @@
           }
         }
       ]
+    },
+    {
+      "type": "Ammonia",
+      "global_data": {
+        "time_interval": "Ammonia",
+        "constraints": {
+          "BalanceConstraint": false
+        }
+      },
+      "instance_data": [
+        {
+          "id": "ammonia_Region1Beijing",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 47334.65
+          }
+        },
+        {
+          "id": "ammonia_Region2Tianjin",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 322946.0
+          }
+        },
+        {
+          "id": "ammonia_Region3Hebei",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2814484.24
+          }
+        },
+        {
+          "id": "ammonia_Region4Shanxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2031157.27
+          }
+        },
+        {
+          "id": "ammonia_Region5Innermongolia",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2132256.28
+          }
+        },
+        {
+          "id": "ammonia_Region6Liaoning",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1118892.96
+          }
+        },
+        {
+          "id": "ammonia_Region7Jilin",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1537722.3
+          }
+        },
+        {
+          "id": "ammonia_Region8Heilongjiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1664063.74
+          }
+        },
+        {
+          "id": "ammonia_Region9Shanghai",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 58528.98
+          }
+        },
+        {
+          "id": "ammonia_Region10Jiangsu",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 4546517.75
+          }
+        },
+        {
+          "id": "ammonia_Region11Zhejiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1224125.54
+          }
+        },
+        {
+          "id": "ammonia_Region12Anhui",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3569997.26
+          }
+        },
+        {
+          "id": "ammonia_Region13Fujian",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 706902.01
+          }
+        },
+        {
+          "id": "ammonia_Region14Jiangxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 531111.37
+          }
+        },
+        {
+          "id": "ammonia_Region15Shandong",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 6018643.94
+          }
+        },
+        {
+          "id": "ammonia_Region16Henan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 4496427.18
+          }
+        },
+        {
+          "id": "ammonia_Region17Hubei",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 4336747.48
+          }
+        },
+        {
+          "id": "ammonia_Region18Hunan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2435078.14
+          }
+        },
+        {
+          "id": "ammonia_Region19Guangdong",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1425044.78
+          }
+        },
+        {
+          "id": "ammonia_Region20Guangxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1997614.78
+          }
+        },
+        {
+          "id": "ammonia_Region21Hainan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 235977.59
+          }
+        },
+        {
+          "id": "ammonia_Region22Chongqing",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 732657.72
+          }
+        },
+        {
+          "id": "ammonia_Region23Sichuan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2794385.91
+          }
+        },
+        {
+          "id": "ammonia_Region24Guizhou",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1190278.32
+          }
+        },
+        {
+          "id": "ammonia_Region25Yunnan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2505203.8
+          }
+        },
+        {
+          "id": "ammonia_Region26Tibet",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 0.0
+          }
+        },
+        {
+          "id": "ammonia_Region27Shaanxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1904400.31
+          }
+        },
+        {
+          "id": "ammonia_Region28Gansu",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 847602.04
+          }
+        },
+        {
+          "id": "ammonia_Region29Qinghai",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 399321.42
+          }
+        },
+        {
+          "id": "ammonia_Region30Ningxia",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1036319.61
+          }
+        },
+        {
+          "id": "ammonia_Region31Xinjiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2938985.29
+          }
+        }
+      ]
+    },
+    {
+      "type": "Nitrogen",
+      "global_data": {
+        "time_interval": "Nitrogen",
+        "constraints": {
+          "BalanceConstraint": false
+        }
+      },
+      "instance_data": [
+        {
+          "id": "nitrogen_Region1Beijing"
+        },
+        {
+          "id": "nitrogen_Region2Tianjin"
+        },
+        {
+          "id": "nitrogen_Region3Hebei"
+        },
+        {
+          "id": "nitrogen_Region4Shanxi"
+        },
+        {
+          "id": "nitrogen_Region5Innermongolia"
+        },
+        {
+          "id": "nitrogen_Region6Liaoning"
+        },
+        {
+          "id": "nitrogen_Region7Jilin"
+        },
+        {
+          "id": "nitrogen_Region8Heilongjiang"
+        },
+        {
+          "id": "nitrogen_Region9Shanghai"
+        },
+        {
+          "id": "nitrogen_Region10Jiangsu"
+        },
+        {
+          "id": "nitrogen_Region11Zhejiang"
+        },
+        {
+          "id": "nitrogen_Region12Anhui"
+        },
+        {
+          "id": "nitrogen_Region13Fujian"
+        },
+        {
+          "id": "nitrogen_Region14Jiangxi"
+        },
+        {
+          "id": "nitrogen_Region15Shandong"
+        },
+        {
+          "id": "nitrogen_Region16Henan"
+        },
+        {
+          "id": "nitrogen_Region17Hubei"
+        },
+        {
+          "id": "nitrogen_Region18Hunan"
+        },
+        {
+          "id": "nitrogen_Region19Guangdong"
+        },
+        {
+          "id": "nitrogen_Region20Guangxi"
+        },
+        {
+          "id": "nitrogen_Region21Hainan"
+        },
+        {
+          "id": "nitrogen_Region22Chongqing"
+        },
+        {
+          "id": "nitrogen_Region23Sichuan"
+        },
+        {
+          "id": "nitrogen_Region24Guizhou"
+        },
+        {
+          "id": "nitrogen_Region25Yunnan"
+        },
+        {
+          "id": "nitrogen_Region26Tibet"
+        },
+        {
+          "id": "nitrogen_Region27Shaanxi"
+        },
+        {
+          "id": "nitrogen_Region28Gansu"
+        },
+        {
+          "id": "nitrogen_Region29Qinghai"
+        },
+        {
+          "id": "nitrogen_Region30Ningxia"
+        },
+        {
+          "id": "nitrogen_Region31Xinjiang"
+        }
+      ]
+    },
+    {
+      "type": "CokingOvenGas",
+      "global_data": {
+        "time_interval": "CokingOvenGas",
+        "constraints": {
+          "BalanceConstraint": true
+        }
+      },
+      "instance_data": [
+        {
+          "id": "cog_Region1Beijing",
+          "price_supply": [
+            258.28052134401526
+          ]
+        },
+        {
+          "id": "cog_Region2Tianjin",
+          "price_supply": [
+            258.28052134401526
+          ]
+        },
+        {
+          "id": "cog_Region3Hebei",
+          "price_supply": [
+            236.75714456534735
+          ]
+        },
+        {
+          "id": "cog_Region4Shanxi",
+          "price_supply": [
+            193.71039100801147
+          ]
+        },
+        {
+          "id": "cog_Region5Innermongolia",
+          "price_supply": [
+            301.32727490135113
+          ]
+        },
+        {
+          "id": "cog_Region6Liaoning",
+          "price_supply": [
+            419.7058471840248
+          ]
+        },
+        {
+          "id": "cog_Region7Jilin",
+          "price_supply": [
+            495.0376659093626
+          ]
+        },
+        {
+          "id": "cog_Region8Heilongjiang",
+          "price_supply": [
+            258.28052134401526
+          ]
+        },
+        {
+          "id": "cog_Region9Shanghai",
+          "price_supply": [
+            546.6937701781657
+          ]
+        },
+        {
+          "id": "cog_Region10Jiangsu",
+          "price_supply": [
+            279.8038981226832
+          ]
+        },
+        {
+          "id": "cog_Region11Zhejiang",
+          "price_supply": [
+            322.8506516800191
+          ]
+        },
+        {
+          "id": "cog_Region12Anhui",
+          "price_supply": [
+            333.6123400693531
+          ]
+        },
+        {
+          "id": "cog_Region13Fujian",
+          "price_supply": [
+            0.0
+          ]
+        },
+        {
+          "id": "cog_Region14Jiangxi",
+          "price_supply": [
+            430.4675355733588
+          ]
+        },
+        {
+          "id": "cog_Region15Shandong",
+          "price_supply": [
+            344.37402845868706
+          ]
+        },
+        {
+          "id": "cog_Region16Henan",
+          "price_supply": [
+            172.18701422934353
+          ]
+        },
+        {
+          "id": "cog_Region17Hubei",
+          "price_supply": [
+            365.897405237355
+          ]
+        },
+        {
+          "id": "cog_Region18Hunan",
+          "price_supply": [
+            368.04974291522177
+          ]
+        },
+        {
+          "id": "cog_Region19Guangdong",
+          "price_supply": [
+            0.0
+          ]
+        },
+        {
+          "id": "cog_Region20Guangxi",
+          "price_supply": [
+            0.0
+          ]
+        },
+        {
+          "id": "cog_Region21Hainan",
+          "price_supply": [
+            0.0
+          ]
+        },
+        {
+          "id": "cog_Region22Chongqing",
+          "price_supply": [
+            0.0
+          ]
+        },
+        {
+          "id": "cog_Region23Sichuan",
+          "price_supply": [
+            344.37402845868706
+          ]
+        },
+        {
+          "id": "cog_Region24Guizhou",
+          "price_supply": [
+            451.9909123520268
+          ]
+        },
+        {
+          "id": "cog_Region25Yunnan",
+          "price_supply": [
+            344.37402845868706
+          ]
+        },
+        {
+          "id": "cog_Region26Tibet",
+          "price_supply": [
+            0.0
+          ]
+        },
+        {
+          "id": "cog_Region27Shaanxi",
+          "price_supply": [
+            344.37402845868706
+          ]
+        },
+        {
+          "id": "cog_Region28Gansu",
+          "price_supply": [
+            0.0
+          ]
+        },
+        {
+          "id": "cog_Region29Qinghai",
+          "price_supply": [
+            0.0
+          ]
+        },
+        {
+          "id": "cog_Region30Ningxia",
+          "price_supply": [
+            467.0572760970943
+          ]
+        },
+        {
+          "id": "cog_Region31Xinjiang",
+          "price_supply": [
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Methanol",
+      "global_data": {
+        "constraints": {
+          "BalanceConstraint": false
+        },
+        "time_interval": "Methanol"
+      },
+      "instance_data": [
+        {
+          "id": "methanol_Region1Beijing",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 0.0
+          }
+        },
+        {
+          "id": "methanol_Region2Tianjin",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 465710.82
+          }
+        },
+        {
+          "id": "methanol_Region3Hebei",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2505678.69
+          }
+        },
+        {
+          "id": "methanol_Region4Shanxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 5765104.39
+          }
+        },
+        {
+          "id": "methanol_Region5Innermongolia",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 13014315.1
+          }
+        },
+        {
+          "id": "methanol_Region6Liaoning",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 279426.49
+          }
+        },
+        {
+          "id": "methanol_Region7Jilin",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 176626.41
+          }
+        },
+        {
+          "id": "methanol_Region8Heilongjiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1156122.77
+          }
+        },
+        {
+          "id": "methanol_Region9Shanghai",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 931421.63
+          }
+        },
+        {
+          "id": "methanol_Region10Jiangsu",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2282343.82
+          }
+        },
+        {
+          "id": "methanol_Region11Zhejiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 242169.63
+          }
+        },
+        {
+          "id": "methanol_Region12Anhui",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 3142809.03
+          }
+        },
+        {
+          "id": "methanol_Region13Fujian",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 302660.45
+          }
+        },
+        {
+          "id": "methanol_Region14Jiangxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 0.0
+          }
+        },
+        {
+          "id": "methanol_Region15Shandong",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 7863638.75
+          }
+        },
+        {
+          "id": "methanol_Region16Henan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 4537982.42
+          }
+        },
+        {
+          "id": "methanol_Region17Hubei",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 279426.49
+          }
+        },
+        {
+          "id": "methanol_Region18Hunan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 149027.46
+          }
+        },
+        {
+          "id": "methanol_Region19Guangdong",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 0.0
+          }
+        },
+        {
+          "id": "methanol_Region20Guangxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 351900.0
+          }
+        },
+        {
+          "id": "methanol_Region21Hainan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1303990.29
+          }
+        },
+        {
+          "id": "methanol_Region22Chongqing",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1490274.62
+          }
+        },
+        {
+          "id": "methanol_Region23Sichuan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2624890.49
+          }
+        },
+        {
+          "id": "methanol_Region24Guizhou",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1210848.13
+          }
+        },
+        {
+          "id": "methanol_Region25Yunnan",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1656796.24
+          }
+        },
+        {
+          "id": "methanol_Region26Tibet",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 0.0
+          }
+        },
+        {
+          "id": "methanol_Region27Shaanxi",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 12011902.05
+          }
+        },
+        {
+          "id": "methanol_Region28Gansu",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 186284.33
+          }
+        },
+        {
+          "id": "methanol_Region29Qinghai",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 1695187.38
+          }
+        },
+        {
+          "id": "methanol_Region30Ningxia",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 5766462.27
+          }
+        },
+        {
+          "id": "methanol_Region31Xinjiang",
+          "constraints": {
+            "AggregatedDemandConstraint": true
+          },
+          "rhs_policy": {
+            "AggregatedDemandConstraint": 2958899.85
+          }
+        }
+      ]
     }
   ]
 }

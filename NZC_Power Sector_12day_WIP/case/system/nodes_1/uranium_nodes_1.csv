@@ -1,2 +1,0 @@
-Type,id,constraints--BalanceConstraint,time_interval,supply--seg1--price--timeseries--path,supply--seg1--price--timeseries--TDR_path,supply--seg1--price--timeseries--header,supply--seg1--min
-Uranium,uranium_source,true,Uranium,system/fuel_prices_1.csv,system/fuel_prices_1.csv,uranium_source,0

@@ -1,0 +1,711 @@
+{
+  "ThermalAmmoniaCCS_Gas": [
+    {
+      "type": "ThermalAmmoniaCCS",
+      "global_data": {
+        "transforms": {
+          "timedata": "Ammonia",
+          "fuel_consumption": 11.583381,
+          "electricity_consumption": 0.383908,
+          "emission_rate": 0.0275,
+          "capture_rate": 0.168,
+          "constraints": {
+            "BalanceConstraint": true
+          }
+        },
+        "edges": {
+          "nh3_edge": {
+            "commodity": "Ammonia",
+            "unidirectional": true,
+            "has_capacity": true,
+            "can_retire": true,
+            "can_expand": true,
+            "investment_cost": 51937842.81,
+            "fixed_om_cost": 1298593.17,
+            "variable_om_cost": 0,
+            "constraints": {
+              "CapacityConstraint": true
+            },
+            "availability": [
+              0.85
+            ],
+            "lifetime": 30
+          },
+          "fuel_edge": {
+            "commodity": "NaturalGas",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "elec_edge": {
+            "commodity": "Electricity",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "co2_edge": {
+            "commodity": "CO2",
+            "unidirectional": true,
+            "has_capacity": false
+          },
+          "co2_captured_edge": {
+            "commodity": "CO2Captured",
+            "unidirectional": true,
+            "has_capacity": false
+          }
+        }
+      },
+      "instance_data": [
+        {
+          "id": "Region1Beijing_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region1Beijing",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region1Beijing"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region1Beijing"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region1Beijing"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region1Beijing"
+            }
+          }
+        },
+        {
+          "id": "Region2Tianjin_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region2Tianjin",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region2Tianjin"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region2Tianjin"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region2Tianjin"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region2Tianjin"
+            }
+          }
+        },
+        {
+          "id": "Region3Hebei_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region3Hebei",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region3Hebei"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region3Hebei"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region3Hebei"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region3Hebei"
+            }
+          }
+        },
+        {
+          "id": "Region4Shanxi_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region4Shanxi",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region4Shanxi"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region4Shanxi"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region4Shanxi"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region4Shanxi"
+            }
+          }
+        },
+        {
+          "id": "Region5Innermongolia_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region5Innermongolia",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region5Innermongolia"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region5Innermongolia"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region5Innermongolia"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region5Innermongolia"
+            }
+          }
+        },
+        {
+          "id": "Region6Liaoning_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region6Liaoning",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region6Liaoning"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region6Liaoning"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region6Liaoning"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region6Liaoning"
+            }
+          }
+        },
+        {
+          "id": "Region7Jilin_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region7Jilin",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region7Jilin"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region7Jilin"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region7Jilin"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region7Jilin"
+            }
+          }
+        },
+        {
+          "id": "Region8Heilongjiang_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region8Heilongjiang",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region8Heilongjiang"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region8Heilongjiang"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region8Heilongjiang"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region8Heilongjiang"
+            }
+          }
+        },
+        {
+          "id": "Region9Shanghai_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region9Shanghai",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region9Shanghai"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region9Shanghai"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region9Shanghai"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region9Shanghai"
+            }
+          }
+        },
+        {
+          "id": "Region10Jiangsu_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region10Jiangsu",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region10Jiangsu"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region10Jiangsu"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region10Jiangsu"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region10Jiangsu"
+            }
+          }
+        },
+        {
+          "id": "Region11Zhejiang_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region11Zhejiang",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region11Zhejiang"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region11Zhejiang"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region11Zhejiang"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region11Zhejiang"
+            }
+          }
+        },
+        {
+          "id": "Region12Anhui_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region12Anhui",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region12Anhui"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region12Anhui"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region12Anhui"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region12Anhui"
+            }
+          }
+        },
+        {
+          "id": "Region13Fujian_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region13Fujian",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region13Fujian"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region13Fujian"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region13Fujian"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region13Fujian"
+            }
+          }
+        },
+        {
+          "id": "Region14Jiangxi_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region14Jiangxi",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region14Jiangxi"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region14Jiangxi"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region14Jiangxi"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region14Jiangxi"
+            }
+          }
+        },
+        {
+          "id": "Region15Shandong_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region15Shandong",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region15Shandong"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region15Shandong"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region15Shandong"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region15Shandong"
+            }
+          }
+        },
+        {
+          "id": "Region16Henan_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region16Henan",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region16Henan"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region16Henan"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region16Henan"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region16Henan"
+            }
+          }
+        },
+        {
+          "id": "Region17Hubei_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region17Hubei",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region17Hubei"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region17Hubei"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region17Hubei"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region17Hubei"
+            }
+          }
+        },
+        {
+          "id": "Region18Hunan_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region18Hunan",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region18Hunan"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region18Hunan"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region18Hunan"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region18Hunan"
+            }
+          }
+        },
+        {
+          "id": "Region19Guangdong_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region19Guangdong",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region19Guangdong"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region19Guangdong"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region19Guangdong"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region19Guangdong"
+            }
+          }
+        },
+        {
+          "id": "Region20Guangxi_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region20Guangxi",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region20Guangxi"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region20Guangxi"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region20Guangxi"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region20Guangxi"
+            }
+          }
+        },
+        {
+          "id": "Region21Hainan_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region21Hainan",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region21Hainan"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region21Hainan"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region21Hainan"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region21Hainan"
+            }
+          }
+        },
+        {
+          "id": "Region22Chongqing_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region22Chongqing",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region22Chongqing"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region22Chongqing"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region22Chongqing"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region22Chongqing"
+            }
+          }
+        },
+        {
+          "id": "Region23Sichuan_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region23Sichuan",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region23Sichuan"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region23Sichuan"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region23Sichuan"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region23Sichuan"
+            }
+          }
+        },
+        {
+          "id": "Region24Guizhou_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region24Guizhou",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region24Guizhou"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region24Guizhou"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region24Guizhou"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region24Guizhou"
+            }
+          }
+        },
+        {
+          "id": "Region25Yunnan_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region25Yunnan",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region25Yunnan"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region25Yunnan"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region25Yunnan"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region25Yunnan"
+            }
+          }
+        },
+        {
+          "id": "Region26Tibet_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region26Tibet",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region26Tibet"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region26Tibet"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region26Tibet"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region26Tibet"
+            }
+          }
+        },
+        {
+          "id": "Region27Shaanxi_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region27Shaanxi",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region27Shaanxi"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region27Shaanxi"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region27Shaanxi"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region27Shaanxi"
+            }
+          }
+        },
+        {
+          "id": "Region28Gansu_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region28Gansu",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region28Gansu"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region28Gansu"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region28Gansu"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region28Gansu"
+            }
+          }
+        },
+        {
+          "id": "Region29Qinghai_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region29Qinghai",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region29Qinghai"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region29Qinghai"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region29Qinghai"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region29Qinghai"
+            }
+          }
+        },
+        {
+          "id": "Region30Ningxia_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region30Ningxia",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region30Ningxia"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region30Ningxia"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region30Ningxia"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region30Ningxia"
+            }
+          }
+        },
+        {
+          "id": "Region31Xinjiang_ammonia_gas_ccs",
+          "edges": {
+            "nh3_edge": {
+              "end_vertex": "ammonia_Region31Xinjiang",
+              "existing_capacity": 0
+            },
+            "fuel_edge": {
+              "start_vertex": "natgas_Region31Xinjiang"
+            },
+            "elec_edge": {
+              "start_vertex": "elec_Region31Xinjiang"
+            },
+            "co2_edge": {
+              "end_vertex": "co2_sink_Region31Xinjiang"
+            },
+            "co2_captured_edge": {
+              "end_vertex": "co2captured_Region31Xinjiang"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

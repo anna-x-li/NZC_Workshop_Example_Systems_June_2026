@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 update_commodity_demand.py)",
+      "Bash(python3 -c \"import json; nb=json.load\\(open\\('update_commodity_demand.ipynb'\\)\\); print\\(f'Valid notebook: {len\\(nb[\\\\\"cells\\\\\"]\\)} cells, nbformat {nb[\\\\\"nbformat\\\\\"]}.{nb[\\\\\"nbformat_minor\\\\\"]}'\\)\")",
+      "Bash(jupyter nbconvert *)"
+    ]
+  }
+}

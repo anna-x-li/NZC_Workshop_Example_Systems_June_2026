@@ -18,6 +18,10 @@
     "Alumina",
     "Bauxite",
     "AluminumScrap",
-    "Graphite"
+    "Graphite",
+    "Ammonia",
+    "Nitrogen",
+    "CokingOvenGas",
+    "Methanol"
   ]
 }

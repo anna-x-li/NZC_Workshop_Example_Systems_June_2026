@@ -18,7 +18,11 @@
     "Alumina": 1,
     "Bauxite": 1,
     "AluminumScrap": 1,
-    "Graphite": 1
+    "Graphite": 1,
+    "Ammonia": 1,
+    "Nitrogen": 1,
+    "CokingOvenGas": 1,
+    "Methanol": 1
   },
   "NumberOfSubperiods": 12,
   "HoursPerSubperiod": {
@@ -40,7 +44,11 @@
     "Alumina": 24,
     "Bauxite": 24,
     "AluminumScrap": 24,
-    "Graphite": 24
+    "Graphite": 24,
+    "Ammonia": 24,
+    "Nitrogen": 24,
+    "CokingOvenGas": 24,
+    "Methanol": 24
   },
   "TotalHoursModeled": 8760,
   "SubPeriodMap": {

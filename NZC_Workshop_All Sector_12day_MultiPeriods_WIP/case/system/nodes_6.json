@@ -4545,7 +4545,7 @@
       "global_data": {
         "time_interval": "DRI",
         "constraints": {
-          "BalanceConstraint": false
+          "BalanceConstraint": true
         }
       },
       "instance_data": [

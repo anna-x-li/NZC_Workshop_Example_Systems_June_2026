@@ -18,8 +18,8 @@
         "can_expand": false,
         "can_retire": true,
         "can_retire_early": false,
-        "investment_cost": 33112800.0,
-        "fixed_om_cost": 827820.0,
+        "investment_cost": 4730400,
+        "fixed_om_cost": 118260,
         "variable_om_cost": 0.0,
         "availability": [
           0.85

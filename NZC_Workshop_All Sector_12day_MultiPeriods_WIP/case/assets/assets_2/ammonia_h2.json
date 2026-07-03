@@ -19,8 +19,8 @@
             "has_capacity": true,
             "can_retire": true,
             "can_expand": true,
-            "investment_cost": 26201346.5,
-            "fixed_om_cost": 654954.45,
+            "investment_cost": 3743049.5,
+            "fixed_om_cost": 93564.92,
             "variable_om_cost": 0,
             "constraints": {
               "CapacityConstraint": true

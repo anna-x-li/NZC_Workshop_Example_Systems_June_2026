@@ -19,8 +19,8 @@
         "can_expand": true,
         "can_retire": true,
         "can_retire_early": true,
-        "investment_cost": 42574072.29,
-        "fixed_om_cost": 1095366.56,
+        "investment_cost": 6082010.33,
+        "fixed_om_cost": 156480.94,
         "variable_om_cost": 0.0,
         "availability": [
           0.85
@@ -50,7 +50,7 @@
         "commodity": "CO2Captured",
         "unidirectional": true,
         "has_capacity": false,
-        "variable_om_cost": 100.0
+        "variable_om_cost": 0
       }
     }
   },

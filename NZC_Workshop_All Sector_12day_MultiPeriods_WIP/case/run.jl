@@ -8,7 +8,8 @@ using Gurobi
 case = MacroEnergy.load_case(@__DIR__)
 optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing, ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3))
 
-model = MacroEnergy.generate_model(case, optim)
+alg = MacroEnergy.solution_algorithm(case)
+model = MacroEnergy.generate_model(case, optim, alg)
 
 MacroEnergy.optimize!(model)
 

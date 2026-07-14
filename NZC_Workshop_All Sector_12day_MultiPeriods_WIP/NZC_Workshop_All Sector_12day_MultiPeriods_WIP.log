@@ -1,0 +1,15 @@
+2026-07-14 14:56:34 | INFO | 1 | MacroEnergy | run_tools.jl:125 | Running case at /Users/chinnykwok/hmei/Net_Zero_China/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP
+2026-07-14 14:56:34 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from NZC_Workshop_All Sector_12day_MultiPeriods_WIP/user_additions
+2026-07-14 14:56:34 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
+2026-07-14 14:57:07 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/chinnykwok/hmei/Net_Zero_China/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/system_data.json
+2026-07-14 14:57:07 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-07-14 14:57:08 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.79 seconds
+2026-07-14 14:57:08 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 0.83 seconds
+2026-07-14 14:57:08 | INFO | 1 | MacroEnergy | case.jl:16 | *** Generating case ***
+2026-07-14 14:57:09 | INFO | 1 | MacroEnergy | case_settings.jl:132 | Configuring case
+2026-07-14 14:57:09 | INFO | 1 | MacroEnergy | case_settings.jl:161 |  -- Setting solution algorithm
+2026-07-14 14:57:09 | INFO | 1 | MacroEnergy | case_settings.jl:178 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-07-14 14:57:09 | INFO | 1 | MacroEnergy | case_settings.jl:183 |  -- Setting expansion horizon
+2026-07-14 14:57:09 | INFO | 1 | MacroEnergy | case_settings.jl:192 |  -- Expansion horizon set to MacroEnergy.PerfectForesight()
+2026-07-14 14:57:09 | INFO | 1 | MacroEnergy | case.jl:31 | Generating systems
+2026-07-14 14:57:11 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system

@@ -1,0 +1,410 @@
+{
+    "locations": [
+        {
+            "id": "Region1Beijing",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 6941
+                }
+            }
+        },
+        {
+            "id": "Region2Tianjin",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 2129
+                }
+            }
+        },
+        {
+            "id": "Region3Hebei",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 25596
+                }
+            }
+        },
+        {
+            "id": "Region4Shanxi",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 7173
+                }
+            }
+        },
+        {
+            "id": "Region5Innermongolia",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 3135
+                }
+            }
+        },
+        {
+            "id": "Region6Liaoning",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 8123
+                }
+            }
+        },
+        {
+            "id": "Region7Jilin",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1734
+                }
+            }
+        },
+        {
+            "id": "Region8Heilongjiang",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1184
+                }
+            }
+        },
+        {
+            "id": "Region9Shanghai",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 2260
+                }
+            }
+        },
+        {
+            "id": "Region10Jiangsu",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 13922
+                }
+            }
+        },
+        {
+            "id": "Region11Zhejiang",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1621
+                }
+            }
+        },
+        {
+            "id": "Region12Anhui",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 4439
+                }
+            }
+        },
+        {
+            "id": "Region13Fujian",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 4376
+                }
+            }
+        },
+        {
+            "id": "Region14Jiangxi",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 2642
+                }
+            }
+        },
+        {
+            "id": "Region15Shandong",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 6587
+                }
+            }
+        },
+        {
+            "id": "Region16Henan",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 3991
+                }
+            }
+        },
+        {
+            "id": "Region17Hubei",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 4574
+                }
+            }
+        },
+        {
+            "id": "Region18Hunan",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 2226
+                }
+            }
+        },
+        {
+            "id": "Region19Guangdong",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 4850
+                }
+            }
+        },
+        {
+            "id": "Region20Guangxi",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 6398
+                }
+            }
+        },
+        {
+            "id": "Region22Chongqing",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1496
+                }
+            }
+        },
+        {
+            "id": "Region23Sichuan",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 2991
+                }
+            }
+        },
+        {
+            "id": "Region24Guizhou",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1348
+                }
+            }
+        },
+        {
+            "id": "Region25Yunnan",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1738
+                }
+            }
+        },
+        {
+            "id": "Region27Shaanxi",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1809
+                }
+            }
+        },
+        {
+            "id": "Region28Gansu",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1325
+                }
+            }
+        },
+        {
+            "id": "Region29Qinghai",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 103
+                }
+            }
+        },
+        {
+            "id": "Region30Ningxia",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 605
+                }
+            }
+        },
+        {
+            "id": "Region31Xinjiang",
+            "constraints": {
+                "MaxNewCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": 1891
+                }
+            }
+        }
+    ]
+}

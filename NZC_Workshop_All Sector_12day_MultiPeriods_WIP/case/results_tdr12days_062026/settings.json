@@ -13,7 +13,7 @@
         },
         "ParameterScaling": false,
         "PeriodLengths": [
-            5
+            10
         ],
         "ParameterScalingFactor": 1000,
         "DiscountRate": 0.045,

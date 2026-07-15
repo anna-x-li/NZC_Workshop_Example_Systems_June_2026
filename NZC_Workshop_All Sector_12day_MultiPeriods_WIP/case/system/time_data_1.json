@@ -50,7 +50,7 @@
     "CokingOvenGas": 24,
     "Methanol": 24
   },
-  "TotalHoursModeled": 288,
+  "TotalHoursModeled": 8760,
   "SubPeriodMap": {
     "path": "system/Period_map_1.csv"
   }

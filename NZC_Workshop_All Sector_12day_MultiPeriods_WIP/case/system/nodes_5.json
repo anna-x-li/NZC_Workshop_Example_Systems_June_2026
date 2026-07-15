@@ -2391,7 +2391,7 @@
       "global_data": {
         "time_interval": "CO2",
         "price_unmet_policy": {
-          "CO2CapConstraint": 15000
+          "CO2CapConstraint": 1000
         }
       },
       "instance_data": [

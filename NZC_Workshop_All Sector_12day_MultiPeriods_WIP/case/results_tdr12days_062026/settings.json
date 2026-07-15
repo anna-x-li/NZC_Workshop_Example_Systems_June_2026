@@ -13,6 +13,9 @@
         },
         "ParameterScaling": false,
         "PeriodLengths": [
+            5,
+            10,
+            10,
             10
         ],
         "ParameterScalingFactor": 1000,
@@ -21,6 +24,48 @@
         "SolutionAlgorithm": "MacroEnergy.Monolithic()"
     },
     "system_settings": [
+        {
+            "ConstraintScaling": true,
+            "EnableJuMPDirectModel": false,
+            "EnableJuMPStringNames": false,
+            "AllowImplicitTopLevelCommodities": true,
+            "WriteSubcommodities": true,
+            "OverwriteResults": true,
+            "OutputDir": "results_tdr12days_062026",
+            "OutputLayout": "wide",
+            "AutoCreateNodes": false,
+            "AutoCreateLocations": true,
+            "Retrofitting": false,
+            "DualExportsEnabled": false
+        },
+        {
+            "ConstraintScaling": true,
+            "EnableJuMPDirectModel": false,
+            "EnableJuMPStringNames": false,
+            "AllowImplicitTopLevelCommodities": true,
+            "WriteSubcommodities": true,
+            "OverwriteResults": true,
+            "OutputDir": "results_tdr12days_062026",
+            "OutputLayout": "wide",
+            "AutoCreateNodes": false,
+            "AutoCreateLocations": true,
+            "Retrofitting": false,
+            "DualExportsEnabled": false
+        },
+        {
+            "ConstraintScaling": true,
+            "EnableJuMPDirectModel": false,
+            "EnableJuMPStringNames": false,
+            "AllowImplicitTopLevelCommodities": true,
+            "WriteSubcommodities": true,
+            "OverwriteResults": true,
+            "OutputDir": "results_tdr12days_062026",
+            "OutputLayout": "wide",
+            "AutoCreateNodes": false,
+            "AutoCreateLocations": true,
+            "Retrofitting": false,
+            "DualExportsEnabled": false
+        },
         {
             "ConstraintScaling": true,
             "EnableJuMPDirectModel": false,

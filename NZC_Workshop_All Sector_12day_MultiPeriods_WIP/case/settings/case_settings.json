@@ -1,6 +1,9 @@
 {
     "PeriodLengths":  [
-                          10
+                        5,
+                        10,
+                        10,
+                        10
                       ],
     "DiscountRate":  0.045,
     "SolutionAlgorithm":  "Myopic"

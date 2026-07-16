@@ -1,5 +1,6 @@
 {
     "case_settings": {
+        "ExpansionHorizon": "MacroEnergy.Myopic()",
         "MyopicSettings": {
             "StopAfterPeriod": Infinity,
             "WriteModelLP": false,
@@ -10,15 +11,17 @@
             },
             "ReturnModels": false
         },
+        "ParameterScaling": false,
         "PeriodLengths": [
             5,
             10,
             10,
             10
         ],
+        "ParameterScalingFactor": 1000,
         "DiscountRate": 0.045,
         "WriteFullTimeseries": false,
-        "SolutionAlgorithm": "MacroEnergy.Myopic()"
+        "SolutionAlgorithm": "MacroEnergy.Monolithic()"
     },
     "system_settings": [
         {

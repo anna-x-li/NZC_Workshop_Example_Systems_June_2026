@@ -4,6 +4,9 @@
             "commodities": {
                 "path": "system/commodities.json"
             },
+            "locations": {
+                "path": "system/locations_1.json"
+            },
             "settings": {
                 "path": "settings/macro_settings.json"
             },
@@ -23,6 +26,9 @@
         {
             "commodities": {
                 "path": "system/commodities.json"
+            },
+            "locations": {
+                "path": "system/locations_2.json"
             },
             "settings": {
                 "path": "settings/macro_settings.json"
@@ -44,6 +50,9 @@
             "commodities": {
                 "path": "system/commodities.json"
             },
+            "locations": {
+                "path": "system/locations_3.json"
+            },
             "settings": {
                 "path": "settings/macro_settings.json"
             },
@@ -63,6 +72,9 @@
         {
             "commodities": {
                 "path": "system/commodities.json"
+            },
+            "locations": {
+                "path": "system/locations_4.json"
             },
             "settings": {
                 "path": "settings/macro_settings.json"

@@ -5,7 +5,7 @@
                 "path": "system/commodities.json"
             },
             "locations": {
-                "path": "system/locations_1.json"
+                "path": "system/locations.json"
             },
             "settings": {
                 "path": "settings/macro_settings.json"
@@ -28,7 +28,7 @@
                 "path": "system/commodities.json"
             },
             "locations": {
-                "path": "system/locations_2.json"
+                "path": "system/locations.json"
             },
             "settings": {
                 "path": "settings/macro_settings.json"
@@ -51,7 +51,7 @@
                 "path": "system/commodities.json"
             },
             "locations": {
-                "path": "system/locations_3.json"
+                "path": "system/locations.json"
             },
             "settings": {
                 "path": "settings/macro_settings.json"
@@ -74,7 +74,7 @@
                 "path": "system/commodities.json"
             },
             "locations": {
-                "path": "system/locations_4.json"
+                "path": "system/locations.json"
             },
             "settings": {
                 "path": "settings/macro_settings.json"

@@ -4660,7 +4660,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 43456733.0
           },
-          "id": "crudesteel_Region1Beijing"
+          "id": "crudesteel_Region1Beijing",
+          "location": "Region1Beijing"
         },
         {
           "constraints": {
@@ -4669,7 +4670,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 19419138.0
           },
-          "id": "crudesteel_Region2Tianjin"
+          "id": "crudesteel_Region2Tianjin",
+          "location": "Region2Tianjin"
         },
         {
           "constraints": {
@@ -4678,7 +4680,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 47056929.0
           },
-          "id": "crudesteel_Region3Hebei"
+          "id": "crudesteel_Region3Hebei",
+          "location": "Region3Hebei"
         },
         {
           "constraints": {
@@ -4687,7 +4690,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 31720848.0
           },
-          "id": "crudesteel_Region4Shanxi"
+          "id": "crudesteel_Region4Shanxi",
+          "location": "Region4Shanxi"
         },
         {
           "constraints": {
@@ -4696,7 +4700,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 30146152.0
           },
-          "id": "crudesteel_Region5Innermongolia"
+          "id": "crudesteel_Region5Innermongolia",
+          "location": "Region5Innermongolia"
         },
         {
           "constraints": {
@@ -4705,7 +4710,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 19065874.0
           },
-          "id": "crudesteel_Region6Liaoning"
+          "id": "crudesteel_Region6Liaoning",
+          "location": "Region6Liaoning"
         },
         {
           "constraints": {
@@ -4714,7 +4720,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 12964326.0
           },
-          "id": "crudesteel_Region7Jilin"
+          "id": "crudesteel_Region7Jilin",
+          "location": "Region7Jilin"
         },
         {
           "constraints": {
@@ -4723,7 +4730,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 15143466.0
           },
-          "id": "crudesteel_Region8Heilongjiang"
+          "id": "crudesteel_Region8Heilongjiang",
+          "location": "Region8Heilongjiang"
         },
         {
           "constraints": {
@@ -4732,7 +4740,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 31636661.0
           },
-          "id": "crudesteel_Region9Shanghai"
+          "id": "crudesteel_Region9Shanghai",
+          "location": "Region9Shanghai"
         },
         {
           "constraints": {
@@ -4741,7 +4750,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 82898957.0
           },
-          "id": "crudesteel_Region10Jiangsu"
+          "id": "crudesteel_Region10Jiangsu",
+          "location": "Region10Jiangsu"
         },
         {
           "constraints": {
@@ -4750,7 +4760,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 49224836.0
           },
-          "id": "crudesteel_Region11Zhejiang"
+          "id": "crudesteel_Region11Zhejiang",
+          "location": "Region11Zhejiang"
         },
         {
           "constraints": {
@@ -4759,7 +4770,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 43327081.0
           },
-          "id": "crudesteel_Region12Anhui"
+          "id": "crudesteel_Region12Anhui",
+          "location": "Region12Anhui"
         },
         {
           "constraints": {
@@ -4768,7 +4780,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 36137256.0
           },
-          "id": "crudesteel_Region13Fujian"
+          "id": "crudesteel_Region13Fujian",
+          "location": "Region13Fujian"
         },
         {
           "constraints": {
@@ -4777,7 +4790,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 30933075.0
           },
-          "id": "crudesteel_Region14Jiangxi"
+          "id": "crudesteel_Region14Jiangxi",
+          "location": "Region14Jiangxi"
         },
         {
           "constraints": {
@@ -4786,7 +4800,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 59942422.0
           },
-          "id": "crudesteel_Region15Shandong"
+          "id": "crudesteel_Region15Shandong",
+          "location": "Region15Shandong"
         },
         {
           "constraints": {
@@ -4795,7 +4810,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 43703909.0
           },
-          "id": "crudesteel_Region16Henan"
+          "id": "crudesteel_Region16Henan",
+          "location": "Region16Henan"
         },
         {
           "constraints": {
@@ -4804,7 +4820,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 33986066.0
           },
-          "id": "crudesteel_Region17Hubei"
+          "id": "crudesteel_Region17Hubei",
+          "location": "Region17Hubei"
         },
         {
           "constraints": {
@@ -4813,7 +4830,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 33068944.0
           },
-          "id": "crudesteel_Region18Hunan"
+          "id": "crudesteel_Region18Hunan",
+          "location": "Region18Hunan"
         },
         {
           "constraints": {
@@ -4822,7 +4840,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 62807444.0
           },
-          "id": "crudesteel_Region19Guangdong"
+          "id": "crudesteel_Region19Guangdong",
+          "location": "Region19Guangdong"
         },
         {
           "constraints": {
@@ -4831,7 +4850,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 19152466.0
           },
-          "id": "crudesteel_Region20Guangxi"
+          "id": "crudesteel_Region20Guangxi",
+          "location": "Region20Guangxi"
         },
         {
           "constraints": {
@@ -4840,7 +4860,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 3532749.0
           },
-          "id": "crudesteel_Region21Hainan"
+          "id": "crudesteel_Region21Hainan",
+          "location": "Region21Hainan"
         },
         {
           "constraints": {
@@ -4849,7 +4870,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 19351143.0
           },
-          "id": "crudesteel_Region22Chongqing"
+          "id": "crudesteel_Region22Chongqing",
+          "location": "Region22Chongqing"
         },
         {
           "constraints": {
@@ -4858,7 +4880,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 38881401.0
           },
-          "id": "crudesteel_Region23Sichuan"
+          "id": "crudesteel_Region23Sichuan",
+          "location": "Region23Sichuan"
         },
         {
           "constraints": {
@@ -4867,7 +4890,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 16138293.0
           },
-          "id": "crudesteel_Region24Guizhou"
+          "id": "crudesteel_Region24Guizhou",
+          "location": "Region24Guizhou"
         },
         {
           "constraints": {
@@ -4876,7 +4900,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 22642010.0
           },
-          "id": "crudesteel_Region25Yunnan"
+          "id": "crudesteel_Region25Yunnan",
+          "location": "Region25Yunnan"
         },
         {
           "constraints": {
@@ -4885,7 +4910,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 0
           },
-          "id": "crudesteel_Region26Tibet"
+          "id": "crudesteel_Region26Tibet",
+          "location": "Region26Tibet"
         },
         {
           "constraints": {
@@ -4894,7 +4920,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 19958552.0
           },
-          "id": "crudesteel_Region27Shaanxi"
+          "id": "crudesteel_Region27Shaanxi",
+          "location": "Region27Shaanxi"
         },
         {
           "constraints": {
@@ -4903,7 +4930,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 7736209.0
           },
-          "id": "crudesteel_Region28Gansu"
+          "id": "crudesteel_Region28Gansu",
+          "location": "Region28Gansu"
         },
         {
           "constraints": {
@@ -4912,7 +4940,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 2495261.0
           },
-          "id": "crudesteel_Region29Qinghai"
+          "id": "crudesteel_Region29Qinghai",
+          "location": "Region29Qinghai"
         },
         {
           "constraints": {
@@ -4921,7 +4950,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 3315824.0
           },
-          "id": "crudesteel_Region30Ningxia"
+          "id": "crudesteel_Region30Ningxia",
+          "location": "Region30Ningxia"
         },
         {
           "constraints": {
@@ -4930,7 +4960,8 @@
           "rhs_policy": {
             "AggregatedDemandConstraint": 12242247.0
           },
-          "id": "crudesteel_Region31Xinjiang"
+          "id": "crudesteel_Region31Xinjiang",
+          "location": "Region31Xinjiang"
         }
       ]
     },

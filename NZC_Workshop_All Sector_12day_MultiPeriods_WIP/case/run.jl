@@ -1,5 +1,6 @@
 using Pkg
 Pkg.activate("/scratch/gpfs/JENKINS/ck0997/MacroEnergy.jl")
+
 # Pkg.add("Gurobi")
 # Pkg.add("Infiltrator")
 
@@ -7,13 +8,13 @@ using MacroEnergy
 using Gurobi
 using Infiltrator
 
-case = MacroEnergy.load_case(@__DIR__)
-optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing, ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3))
+# case = MacroEnergy.load_case(@__DIR__)
+# optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing, ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3))
 
-alg = MacroEnergy.solution_algorithm(case)
-model = MacroEnergy.generate_model(case, optim, alg)
+# alg = MacroEnergy.solution_algorithm(case)
+# model = MacroEnergy.generate_model(case, optim, alg)
 
-MacroEnergy.optimize!(model)
+# MacroEnergy.optimize!(model)
 
 # Compute conflicts
 
@@ -28,45 +29,44 @@ MacroEnergy.optimize!(model)
 # end
 # display(list_of_conflicting_constraints)
 
-# Save the list of conflicting constraints to a text file
-function clean_constraint_list(input_list::Vector{JuMP.ConstraintRef})
-    seen_patterns = Set{String}()
-    cleaned_list = String[] # We return strings for the text file
+# # Save the list of conflicting constraints to a text file
+# function clean_constraint_list(input_list::Vector{JuMP.ConstraintRef})
+#     seen_patterns = Set{String}()
+#     cleaned_list = String[] # We return strings for the text file
 
-    for constraint in input_list
-        line = string(constraint)
-        normalized = replace(line, r"\[\d+\]" => "[]")
-        if !(normalized in seen_patterns)
-            push!(seen_patterns, normalized)
-            push!(cleaned_list, line) 
-        end
-    end
+#     for constraint in input_list
+#         line = string(constraint)
+#         normalized = replace(line, r"\[\d+\]" => "[]")
+#         if !(normalized in seen_patterns)
+#             push!(seen_patterns, normalized)
+#             push!(cleaned_list, line)
+#         end
+#     end
 
-    return cleaned_list
-end
+#     return cleaned_list
+# end
 
-result = clean_constraint_list(list_of_conflicting_constraints)
+# result = clean_constraint_list(list_of_conflicting_constraints)
 
-open("conflicting_constraints.txt", "w") do io
-    for item in result
-        println(io, item)
-    end
-end
+# open("conflicting_constraints.txt", "w") do io
+#     for item in result
+#         println(io, item)
+#     end
+# end
 
-# Restore original system_data.json
-write(system_data_path, original_system_data)
+# # Restore original system_data.json
+# write(system_data_path, original_system_data)
 
-(system, model) = run_case(
+(case, solution) = run_case(
     @__DIR__;
-    optimizer = Gurobi.Optimizer,
-    lazy_load = false,
-    optimizer_attributes = (
-        "Method"       => 2,
-#        "Threads"      => 8,
-        "BarConvTol"   => 1e-3,
+    optimizer=Gurobi.Optimizer,
+    lazy_load=false,
+    optimizer_attributes=(
+        "Method" => 2,
+        "Threads" => -1,
+        "BarConvTol" => 1e-3,
         "NumericFocus" => 1,
-	    "Crossover"    => 0,
-        "OutputFlag"   => 1,
-#        "LogFile"      => joinpath(@__DIR__, "gurobi.log")
+        "Crossover" => 0,
+        "OutputFlag" => 1,
     ),
 );

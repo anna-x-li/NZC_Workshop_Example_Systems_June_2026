@@ -1,5 +1,5 @@
 using Pkg
-Pkg.activate("../MacroEnergy.jl")
+Pkg.activate("/scratch/gpfs/JENKINS/ck0997/MacroEnergy.jl")
 Pkg.add("Gurobi")
 
 using MacroEnergy

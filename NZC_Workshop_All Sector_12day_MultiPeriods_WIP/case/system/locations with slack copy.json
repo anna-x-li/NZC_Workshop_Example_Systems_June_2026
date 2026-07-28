@@ -1,0 +1,439 @@
+{
+    "locations": [
+        {
+            "id": "Region1Beijing",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region2Tianjin",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region3Hebei",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region4Shanxi",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region5Innermongolia",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region6Liaoning",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region7Jilin",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region8Heilongjiang",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region9Shanghai",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region10Jiangsu",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region11Zhejiang",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region12Anhui",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region13Fujian",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region14Jiangxi",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region15Shandong",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region16Henan",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region17Hubei",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region18Hunan",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region19Guangdong",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region20Guangxi",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region22Chongqing",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region23Sichuan",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region24Guizhou",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region25Yunnan",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region27Shaanxi",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region28Gansu",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region29Qinghai",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region30Ningxia",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        },
+        {
+            "id": "Region31Xinjiang",
+            "constraints": {
+                "MaxCapacityConstraint": {
+                    "tech": {
+                        "Steelmaking": {
+                            "edge": "crudesteel_edge",
+                            "coeff": 1
+                        }
+                    },
+                    "value": "existing_capacity",
+                    "slack": 0.05
+                }
+            }
+        }
+    ]
+}

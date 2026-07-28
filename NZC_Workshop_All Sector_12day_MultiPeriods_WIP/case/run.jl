@@ -1,9 +1,11 @@
 using Pkg
 Pkg.activate("../MacroEnergy.jl")
 Pkg.add("Gurobi")
+Pkg.add("Infiltrator")
 
 using MacroEnergy
 using Gurobi
+using Infiltrator
 
 case = MacroEnergy.load_case(@__DIR__)
 optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing, ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3))
@@ -15,16 +17,16 @@ MacroEnergy.optimize!(model)
 
 # Compute conflicts
 
-MacroEnergy.compute_conflict!(model)
-list_of_conflicting_constraints = MacroEnergy.ConstraintRef[];
-for (F, S) in MacroEnergy.list_of_constraint_types(model)
-    for con in MacroEnergy.JuMP.all_constraints(model, F, S)
-        if MacroEnergy.JuMP.get_attribute(con, MacroEnergy.MOI.ConstraintConflictStatus()) == MacroEnergy.MOI.IN_CONFLICT
-            push!(list_of_conflicting_constraints, con)
-        end
-    end
-end
-display(list_of_conflicting_constraints)
+# MacroEnergy.compute_conflict!(model)
+# list_of_conflicting_constraints = MacroEnergy.ConstraintRef[];
+# for (F, S) in MacroEnergy.list_of_constraint_types(model)
+#     for con in MacroEnergy.JuMP.all_constraints(model, F, S)
+#         if MacroEnergy.JuMP.get_attribute(con, MacroEnergy.MOI.ConstraintConflictStatus()) == MacroEnergy.MOI.IN_CONFLICT
+#             push!(list_of_conflicting_constraints, con)
+#         end
+#     end
+# end
+# display(list_of_conflicting_constraints)
 
 # Save the list of conflicting constraints to a text file
 function clean_constraint_list(input_list::Vector{JuMP.ConstraintRef})

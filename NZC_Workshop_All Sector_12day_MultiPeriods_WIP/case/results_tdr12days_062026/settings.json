@@ -36,7 +36,7 @@
             "AutoCreateNodes": false,
             "AutoCreateLocations": true,
             "Retrofitting": false,
-            "DualExportsEnabled": false
+            "DualExportsEnabled": true
         },
         {
             "ConstraintScaling": true,
@@ -50,7 +50,7 @@
             "AutoCreateNodes": false,
             "AutoCreateLocations": true,
             "Retrofitting": false,
-            "DualExportsEnabled": false
+            "DualExportsEnabled": true
         },
         {
             "ConstraintScaling": true,
@@ -64,7 +64,7 @@
             "AutoCreateNodes": false,
             "AutoCreateLocations": true,
             "Retrofitting": false,
-            "DualExportsEnabled": false
+            "DualExportsEnabled": true
         },
         {
             "ConstraintScaling": true,
@@ -78,7 +78,7 @@
             "AutoCreateNodes": false,
             "AutoCreateLocations": true,
             "Retrofitting": false,
-            "DualExportsEnabled": false
+            "DualExportsEnabled": true
         }
     ]
 }

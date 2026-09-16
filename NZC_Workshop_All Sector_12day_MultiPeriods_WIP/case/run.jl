@@ -1,5 +1,6 @@
 using Pkg
-Pkg.activate("/scratch/gpfs/JENKINS/ck0997/MacroEnergy.jl")
+Pkg.activate("/Users/al3792/Documents_Local/NZC_June_2026/MacroEnergy.jl")
+# Pkg.activate("/scratch/gpfs/JENKINS/ck0997/MacroEnergy.jl")
 
 # Pkg.add("Gurobi")
 # Pkg.add("Infiltrator")

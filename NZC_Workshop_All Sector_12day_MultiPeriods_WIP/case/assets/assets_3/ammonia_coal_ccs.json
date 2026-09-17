@@ -29,7 +29,8 @@
             "availability": [
               0.85
             ],
-            "lifetime": 30
+            "lifetime": 30,
+            "mga_enabled": true
           },
           "fuel_edge": {
             "commodity": "Coal",

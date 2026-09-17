@@ -7,13 +7,14 @@ Pkg.activate("/Users/al3792/Documents_Local/NZC_June_2026/MacroEnergy.jl")
 
 using MacroEnergy
 using Gurobi
-using Infiltrator
 
-# case = MacroEnergy.load_case(@__DIR__)
-# optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing, ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3))
+case = MacroEnergy.load_case(@__DIR__)
+optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing, ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3))
 
-# alg = MacroEnergy.solution_algorithm(case)
-# model = MacroEnergy.generate_model(case, optim, alg)
+alg = MacroEnergy.solution_algorithm(case)
+model = MacroEnergy.generate_model(case, optim, alg)
+
+MacroEnergy.run_mga(case, model, @__DIR__; least_cost_original=1.39e13)
 
 # MacroEnergy.optimize!(model)
 
@@ -57,6 +58,8 @@ using Infiltrator
 
 # # Restore original system_data.json
 # write(system_data_path, original_system_data)
+
+case = MacroEnergy.load_case(@__DIR__)
 
 (case, solution) = run_case(
     @__DIR__;

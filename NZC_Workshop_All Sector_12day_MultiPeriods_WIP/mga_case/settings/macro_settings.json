@@ -1,0 +1,9 @@
+{
+    "ConstraintScaling":  true,
+    "ParameterScaling":  true,
+    "OutputLayout":  "wide",
+    "AutoCreateLocations":  true,
+    "DualExportsEnabled":  true,
+    "OverwriteResults":  true,
+    "OutputDir":  "results_tdr12days_062026"
+}

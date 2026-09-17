@@ -1,0 +1,299 @@
+2026-09-16 21:22:09 | INFO | 1 | MacroEnergy | run_tools.jl:125 | Running case at /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case
+2026-09-16 21:22:09 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from ../NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/user_additions
+2026-09-16 21:22:09 | INFO | 1 | MacroEnergy | user_additions.jl:114 |  ++ Successfully loaded user additions.
+2026-09-16 21:22:09 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
+2026-09-16 21:22:25 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/system_data.json
+2026-09-16 21:22:25 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-09-16 21:22:25 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-09-16 21:23:03 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-09-16 21:23:03 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-09-16 21:23:43 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-09-16 21:23:44 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-09-16 21:24:23 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-09-16 21:24:23 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-09-16 21:25:02 | WARN | 1 | MacroEnergy | load_csv_inputs.jl:62 | The first column of the CSV file must be 'Type' (got 'Period_Index')
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 156.86 seconds
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 156.86 seconds
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | case.jl:16 | *** Generating case ***
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | case_settings.jl:140 | Configuring case
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | case_settings.jl:169 |  -- Setting solution algorithm
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | case_settings.jl:186 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | case_settings.jl:191 |  -- Setting expansion horizon
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | case_settings.jl:200 |  -- Expansion horizon set to MacroEnergy.PerfectForesight()
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | case.jl:31 | Generating systems
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
+2026-09-16 21:25:02 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
+2026-09-16 21:25:05 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 3.9 seconds
+2026-09-16 21:25:05 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
+2026-09-16 21:25:06 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
+2026-09-16 21:25:10 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 4.77 seconds
+2026-09-16 21:25:10 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
+2026-09-16 21:25:11 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
+2026-09-16 21:25:14 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 3.72 seconds
+2026-09-16 21:25:14 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
+2026-09-16 21:25:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
+2026-09-16 21:25:18 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 3.81 seconds
+2026-09-16 21:25:18 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 1
+2026-09-16 21:25:18 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 1
+2026-09-16 21:25:18 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 2
+2026-09-16 21:25:18 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 2
+2026-09-16 21:25:19 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 3
+2026-09-16 21:25:19 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 3
+2026-09-16 21:25:20 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 4
+2026-09-16 21:25:20 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 4
+2026-09-16 21:25:21 | INFO | 1 | MacroEnergy | case.jl:46 | *** Done generating case. It took 19.16 seconds ***
+2026-09-16 21:25:21 | INFO | 1 | MacroEnergy | solver.jl:10 | *** Running simulation with Perfect Foresight expansion horizon and Monolithic solution algorithm ***
+2026-09-16 21:25:21 | INFO | 1 | MacroEnergy | generate_model.jl:2 | *** Generating monolithic model ***
+2026-09-16 21:25:21 | INFO | 1 | MacroEnergy | generate_model.jl:13 | Generating model
+2026-09-16 21:25:21 | INFO | 1 | MacroEnergy | generate_model.jl:171 |  -- Period 1
+2026-09-16 21:25:21 | INFO | 1 | MacroEnergy | generate_model.jl:177 |  -- Adding linking variables
+2026-09-16 21:25:24 | INFO | 1 | MacroEnergy | generate_model.jl:180 |  -- Defining available capacity
+2026-09-16 21:25:26 | INFO | 1 | MacroEnergy | generate_model.jl:183 |  -- Generating planning model
+2026-09-16 21:25:33 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Including age-based retirements
+2026-09-16 21:25:33 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Available capacity in period 1 is being carried over to period 2
+2026-09-16 21:25:37 | INFO | 1 | MacroEnergy | generate_model.jl:154 |  -- Generating operational model
+2026-09-16 21:26:27 | INFO | 1 | MacroEnergy | generate_model.jl:171 |  -- Period 2
+2026-09-16 21:26:27 | INFO | 1 | MacroEnergy | generate_model.jl:177 |  -- Adding linking variables
+2026-09-16 21:26:27 | INFO | 1 | MacroEnergy | generate_model.jl:180 |  -- Defining available capacity
+2026-09-16 21:26:27 | INFO | 1 | MacroEnergy | generate_model.jl:183 |  -- Generating planning model
+2026-09-16 21:26:27 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Including age-based retirements
+2026-09-16 21:26:28 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Available capacity in period 2 is being carried over to period 3
+2026-09-16 21:26:29 | INFO | 1 | MacroEnergy | generate_model.jl:154 |  -- Generating operational model
+2026-09-16 21:26:48 | INFO | 1 | MacroEnergy | generate_model.jl:171 |  -- Period 3
+2026-09-16 21:26:48 | INFO | 1 | MacroEnergy | generate_model.jl:177 |  -- Adding linking variables
+2026-09-16 21:26:48 | INFO | 1 | MacroEnergy | generate_model.jl:180 |  -- Defining available capacity
+2026-09-16 21:26:48 | INFO | 1 | MacroEnergy | generate_model.jl:183 |  -- Generating planning model
+2026-09-16 21:26:48 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Including age-based retirements
+2026-09-16 21:26:48 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Available capacity in period 3 is being carried over to period 4
+2026-09-16 21:26:49 | INFO | 1 | MacroEnergy | generate_model.jl:154 |  -- Generating operational model
+2026-09-16 21:27:10 | INFO | 1 | MacroEnergy | generate_model.jl:171 |  -- Period 4
+2026-09-16 21:27:10 | INFO | 1 | MacroEnergy | generate_model.jl:177 |  -- Adding linking variables
+2026-09-16 21:27:10 | INFO | 1 | MacroEnergy | generate_model.jl:180 |  -- Defining available capacity
+2026-09-16 21:27:10 | INFO | 1 | MacroEnergy | generate_model.jl:183 |  -- Generating planning model
+2026-09-16 21:27:10 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Including age-based retirements
+2026-09-16 21:27:10 | INFO | 1 | MacroEnergy | generate_model.jl:154 |  -- Generating operational model
+2026-09-16 21:27:33 | INFO | 1 | MacroEnergy | generate_model.jl:28 |  -- Adding MGA variables
+2026-09-16 21:27:44 | INFO | 1 | MacroEnergy | scaling.jl:177 | Scaling constraints and RHS
+2026-09-16 21:28:57 | WARN | 1 | MacroEnergy | scaling.jl:240 | ConstraintScaling replaced a constraint MacroEnergy was tracking a reference to; its dual will no longer be recoverable.
+2026-09-16 21:28:57 | WARN | 1 | MacroEnergy | scaling.jl:240 | ConstraintScaling replaced a constraint MacroEnergy was tracking a reference to; its dual will no longer be recoverable.
+2026-09-16 21:28:58 | WARN | 1 | MacroEnergy | scaling.jl:240 | ConstraintScaling replaced a constraint MacroEnergy was tracking a reference to; its dual will no longer be recoverable.
+2026-09-16 21:28:59 | INFO | 1 | MacroEnergy | generate_model.jl:38 |  -- Model generation complete, it took 217.85226798057556 seconds
+2026-09-16 21:55:06 | INFO | 1 | MacroEnergy | write_outputs.jl:13 | Writing results for period 1
+2026-09-16 21:55:10 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/capacity.csv
+2026-09-16 21:55:34 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing total discounted costs to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/costs.csv
+2026-09-16 21:55:36 | INFO | 1 | MacroEnergy | write_cost.jl:79 | Writing total undiscounted costs to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/undiscounted_costs.csv
+2026-09-16 21:55:49 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 4.1918330949947754e10
+2026-09-16 21:55:49 | INFO | 1 | MacroEnergy | write_cost.jl:564 | Writing detailed discounted costs by type to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/costs_by_type.csv
+2026-09-16 21:55:51 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 4.191833094994678e10
+2026-09-16 21:55:51 | INFO | 1 | MacroEnergy | write_cost.jl:572 | Writing detailed discounted costs by zone to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/costs_by_zone.csv
+2026-09-16 21:55:54 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 4.7743226661538086e10
+2026-09-16 21:55:54 | INFO | 1 | MacroEnergy | write_cost.jl:564 | Writing detailed undiscounted costs by type to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/undiscounted_costs_by_type.csv
+2026-09-16 21:55:57 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 4.774322666153711e10
+2026-09-16 21:55:57 | INFO | 1 | MacroEnergy | write_cost.jl:572 | Writing detailed undiscounted costs by zone to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/undiscounted_costs_by_zone.csv
+2026-09-16 21:55:57 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/flows.csv
+2026-09-16 21:56:11 | INFO | 1 | MacroEnergy | write_non_served_demand.jl:44 | Writing non-served demand results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/non_served_demand.csv
+2026-09-16 21:56:12 | INFO | 1 | MacroEnergy | write_storage_level.jl:58 | Writing storage level results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/storage_level.csv
+2026-09-16 21:56:13 | INFO | 1 | MacroEnergy | write_curtailment.jl:44 | Writing curtailment results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/curtailment.csv
+2026-09-16 21:56:14 | INFO | 1 | MacroEnergy | write_time_weights.jl:49 | Writing time weights to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/time_weights.csv
+2026-09-16 21:56:14 | INFO | 1 | MacroEnergy | write_duals.jl:39 | Writing constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1
+2026-09-16 21:56:14 | INFO | 1 | MacroEnergy | write_duals.jl:83 | Writing balance constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1
+2026-09-16 21:56:17 | INFO | 1 | MacroEnergy | write_duals.jl:177 | Writing CO2 cap constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1
+2026-09-16 21:56:17 | INFO | 1 | MacroEnergy | write_duals.jl:224 | No CO2 cap constraints found to export
+2026-09-16 21:56:17 | INFO | 1 | MacroEnergy | write_outputs.jl:305 | Writing objective value to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_1/objective_value.csv
+2026-09-16 21:56:18 | INFO | 1 | MacroEnergy | write_outputs.jl:13 | Writing results for period 2
+2026-09-16 21:56:18 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/capacity.csv
+2026-09-16 21:56:28 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing total discounted costs to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/costs.csv
+2026-09-16 21:56:30 | INFO | 1 | MacroEnergy | write_cost.jl:79 | Writing total undiscounted costs to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/undiscounted_costs.csv
+2026-09-16 21:56:38 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 5.540365202696094e10
+2026-09-16 21:56:38 | INFO | 1 | MacroEnergy | write_cost.jl:564 | Writing detailed discounted costs by type to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/costs_by_type.csv
+2026-09-16 21:56:40 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 5.540365202696094e10
+2026-09-16 21:56:40 | INFO | 1 | MacroEnergy | write_cost.jl:572 | Writing detailed discounted costs by zone to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/costs_by_zone.csv
+2026-09-16 21:56:42 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 8.725576836059961e10
+2026-09-16 21:56:42 | INFO | 1 | MacroEnergy | write_cost.jl:564 | Writing detailed undiscounted costs by type to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/undiscounted_costs_by_type.csv
+2026-09-16 21:56:44 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 8.725576836059375e10
+2026-09-16 21:56:44 | INFO | 1 | MacroEnergy | write_cost.jl:572 | Writing detailed undiscounted costs by zone to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/undiscounted_costs_by_zone.csv
+2026-09-16 21:56:44 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/flows.csv
+2026-09-16 21:56:52 | INFO | 1 | MacroEnergy | write_non_served_demand.jl:44 | Writing non-served demand results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/non_served_demand.csv
+2026-09-16 21:56:53 | INFO | 1 | MacroEnergy | write_storage_level.jl:58 | Writing storage level results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/storage_level.csv
+2026-09-16 21:56:53 | INFO | 1 | MacroEnergy | write_curtailment.jl:44 | Writing curtailment results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/curtailment.csv
+2026-09-16 21:56:53 | INFO | 1 | MacroEnergy | write_time_weights.jl:49 | Writing time weights to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/time_weights.csv
+2026-09-16 21:56:53 | INFO | 1 | MacroEnergy | write_duals.jl:39 | Writing constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2
+2026-09-16 21:56:53 | INFO | 1 | MacroEnergy | write_duals.jl:83 | Writing balance constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2
+2026-09-16 21:56:54 | INFO | 1 | MacroEnergy | write_duals.jl:177 | Writing CO2 cap constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2
+2026-09-16 21:56:54 | INFO | 1 | MacroEnergy | write_duals.jl:224 | No CO2 cap constraints found to export
+2026-09-16 21:56:54 | INFO | 1 | MacroEnergy | write_outputs.jl:305 | Writing objective value to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_2/objective_value.csv
+2026-09-16 21:56:54 | INFO | 1 | MacroEnergy | write_outputs.jl:13 | Writing results for period 3
+2026-09-16 21:56:54 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/capacity.csv
+2026-09-16 21:57:04 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing total discounted costs to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/costs.csv
+2026-09-16 21:57:06 | INFO | 1 | MacroEnergy | write_cost.jl:79 | Writing total undiscounted costs to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/undiscounted_costs.csv
+2026-09-16 21:57:14 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 3.9618964708e10
+2026-09-16 21:57:14 | INFO | 1 | MacroEnergy | write_cost.jl:564 | Writing detailed discounted costs by type to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/costs_by_type.csv
+2026-09-16 21:57:16 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 3.961896470799609e10
+2026-09-16 21:57:16 | INFO | 1 | MacroEnergy | write_cost.jl:572 | Writing detailed discounted costs by zone to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/costs_by_zone.csv
+2026-09-16 21:57:18 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 9.689955473799316e10
+2026-09-16 21:57:18 | INFO | 1 | MacroEnergy | write_cost.jl:564 | Writing detailed undiscounted costs by type to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/undiscounted_costs_by_type.csv
+2026-09-16 21:57:20 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 9.68995547379873e10
+2026-09-16 21:57:20 | INFO | 1 | MacroEnergy | write_cost.jl:572 | Writing detailed undiscounted costs by zone to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/undiscounted_costs_by_zone.csv
+2026-09-16 21:57:20 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/flows.csv
+2026-09-16 21:57:28 | INFO | 1 | MacroEnergy | write_non_served_demand.jl:44 | Writing non-served demand results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/non_served_demand.csv
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_storage_level.jl:58 | Writing storage level results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/storage_level.csv
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_curtailment.jl:44 | Writing curtailment results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/curtailment.csv
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_time_weights.jl:49 | Writing time weights to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/time_weights.csv
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_duals.jl:39 | Writing constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_duals.jl:83 | Writing balance constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_duals.jl:177 | Writing CO2 cap constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_duals.jl:224 | No CO2 cap constraints found to export
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_outputs.jl:305 | Writing objective value to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_3/objective_value.csv
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_outputs.jl:13 | Writing results for period 4
+2026-09-16 21:57:29 | INFO | 1 | MacroEnergy | write_capacity.jl:68 | Writing capacity results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/capacity.csv
+2026-09-16 21:57:39 | INFO | 1 | MacroEnergy | write_cost.jl:36 | Writing total discounted costs to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/costs.csv
+2026-09-16 21:57:41 | INFO | 1 | MacroEnergy | write_cost.jl:79 | Writing total undiscounted costs to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/undiscounted_costs.csv
+2026-09-16 21:57:49 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 4.238895596374585e10
+2026-09-16 21:57:49 | INFO | 1 | MacroEnergy | write_cost.jl:564 | Writing detailed discounted costs by type to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/costs_by_type.csv
+2026-09-16 21:57:52 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 4.2388955963744385e10
+2026-09-16 21:57:52 | INFO | 1 | MacroEnergy | write_cost.jl:572 | Writing detailed discounted costs by zone to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/costs_by_zone.csv
+2026-09-16 21:57:54 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 1.6100311672748145e11
+2026-09-16 21:57:54 | INFO | 1 | MacroEnergy | write_cost.jl:564 | Writing detailed undiscounted costs by type to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/undiscounted_costs_by_type.csv
+2026-09-16 21:57:56 | WARN | 1 | MacroEnergy | write_cost.jl:953 | Objective value validation failed. Validation difference: 1.6100311672748535e11
+2026-09-16 21:57:56 | INFO | 1 | MacroEnergy | write_cost.jl:572 | Writing detailed undiscounted costs by zone to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/undiscounted_costs_by_zone.csv
+2026-09-16 21:57:56 | INFO | 1 | MacroEnergy | write_flow.jl:66 | Writing flow results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/flows.csv
+2026-09-16 21:58:06 | INFO | 1 | MacroEnergy | write_non_served_demand.jl:44 | Writing non-served demand results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/non_served_demand.csv
+2026-09-16 21:58:06 | INFO | 1 | MacroEnergy | write_storage_level.jl:58 | Writing storage level results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/storage_level.csv
+2026-09-16 21:58:06 | INFO | 1 | MacroEnergy | write_curtailment.jl:44 | Writing curtailment results to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/curtailment.csv
+2026-09-16 21:58:06 | INFO | 1 | MacroEnergy | write_time_weights.jl:49 | Writing time weights to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/time_weights.csv
+2026-09-16 21:58:06 | INFO | 1 | MacroEnergy | write_duals.jl:39 | Writing constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4
+2026-09-16 21:58:06 | INFO | 1 | MacroEnergy | write_duals.jl:83 | Writing balance constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4
+2026-09-16 21:58:07 | INFO | 1 | MacroEnergy | write_duals.jl:177 | Writing CO2 cap constraint dual values to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4
+2026-09-16 21:58:07 | INFO | 1 | MacroEnergy | write_outputs.jl:305 | Writing objective value to /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results_tdr12days_062026/results_period_4/objective_value.csv

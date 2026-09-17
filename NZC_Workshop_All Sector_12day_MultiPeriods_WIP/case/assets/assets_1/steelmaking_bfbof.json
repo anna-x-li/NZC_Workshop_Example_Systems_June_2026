@@ -35,7 +35,8 @@
               "MinFlowConstraint": true
             },
             "can_retrofit": true,
-            "min_flow_fraction": 1
+            "min_flow_fraction": 1,
+            "mga_enabled": true
           },
           "dri_edge": {
             "commodity": "DRI",

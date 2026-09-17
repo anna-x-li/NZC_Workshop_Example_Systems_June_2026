@@ -29,7 +29,8 @@
               0.85
             ],
             "lifetime": 30,
-            "capital_recovery_period": 30
+            "capital_recovery_period": 30,
+            "mga_enabled": true
           },
           "h2_edge": {
             "commodity": "Hydrogen",

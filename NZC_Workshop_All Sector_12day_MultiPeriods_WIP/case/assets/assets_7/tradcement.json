@@ -27,7 +27,8 @@
           "constraints": {
             "RampingLimitConstraint": true,
             "MinFlowConstraint": true
-          }
+          },
+          "mga_enabled": true
         },
         "co2_captured_edge": {
           "type": "CO2Captured"

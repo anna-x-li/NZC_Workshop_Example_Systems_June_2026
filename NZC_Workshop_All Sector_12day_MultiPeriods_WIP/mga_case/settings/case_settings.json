@@ -1,0 +1,21 @@
+{
+    "PeriodLengths":  [
+                        5,
+                        10,
+                        10,
+                        10
+                      ],
+    "DiscountRate":  0.045,
+    "SolutionAlgorithm": "Monolithic",
+    "ExpansionHorizon": "PerfectForesight",
+    "MGA": {
+        "Enabled": true,
+        "Epsilon": 0.1,
+        "Groupings": [
+            "technology"
+        ],
+        "Quantity": "capacity",
+        "MGAAlgorithm": "RandomVector",
+        "NumIterations": 1
+    }
+}

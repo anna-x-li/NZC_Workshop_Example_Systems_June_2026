@@ -33,7 +33,8 @@
               "CapacityConstraint": true,
               "MinFlowConstraint": true
             },
-            "min_flow_fraction": 1
+            "min_flow_fraction": 1,
+            "mga_enabled": true
           },
           "ironore_edge": {
             "commodity": "IronOre",

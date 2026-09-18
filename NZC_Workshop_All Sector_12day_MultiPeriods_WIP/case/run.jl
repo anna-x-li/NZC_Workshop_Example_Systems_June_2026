@@ -1,20 +1,33 @@
 using Pkg
 Pkg.activate("/Users/al3792/Documents_Local/NZC_June_2026/MacroEnergy.jl")
-# Pkg.activate("/scratch/gpfs/JENKINS/ck0997/MacroEnergy.jl")
-
-# Pkg.add("Gurobi")
-# Pkg.add("Infiltrator")
 
 using MacroEnergy
 using Gurobi
+using Dates
+
+progress_log = joinpath(@__DIR__, "mga_progress.log")
+function log_progress(message)
+    open(progress_log, "a") do io
+        println(io, "$(Dates.now()) $message")
+    end
+end
+
+log_progress("Starting case load")
 
 case = MacroEnergy.load_case(@__DIR__)
-optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing, ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3))
+log_progress("Case loaded; creating optimizer")
+optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing,
+    ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3,
+     "LogFile" => joinpath(@__DIR__, "mga_gurobi.log"),
+     "ScaleFlag" => 2, "NumericFocus" => 2))
 
 alg = MacroEnergy.solution_algorithm(case)
+log_progress("Starting model generation")
 model = MacroEnergy.generate_model(case, optim, alg)
+log_progress("Model generated; starting MGA")
 
 MacroEnergy.run_mga(case, model, @__DIR__; least_cost_original=1.39e13)
+log_progress("MGA finished")
 
 # MacroEnergy.optimize!(model)
 
@@ -59,18 +72,18 @@ MacroEnergy.run_mga(case, model, @__DIR__; least_cost_original=1.39e13)
 # # Restore original system_data.json
 # write(system_data_path, original_system_data)
 
-case = MacroEnergy.load_case(@__DIR__)
+# case = MacroEnergy.load_case(@__DIR__)
 
-(case, solution) = run_case(
-    @__DIR__;
-    optimizer=Gurobi.Optimizer,
-    lazy_load=false,
-    optimizer_attributes=(
-        "Method" => 2,
-        "Threads" => -1,
-        "BarConvTol" => 1e-3,
-        "NumericFocus" => 1,
-        "Crossover" => 0,
-        "OutputFlag" => 1,
-    ),
-);
+# (case, solution) = run_case(
+#     @__DIR__;
+#     optimizer=Gurobi.Optimizer,
+#     lazy_load=false,
+#     optimizer_attributes=(
+#         "Method" => 2,
+#         "Threads" => -1,
+#         "BarConvTol" => 1e-3,
+#         "NumericFocus" => 1,
+#         "Crossover" => 0,
+#         "OutputFlag" => 1,
+#     ),
+# );

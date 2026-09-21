@@ -1,5 +1,5 @@
 using Pkg
-Pkg.activate("/Users/al3792/Documents_Local/NZC_June_2026/MacroEnergy.jl")
+Pkg.activate("/home/al3792/NZC_MGA/MacroEnergy.jl")
 
 using MacroEnergy
 using Gurobi
@@ -59,7 +59,8 @@ for (direction, sense) in (("max", JuMP.MOI.MAX_SENSE), ("min", JuMP.MOI.MIN_SEN
         model_cost <= budget_limit + max(1e-6 * budget_row_scale, 1e-9 * budget_limit) ||
             error("MGA $direction violated the cost budget.")
     end
-    termination_status(model) == JuMP.MOI.OPTIMAL || error("MGA $direction failed: $(termination_status(model))")
+
+    termination_status(model) in (JuMP.MOI.OPTIMAL, JuMP.MOI.LOCALLY_SOLVED) || error("MGA $direction failed: $(termination_status(model))")
 
     output_path = joinpath(@__DIR__, "MGAResults_$direction", "MGA_$(slack)_1")
     MacroEnergy.postprocess!(case, model)

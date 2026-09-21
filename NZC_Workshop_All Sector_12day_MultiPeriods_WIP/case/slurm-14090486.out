@@ -1,0 +1,505 @@
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS: invalid
+Set parameter LicenseID to value 197246
+Set parameter GURO_PAR_SPECIAL
+Set parameter TokenServer to value "license.rc.princeton.edu"
+Set parameter Method to value 2
+Set parameter Crossover to value 0
+Set parameter BarConvTol to value 0.001
+Set parameter Method to value 2
+Set parameter Crossover to value 0
+Set parameter BarConvTol to value 0.001
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (linux64 - "Red Hat Enterprise Linux 9.8 (Plow)")
+
+CPU model: AMD EPYC 9654 96-Core Processor, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 192 physical cores, 192 logical processors, using up to 32 threads
+
+Non-default parameters:
+Method  2
+BarConvTol  0.001
+Crossover  0
+
+Optimize a model with 21242202 rows, 16507597 columns and 73682284 nonzeros (Max)
+Model fingerprint: 0x0bcaa7fb
+Model has 32 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+06]
+  Objective range  [3e-02, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-03, 3e+08]
+
+Presolve removed 10156167 rows and 3002468 columns (presolve time = 7s)...
+Presolve removed 10156167 rows and 5884285 columns (presolve time = 10s)...
+Presolve removed 14364450 rows and 9590000 columns (presolve time = 15s)...
+Presolve removed 15779525 rows and 10534358 columns (presolve time = 25s)...
+Presolve removed 15785167 rows and 10540000 columns (presolve time = 26s)...
+Presolve removed 15876290 rows and 10631092 columns (presolve time = 32s)...
+Presolve removed 15876577 rows and 10631092 columns (presolve time = 35s)...
+Presolve removed 16060230 rows and 10792363 columns (presolve time = 41s)...
+Presolve removed 16060230 rows and 10792363 columns
+Presolve time: 43.92s
+Presolved: 5181972 rows, 5715234 columns, 33162246 nonzeros
+Elapsed ordering time = 8s
+Elapsed ordering time = 10s
+Elapsed ordering time = 15s
+Elapsed ordering time = 20s
+Elapsed ordering time = 25s
+Elapsed ordering time = 30s
+Elapsed ordering time = 46s
+Elapsed ordering time = 50s
+Ordering time: 133.39s
+Elapsed ordering time = 178s
+Elapsed ordering time = 187s
+Elapsed ordering time = 190s
+Elapsed ordering time = 195s
+Elapsed ordering time = 200s
+Elapsed ordering time = 205s
+Elapsed ordering time = 210s
+Elapsed ordering time = 217s
+Elapsed ordering time = 220s
+Elapsed ordering time = 225s
+Elapsed ordering time = 230s
+Elapsed ordering time = 235s
+Elapsed ordering time = 240s
+Elapsed ordering time = 245s
+Elapsed ordering time = 250s
+Elapsed ordering time = 255s
+Elapsed ordering time = 260s
+Elapsed ordering time = 265s
+Elapsed ordering time = 270s
+Elapsed ordering time = 275s
+Elapsed ordering time = 280s
+Elapsed ordering time = 285s
+Elapsed ordering time = 290s
+Elapsed ordering time = 295s
+Elapsed ordering time = 300s
+Elapsed ordering time = 305s
+Elapsed ordering time = 310s
+Elapsed ordering time = 315s
+Elapsed ordering time = 320s
+Elapsed ordering time = 325s
+Elapsed ordering time = 330s
+Elapsed ordering time = 335s
+Elapsed ordering time = 340s
+Elapsed ordering time = 345s
+Elapsed ordering time = 350s
+Elapsed ordering time = 355s
+Elapsed ordering time = 360s
+Elapsed ordering time = 365s
+Elapsed ordering time = 370s
+Elapsed ordering time = 375s
+Elapsed ordering time = 380s
+Elapsed ordering time = 385s
+Elapsed ordering time = 390s
+Elapsed ordering time = 395s
+Elapsed ordering time = 400s
+Elapsed ordering time = 405s
+Elapsed ordering time = 410s
+Elapsed ordering time = 415s
+Elapsed ordering time = 420s
+Elapsed ordering time = 425s
+Elapsed ordering time = 430s
+Elapsed ordering time = 435s
+Elapsed ordering time = 440s
+Elapsed ordering time = 445s
+Elapsed ordering time = 450s
+Elapsed ordering time = 455s
+Elapsed ordering time = 460s
+Elapsed ordering time = 465s
+Elapsed ordering time = 470s
+Elapsed ordering time = 475s
+Elapsed ordering time = 480s
+Elapsed ordering time = 485s
+Elapsed ordering time = 490s
+Elapsed ordering time = 495s
+Ordering time: 518.37s
+Elapsed ordering time = 527s
+Elapsed ordering time = 530s
+Elapsed ordering time = 535s
+Elapsed ordering time = 540s
+Elapsed ordering time = 545s
+Elapsed ordering time = 550s
+Elapsed ordering time = 566s
+Elapsed ordering time = 572s
+Elapsed ordering time = 576s
+Elapsed ordering time = 581s
+Elapsed ordering time = 585s
+Elapsed ordering time = 591s
+Elapsed ordering time = 595s
+Elapsed ordering time = 600s
+Elapsed ordering time = 605s
+Elapsed ordering time = 610s
+Elapsed ordering time = 615s
+Elapsed ordering time = 620s
+Elapsed ordering time = 625s
+Elapsed ordering time = 630s
+Elapsed ordering time = 635s
+Elapsed ordering time = 640s
+Ordering time: 649.97s
+
+Barrier statistics:
+ Dense cols : 4260
+ Free vars  : 672
+ AA' NZ     : 1.341e+08
+ Factor NZ  : 7.517e+08 (roughly 10.0 GB of memory)
+ Factor Ops : 2.007e+12 (roughly 4 seconds per iteration)
+ Threads    : 32
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.74725365e+05  7.87221493e+05  1.93e+09 6.40e-01  5.86e+04   872s
+   1   5.74966674e+05  1.05399838e+06  1.83e+09 1.46e+00  5.49e+04   915s
+   2   5.84012625e+05  1.37197613e+06  1.69e+09 1.39e+00  5.05e+04   952s
+   3   5.97671440e+05  1.72227255e+06  1.58e+09 1.26e+00  4.68e+04   996s
+   4   6.06761429e+05  2.13876018e+06  1.44e+09 1.13e+00  4.19e+04  1030s
+   5   6.11554356e+05  3.05094561e+06  1.35e+09 9.01e-01  3.57e+04  1072s
+   6   6.17432508e+05  3.91703678e+06  1.23e+09 6.68e-01  2.88e+04  1118s
+   7   6.54822238e+05  4.10814549e+06  7.92e+08 6.11e-01  2.30e+04  1168s
+   8   6.66870595e+05  5.81827482e+06  6.94e+08 1.82e-01  1.16e+04  1214s
+   9   6.72083663e+05  5.83125993e+06  4.49e+08 1.10e-01  7.51e+03  1249s
+  10   6.33449004e+05  5.46712054e+06  3.02e+08 4.21e-02  4.55e+03  1287s
+  11   5.63165181e+05  5.27212903e+06  2.11e+08 2.85e-02  3.21e+03  1327s
+  12   4.50503590e+05  4.89279429e+06  1.30e+08 1.52e-02  2.03e+03  1358s
+  13   3.06605929e+05  4.52939696e+06  6.84e+07 8.60e-03  1.10e+03  1384s
+  14   2.31476762e+05  4.15790742e+06  4.83e+07 4.95e-03  7.67e+02  1411s
+  15   1.82544182e+05  3.93088623e+06  3.65e+07 4.14e-03  5.84e+02  1436s
+  16   1.64734452e+05  3.56954377e+06  3.23e+07 2.99e-03  5.07e+02  1461s
+  17   1.46005187e+05  3.19668497e+06  2.82e+07 1.84e-03  4.42e+02  1485s
+  18   1.23686202e+05  2.98970328e+06  2.36e+07 1.39e-03  3.71e+02  1508s
+  19   1.14990923e+05  2.75133526e+06  2.18e+07 1.09e-03  3.44e+02  1533s
+  20   9.91328714e+04  2.52694933e+06  1.87e+07 1.29e-03  2.95e+02  1558s
+  21   7.21789907e+04  2.31775530e+06  1.34e+07 1.78e-03  2.13e+02  1593s
+  22   5.23190782e+04  2.13042202e+06  9.66e+06 1.37e-03  1.52e+02  1630s
+  23   3.69871362e+04  1.91300286e+06  6.77e+06 9.72e-04  1.08e+02  1668s
+  24   2.99613979e+04  1.65736971e+06  5.44e+06 6.80e-04  8.57e+01  1702s
+  25   2.32474344e+04  1.55548368e+06  4.19e+06 5.79e-04  6.66e+01  1735s
+  26   1.96058632e+04  1.40817401e+06  3.52e+06 4.77e-04  5.52e+01  1770s
+  27   1.26497275e+04  1.29318455e+06  2.23e+06 3.85e-04  3.59e+01  1807s
+  28   1.05304453e+04  1.07372310e+06  1.83e+06 4.43e-04  2.90e+01  1844s
+  29   7.67862699e+03  9.57137462e+05  1.30e+06 3.60e-04  2.10e+01  1881s
+  30   5.94002873e+03  7.80688185e+05  9.63e+05 2.53e-04  1.55e+01  1917s
+  31   4.68821783e+03  6.41640545e+05  7.30e+05 3.52e-04  1.17e+01  1955s
+  32   3.77500892e+03  5.64472180e+05  5.54e+05 2.99e-04  9.01e+00  1993s
+  33   3.11333959e+03  4.61634224e+05  4.25e+05 2.27e-04  6.91e+00  2031s
+  34   2.57996039e+03  3.56038226e+05  3.19e+05 1.61e-04  5.12e+00  2069s
+  35   2.33037767e+03  3.06830772e+05  2.69e+05 1.34e-04  4.32e+00  2104s
+  36   2.30204595e+03  2.94611324e+05  2.64e+05 1.28e-04  4.20e+00  2135s
+  37   2.21001861e+03  2.81880906e+05  2.46e+05 1.23e-04  3.92e+00  2171s
+  38   2.06508790e+03  2.60397753e+05  2.17e+05 1.12e-04  3.47e+00  2206s
+  39   1.97401270e+03  2.42620258e+05  1.99e+05 1.03e-04  3.17e+00  2242s
+  40   1.91916933e+03  2.34601908e+05  1.87e+05 9.93e-05  3.01e+00  2279s
+  41   1.88631681e+03  2.21293922e+05  1.81e+05 9.27e-05  2.88e+00  2311s
+  42   1.85232189e+03  2.14918406e+05  1.74e+05 8.97e-05  2.77e+00  2343s
+  43   1.73004397e+03  1.88300459e+05  1.49e+05 7.82e-05  2.38e+00  2381s
+  44   1.68996401e+03  1.80907736e+05  1.41e+05 7.46e-05  2.25e+00  2408s
+  45   1.68130377e+03  1.76428398e+05  1.39e+05 7.25e-05  2.21e+00  2444s
+  46   1.64568868e+03  1.59387764e+05  1.32e+05 6.42e-05  2.07e+00  2470s
+  47   1.60595078e+03  1.44740626e+05  1.24e+05 5.76e-05  1.92e+00  2501s
+  48   1.58126518e+03  1.29769493e+05  1.19e+05 5.05e-05  1.80e+00  2541s
+  49   1.53502972e+03  1.21788013e+05  1.10e+05 4.69e-05  1.66e+00  2579s
+  50   1.47451721e+03  1.12561476e+05  9.76e+04 4.28e-05  1.47e+00  2610s
+  51   1.39781588e+03  9.21835417e+04  8.21e+04 3.39e-05  1.22e+00  2649s
+  52   1.32106006e+03  8.13311449e+04  6.68e+04 2.91e-05  1.00e+00  2685s
+  53   1.27151828e+03  7.47462060e+04  5.70e+04 2.62e-05  8.69e-01  2721s
+  54   1.26231287e+03  6.56950083e+04  5.52e+04 2.22e-05  8.12e-01  2759s
+  55   1.22312389e+03  5.91653905e+04  4.76e+04 2.56e-05  7.02e-01  2800s
+  56   1.20083616e+03  5.75822090e+04  4.34e+04 2.48e-05  6.50e-01  2835s
+  57   1.17786089e+03  5.22651003e+04  3.91e+04 2.20e-05  5.82e-01  2875s
+  58   1.15415610e+03  4.99959984e+04  3.48e+04 2.09e-05  5.26e-01  2912s
+  59   1.13068243e+03  4.59005695e+04  3.07e+04 1.86e-05  4.66e-01  2947s
+  60   1.11325110e+03  4.03654221e+04  2.79e+04 1.56e-05  4.13e-01  2983s
+  61   1.09403821e+03  3.84499271e+04  2.49e+04 1.46e-05  3.73e-01  3016s
+  62   1.07261035e+03  3.44193290e+04  2.13e+04 1.35e-05  3.19e-01  3055s
+  63   1.06231056e+03  3.19013115e+04  1.96e+04 1.94e-05  2.91e-01  3094s
+  64   1.04571178e+03  2.97324111e+04  1.69e+04 1.79e-05  2.54e-01  3133s
+  65   1.03581442e+03  2.74562331e+04  1.52e+04 1.85e-05  2.27e-01  3172s
+  66   1.01973654e+03  2.38833693e+04  1.25e+04 2.18e-05  1.86e-01  3207s
+  67   1.00634102e+03  2.10283999e+04  1.02e+04 1.89e-05  1.52e-01  3249s
+  68   9.98694215e+02  2.00263507e+04  8.96e+03 1.68e-05  1.36e-01  3285s
+  69   9.91126326e+02  1.84036315e+04  7.69e+03 1.57e-05  1.18e-01  3330s
+  70   9.85277720e+02  1.59062563e+04  6.74e+03 1.31e-05  9.85e-02  3380s
+  71   9.82364884e+02  1.48533715e+04  6.25e+03 1.40e-05  8.95e-02  3426s
+  72   9.74989708e+02  1.34007870e+04  5.07e+03 1.40e-05  7.39e-02  3474s
+  73   9.74357136e+02  1.27686659e+04  4.96e+03 1.22e-05  7.00e-02  3507s
+  74   9.66288561e+02  1.14011044e+04  3.60e+03 9.75e-06  5.47e-02  3554s
+  75   9.62054509e+02  9.33313600e+03  2.88e+03 8.17e-06  4.12e-02  3601s
+  76   9.58331940e+02  7.29595592e+03  2.21e+03 9.72e-06  2.90e-02  3634s
+  77   9.54380591e+02  5.58370986e+03  1.33e+03 2.02e-05  1.86e-02  3672s
+  78   9.54607513e+02  4.03964154e+03  8.58e+02 1.25e-05  1.14e-02  3710s
+  79   9.57343806e+02  3.36212239e+03  5.81e+02 9.22e-06  8.42e-03  3750s
+  80   9.61302585e+02  2.92576856e+03  5.09e+02 7.31e-06  6.78e-03  3785s
+  81   9.71342192e+02  2.84077197e+03  3.91e+02 6.97e-06  6.28e-03  3815s
+  82   9.96527239e+02  2.67650464e+03  3.30e+02 7.08e-06  5.57e-03  3846s
+  83   1.00214500e+03  2.66935092e+03  3.25e+02 7.02e-06  5.53e-03  3876s
+  84   1.00921328e+03  2.62610896e+03  3.18e+02 6.75e-06  5.35e-03  3907s
+  85   1.01412914e+03  2.55690626e+03  3.09e+02 6.36e-06  5.10e-03  3938s
+  86   1.03085468e+03  2.55149624e+03  2.95e+02 6.33e-06  5.01e-03  3968s
+  87   1.04964386e+03  2.52406598e+03  2.84e+02 6.12e-06  4.86e-03  3998s
+  88   1.05060056e+03  2.50636470e+03  2.84e+02 6.04e-06  4.79e-03  4028s
+  89   1.11372696e+03  2.42728605e+03  2.56e+02 5.39e-06  4.31e-03  4058s
+  90   1.19736781e+03  2.41468647e+03  2.37e+02 6.23e-06  4.00e-03  4088s
+  91   1.28440006e+03  2.38932253e+03  2.14e+02 5.19e-06  3.63e-03  4120s
+  92   1.32706610e+03  2.32818913e+03  2.01e+02 6.06e-06  3.29e-03  4151s
+  93   1.38639222e+03  2.30199556e+03  1.84e+02 6.24e-06  3.01e-03  4180s
+  94   1.44656199e+03  2.26026518e+03  1.66e+02 7.87e-05  2.68e-03  4211s
+  95   1.53669718e+03  2.24221351e+03  1.39e+02 7.24e-05  2.31e-03  4242s
+  96   1.58917991e+03  2.19801474e+03  1.24e+02 5.86e-05  2.00e-03  4273s
+  97   1.64604387e+03  2.18331478e+03  1.07e+02 5.35e-05  1.76e-03  4303s
+  98   1.68928808e+03  2.17219598e+03  9.37e+01 4.96e-05  1.58e-03  4333s
+  99   1.71877050e+03  2.13974921e+03  8.50e+01 3.88e-05  1.38e-03  4362s
+ 100   1.75702289e+03  2.12927949e+03  7.41e+01 3.51e-05  1.22e-03  4391s
+ 101   1.79285570e+03  2.11163132e+03  6.42e+01 2.87e-05  1.04e-03  4421s
+ 102   1.81996453e+03  2.10047706e+03  5.65e+01 2.47e-05  9.19e-04  4452s
+ 103   1.85781768e+03  2.09713415e+03  4.62e+01 2.35e-05  7.82e-04  4483s
+ 104   1.86794082e+03  2.08876183e+03  4.33e+01 2.07e-05  7.22e-04  4512s
+ 105   1.89182326e+03  2.07781105e+03  3.65e+01 1.68e-05  6.08e-04  4543s
+ 106   1.90116887e+03  2.06893714e+03  3.39e+01 1.38e-05  5.49e-04  4574s
+ 107   1.92097696e+03  2.06437809e+03  2.83e+01 1.22e-05  4.68e-04  4604s
+ 108   1.92392502e+03  2.05667709e+03  2.75e+01 9.56e-06  4.35e-04  4634s
+ 109   1.92965949e+03  2.05484039e+03  2.60e+01 8.87e-06  4.10e-04  4665s
+ 110   1.94585290e+03  2.05049251e+03  2.18e+01 7.37e-06  3.43e-04  4695s
+ 111   1.95520920e+03  2.04880680e+03  1.93e+01 6.74e-06  3.06e-04  4727s
+ 112   1.96202684e+03  2.04751246e+03  1.75e+01 6.26e-06  2.80e-04  4758s
+ 113   1.97471142e+03  2.04614588e+03  1.42e+01 5.77e-06  2.33e-04  4787s
+ 114   1.97819424e+03  2.04569632e+03  1.33e+01 5.61e-06  2.20e-04  4818s
+ 115   1.98432810e+03  2.04252598e+03  1.16e+01 4.88e-06  1.90e-04  4849s
+ 116   1.99010210e+03  2.03928778e+03  1.01e+01 5.05e-06  1.61e-04  4880s
+ 117   1.99749366e+03  2.03812957e+03  8.20e+00 3.68e-06  1.33e-04  4910s
+ 118   2.00539683e+03  2.03660486e+03  6.10e+00 4.12e-06  1.02e-04  4941s
+ 119   2.00825989e+03  2.03568642e+03  5.36e+00 3.83e-06  8.94e-05  4971s
+ 120   2.01099775e+03  2.03458564e+03  4.65e+00 3.75e-06  7.69e-05  5002s
+ 121   2.01299759e+03  2.03400480e+03  4.16e+00 4.69e-06  6.85e-05  5032s
+ 122   2.01717994e+03  2.03344754e+03  3.13e+00 5.21e-06  5.30e-05  5063s
+ 123   2.01844702e+03  2.03273308e+03  2.81e+00 5.51e-06  4.66e-05  5094s
+ 124   2.02016006e+03  2.03235915e+03  2.37e+00 5.86e-06  3.97e-05  5124s
+ 125   2.02279571e+03  2.03206172e+03  1.74e+00 5.94e-06  3.01e-05  5155s
+ 126   2.02390589e+03  2.03177238e+03  1.45e+00 5.64e-06  2.55e-05  5185s
+ 127   2.02483657e+03  2.03139711e+03  1.22e+00 4.62e-06  2.13e-05  5215s
+ 128   2.02587022e+03  2.03119826e+03  9.73e-01 4.22e-06  1.73e-05  5244s
+ 129   2.02667714e+03  2.03099819e+03  7.72e-01 3.53e-06  1.40e-05  5277s
+ 130   2.02686955e+03  2.03090842e+03  7.27e-01 3.31e-06  1.31e-05  5318s
+ 131   2.02748521e+03  2.03085413e+03  5.82e-01 2.84e-06  1.09e-05  5355s
+ 132   2.02780369e+03  2.03069910e+03  5.04e-01 4.54e-06  9.35e-06  5394s
+ 133   2.02832914e+03  2.03063380e+03  3.81e-01 4.90e-06  7.42e-06  5434s
+ 134   2.02845914e+03  2.03049784e+03  3.49e-01 4.11e-06  6.57e-06  5473s
+ 135   2.02868142e+03  2.03046809e+03  2.98e-01 3.86e-06  5.75e-06  5511s
+
+Barrier solved model in 135 iterations and 5510.94 seconds (2565.69 work units)
+Optimal objective 2.02868142e+03
+
+Warning: Changing status from GRB_OPTIMAL to GRB_SUBOPTIMALdue to big uncrush violation 1.18799e+11 (presolved model = 0.302261).
+
+User-callback calls 440865, time in user-callback 0.79 sec
+  Activating project at `~/NZC_MGA/MacroEnergy.jl`
+[ Info: Loading case from /home/al3792/NZC_MGA/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/system_data.json
+[ Info: Loading system data
+[ Info: Done loading system data. It took 0.86 seconds
+[ Info: Done loading case data. It took 0.86 seconds
+[ Info: *** Generating case ***
+[ Info: Configuring case from settings/case_settings.json
+[ Info: Configuring case
+[ Info:  -- Setting solution algorithm
+[ Info:  -- Solution algorithm set to MacroEnergy.Monolithic()
+[ Info:  -- Setting expansion horizon
+[ Info:  -- Expansion horizon set to MacroEnergy.PerfectForesight()
+[ Info: Generating systems
+[ Info: Generating system
+[ Info:  ++ Added user commodities: 1 top-level, 0 subcommodities
+[ Info:  ++ Creating new location: Region21Hainan
+[ Info:  ++ Creating new location: Region26Tibet
+[ Info: Using legacy parser for supply inputs of cog_Region1Beijing.
+[ Info: Using legacy parser for supply inputs of cog_Region2Tianjin.
+[ Info: Using legacy parser for supply inputs of cog_Region3Hebei.
+[ Info: Using legacy parser for supply inputs of cog_Region4Shanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region5Innermongolia.
+[ Info: Using legacy parser for supply inputs of cog_Region6Liaoning.
+[ Info: Using legacy parser for supply inputs of cog_Region7Jilin.
+[ Info: Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+[ Info: Using legacy parser for supply inputs of cog_Region9Shanghai.
+[ Info: Using legacy parser for supply inputs of cog_Region10Jiangsu.
+[ Info: Using legacy parser for supply inputs of cog_Region11Zhejiang.
+[ Info: Using legacy parser for supply inputs of cog_Region12Anhui.
+[ Info: Using legacy parser for supply inputs of cog_Region13Fujian.
+[ Info: Using legacy parser for supply inputs of cog_Region14Jiangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region15Shandong.
+[ Info: Using legacy parser for supply inputs of cog_Region16Henan.
+[ Info: Using legacy parser for supply inputs of cog_Region17Hubei.
+[ Info: Using legacy parser for supply inputs of cog_Region18Hunan.
+[ Info: Using legacy parser for supply inputs of cog_Region19Guangdong.
+[ Info: Using legacy parser for supply inputs of cog_Region20Guangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region21Hainan.
+[ Info: Using legacy parser for supply inputs of cog_Region22Chongqing.
+[ Info: Using legacy parser for supply inputs of cog_Region23Sichuan.
+[ Info: Using legacy parser for supply inputs of cog_Region24Guizhou.
+[ Info: Using legacy parser for supply inputs of cog_Region25Yunnan.
+[ Info: Using legacy parser for supply inputs of cog_Region26Tibet.
+[ Info: Using legacy parser for supply inputs of cog_Region27Shaanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region28Gansu.
+[ Info: Using legacy parser for supply inputs of cog_Region29Qinghai.
+[ Info: Using legacy parser for supply inputs of cog_Region30Ningxia.
+[ Info: Using legacy parser for supply inputs of cog_Region31Xinjiang.
+[ Info: Done generating system. It took 105.16 seconds
+[ Info: Generating system
+[ Info:  ++ Added user commodities: 1 top-level, 0 subcommodities
+[ Info:  ++ Creating new location: Region21Hainan
+[ Info:  ++ Creating new location: Region26Tibet
+[ Info: Using legacy parser for supply inputs of cog_Region1Beijing.
+[ Info: Using legacy parser for supply inputs of cog_Region2Tianjin.
+[ Info: Using legacy parser for supply inputs of cog_Region3Hebei.
+[ Info: Using legacy parser for supply inputs of cog_Region4Shanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region5Innermongolia.
+[ Info: Using legacy parser for supply inputs of cog_Region6Liaoning.
+[ Info: Using legacy parser for supply inputs of cog_Region7Jilin.
+[ Info: Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+[ Info: Using legacy parser for supply inputs of cog_Region9Shanghai.
+[ Info: Using legacy parser for supply inputs of cog_Region10Jiangsu.
+[ Info: Using legacy parser for supply inputs of cog_Region11Zhejiang.
+[ Info: Using legacy parser for supply inputs of cog_Region12Anhui.
+[ Info: Using legacy parser for supply inputs of cog_Region13Fujian.
+[ Info: Using legacy parser for supply inputs of cog_Region14Jiangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region15Shandong.
+[ Info: Using legacy parser for supply inputs of cog_Region16Henan.
+[ Info: Using legacy parser for supply inputs of cog_Region17Hubei.
+[ Info: Using legacy parser for supply inputs of cog_Region18Hunan.
+[ Info: Using legacy parser for supply inputs of cog_Region19Guangdong.
+[ Info: Using legacy parser for supply inputs of cog_Region20Guangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region21Hainan.
+[ Info: Using legacy parser for supply inputs of cog_Region22Chongqing.
+[ Info: Using legacy parser for supply inputs of cog_Region23Sichuan.
+[ Info: Using legacy parser for supply inputs of cog_Region24Guizhou.
+[ Info: Using legacy parser for supply inputs of cog_Region25Yunnan.
+[ Info: Using legacy parser for supply inputs of cog_Region26Tibet.
+[ Info: Using legacy parser for supply inputs of cog_Region27Shaanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region28Gansu.
+[ Info: Using legacy parser for supply inputs of cog_Region29Qinghai.
+[ Info: Using legacy parser for supply inputs of cog_Region30Ningxia.
+[ Info: Using legacy parser for supply inputs of cog_Region31Xinjiang.
+[ Info: Done generating system. It took 60.7 seconds
+[ Info: Generating system
+[ Info:  ++ Added user commodities: 1 top-level, 0 subcommodities
+[ Info:  ++ Creating new location: Region21Hainan
+[ Info:  ++ Creating new location: Region26Tibet
+[ Info: Using legacy parser for supply inputs of cog_Region1Beijing.
+[ Info: Using legacy parser for supply inputs of cog_Region2Tianjin.
+[ Info: Using legacy parser for supply inputs of cog_Region3Hebei.
+[ Info: Using legacy parser for supply inputs of cog_Region4Shanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region5Innermongolia.
+[ Info: Using legacy parser for supply inputs of cog_Region6Liaoning.
+[ Info: Using legacy parser for supply inputs of cog_Region7Jilin.
+[ Info: Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+[ Info: Using legacy parser for supply inputs of cog_Region9Shanghai.
+[ Info: Using legacy parser for supply inputs of cog_Region10Jiangsu.
+[ Info: Using legacy parser for supply inputs of cog_Region11Zhejiang.
+[ Info: Using legacy parser for supply inputs of cog_Region12Anhui.
+[ Info: Using legacy parser for supply inputs of cog_Region13Fujian.
+[ Info: Using legacy parser for supply inputs of cog_Region14Jiangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region15Shandong.
+[ Info: Using legacy parser for supply inputs of cog_Region16Henan.
+[ Info: Using legacy parser for supply inputs of cog_Region17Hubei.
+[ Info: Using legacy parser for supply inputs of cog_Region18Hunan.
+[ Info: Using legacy parser for supply inputs of cog_Region19Guangdong.
+[ Info: Using legacy parser for supply inputs of cog_Region20Guangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region21Hainan.
+[ Info: Using legacy parser for supply inputs of cog_Region22Chongqing.
+[ Info: Using legacy parser for supply inputs of cog_Region23Sichuan.
+[ Info: Using legacy parser for supply inputs of cog_Region24Guizhou.
+[ Info: Using legacy parser for supply inputs of cog_Region25Yunnan.
+[ Info: Using legacy parser for supply inputs of cog_Region26Tibet.
+[ Info: Using legacy parser for supply inputs of cog_Region27Shaanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region28Gansu.
+[ Info: Using legacy parser for supply inputs of cog_Region29Qinghai.
+[ Info: Using legacy parser for supply inputs of cog_Region30Ningxia.
+[ Info: Using legacy parser for supply inputs of cog_Region31Xinjiang.
+[ Info: Done generating system. It took 64.6 seconds
+[ Info: Generating system
+[ Info:  ++ Added user commodities: 1 top-level, 0 subcommodities
+[ Info:  ++ Creating new location: Region21Hainan
+[ Info:  ++ Creating new location: Region26Tibet
+[ Info: Using legacy parser for supply inputs of cog_Region1Beijing.
+[ Info: Using legacy parser for supply inputs of cog_Region2Tianjin.
+[ Info: Using legacy parser for supply inputs of cog_Region3Hebei.
+[ Info: Using legacy parser for supply inputs of cog_Region4Shanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region5Innermongolia.
+[ Info: Using legacy parser for supply inputs of cog_Region6Liaoning.
+[ Info: Using legacy parser for supply inputs of cog_Region7Jilin.
+[ Info: Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+[ Info: Using legacy parser for supply inputs of cog_Region9Shanghai.
+[ Info: Using legacy parser for supply inputs of cog_Region10Jiangsu.
+[ Info: Using legacy parser for supply inputs of cog_Region11Zhejiang.
+[ Info: Using legacy parser for supply inputs of cog_Region12Anhui.
+[ Info: Using legacy parser for supply inputs of cog_Region13Fujian.
+[ Info: Using legacy parser for supply inputs of cog_Region14Jiangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region15Shandong.
+[ Info: Using legacy parser for supply inputs of cog_Region16Henan.
+[ Info: Using legacy parser for supply inputs of cog_Region17Hubei.
+[ Info: Using legacy parser for supply inputs of cog_Region18Hunan.
+[ Info: Using legacy parser for supply inputs of cog_Region19Guangdong.
+[ Info: Using legacy parser for supply inputs of cog_Region20Guangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region21Hainan.
+[ Info: Using legacy parser for supply inputs of cog_Region22Chongqing.
+[ Info: Using legacy parser for supply inputs of cog_Region23Sichuan.
+[ Info: Using legacy parser for supply inputs of cog_Region24Guizhou.
+[ Info: Using legacy parser for supply inputs of cog_Region25Yunnan.
+[ Info: Using legacy parser for supply inputs of cog_Region26Tibet.
+[ Info: Using legacy parser for supply inputs of cog_Region27Shaanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region28Gansu.
+[ Info: Using legacy parser for supply inputs of cog_Region29Qinghai.
+[ Info: Using legacy parser for supply inputs of cog_Region30Ningxia.
+[ Info: Using legacy parser for supply inputs of cog_Region31Xinjiang.
+[ Info: Done generating system. It took 69.66 seconds
+[ Info:  -- Discounting fixed costs for period 1
+[ Info:  -- Computing retirement case for period 1
+[ Info:  -- Discounting fixed costs for period 2
+[ Info:  -- Computing retirement case for period 2
+[ Info:  -- Discounting fixed costs for period 3
+[ Info:  -- Computing retirement case for period 3
+[ Info:  -- Discounting fixed costs for period 4
+[ Info:  -- Computing retirement case for period 4
+[ Info: *** Done generating case. It took 314.65 seconds ***
+[ Info: *** Generating monolithic model ***
+[ Info: Generating model
+[ Info:  -- Period 1
+[ Info:  -- Adding linking variables
+[ Info:  -- Defining available capacity
+[ Info:  -- Generating planning model
+[ Info:  -- Including age-based retirements
+[ Info:  -- Available capacity in period 1 is being carried over to period 2
+[ Info:  -- Generating operational model
+[ Info:  -- Period 2
+[ Info:  -- Adding linking variables
+[ Info:  -- Defining available capacity
+[ Info:  -- Generating planning model
+[ Info:  -- Including age-based retirements
+[ Info:  -- Available capacity in period 2 is being carried over to period 3
+[ Info:  -- Generating operational model
+[ Info:  -- Period 3
+[ Info:  -- Adding linking variables
+[ Info:  -- Defining available capacity
+[ Info:  -- Generating planning model
+[ Info:  -- Including age-based retirements
+[ Info:  -- Available capacity in period 3 is being carried over to period 4
+[ Info:  -- Generating operational model
+[ Info:  -- Period 4
+[ Info:  -- Adding linking variables
+[ Info:  -- Defining available capacity
+[ Info:  -- Generating planning model
+[ Info:  -- Including age-based retirements
+[ Info:  -- Generating operational model
+[ Info:  -- Adding MGA variables
+[ Info: Scaling constraints and RHS
+[ Info:  -- Model generation complete, it took 316.79558396339417 seconds
+ERROR: LoadError: MGA max failed: LOCALLY_SOLVED
+Stacktrace:
+ [1] error(s::String)
+   @ Base ./error.jl:44
+ [2] top-level scope
+   @ ~/NZC_MGA/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/run_test.jl:62
+ [3] include(mod::Module, _path::String)
+   @ Base ./Base.jl:306
+ [4] exec_options(opts::Base.JLOptions)
+   @ Base ./client.jl:317
+ [5] _start()
+   @ Base ./client.jl:550
+in expression starting at /home/al3792/NZC_MGA/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/run_test.jl:50
+Parameter scale=1000.0; MGA budget row: terms=7411192, divisor=1.0, RHS=1.5290000000000002e7, coefficient range=[5.4290729072361484e-11, 25308.11204800533]
+MGA max: status=LOCALLY_SOLVED, system cost=1.5290000000006344e13, budget=1.5290000000000002e13

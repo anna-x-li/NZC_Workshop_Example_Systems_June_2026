@@ -1,0 +1,169 @@
+Reconstructed names from build-only lookup; assumes matching original variable order.
+Unmapped indices retained; budget/scaling auxiliary variables were not rebuilt.
+Source: NZC_MGA/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results/MGA_sweep_qR2KFX/slack_0.05/seed_2/results/MGAResults_max_01/MGA_0.05_1/numerical_diagnostics.txt
+
+================================================================================
+NUMERICAL DIAGNOSTICS
+================================================================================
+
+--- Solver status ---
+Termination status: LOCALLY_SOLVED
+Primal status:      FEASIBLE_POINT
+Dual status:        FEASIBLE_POINT
+
+--- Constraint feasibility ---
+Maximum primal violation: 1.3294796773149681e8
+
+Top 30 constraint violations:
+
+[1]
+  Violation:  1.3294796773149681e8
+  Name:       
+  Constraint: vNEWUNIT_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1 ≥ 0
+
+[2]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1[275] ≤ 0
+
+[3]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[120] ≤ 0
+
+[4]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2[233] ≤ 0
+
+[5]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[13] ≤ 0
+
+[6]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1[191] ≤ 0
+
+[7]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[179] ≤ 0
+
+[8]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[261] ≤ 0
+
+[9]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[110] ≤ 0
+
+[10]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2[102] ≤ 0
+
+[11]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[75] ≤ 0
+
+[12]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[201] ≤ 0
+
+[13]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[16] ≤ 0
+
+[14]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2[105] ≤ 0
+
+[15]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1[66] ≤ 0
+
+[16]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2[285] ≤ 0
+
+[17]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[132] ≤ 0
+
+[18]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1[239] ≤ 0
+
+[19]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[169] ≤ 0
+
+[20]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[6] ≤ 0
+
+[21]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[250] ≤ 0
+
+[22]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1[202] ≤ 0
+
+[23]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[269] ≤ 0
+
+[24]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[198] ≤ 0
+
+[25]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period4[142] ≤ 0
+
+[26]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[207] ≤ 0
+
+[27]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[213] ≤ 0
+
+[28]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period3[80] ≤ 0
+
+[29]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2[108] ≤ 0
+
+[30]
+  Violation:  132947.9677314968
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2 + vFLOW_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period2[275] ≤ 0
+
+--------------------------------------------------------------------------------

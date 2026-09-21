@@ -1,33 +1,63 @@
 using Pkg
-Pkg.activate("/Users/al3792/Documents_Local/NZC_June_2026/MacroEnergy.jl")
+Pkg.activate("/home/al3792/NZC_MGA/MacroEnergy.jl")
 
 using MacroEnergy
 using Gurobi
+using Random
 using Dates
 
-progress_log = joinpath(@__DIR__, "mga_progress.log")
-function log_progress(message)
-    open(progress_log, "a") do io
-        println(io, "$(Dates.now()) $message")
-    end
+# Batch jobs pass epsilon, seed, and an isolated output directory.
+length(ARGS) in (0, 3) || error("Usage: run.jl [epsilon seed output_directory]")
+if isempty(ARGS)
+    results_root = "/scratch/gpfs/JENKINS/al3792/NZC_MGA/12day_MultiPeriods/results"
+    mkpath(results_root)
+    output_path = joinpath(results_root, "MGA_run_" * Dates.format(Dates.now(Dates.UTC), "yyyy-mm-dd_HH-MM-SS-sss") * "_UTC")
+    mkdir(output_path) # Refuse to overwrite an existing standalone run.
+else
+    output_path = abspath(ARGS[3])
+    mkpath(output_path)
 end
+# progress_log = joinpath(output_path, "mga_progress.log")
+# function log_progress(message)
+#     open(progress_log, "a") do io
+#         println(io, "$(Dates.now()) $message")
+#     end
+# end
 
-log_progress("Starting case load")
+# log_progress("Starting case load")
 
 case = MacroEnergy.load_case(@__DIR__)
-log_progress("Case loaded; creating optimizer")
+if !isempty(ARGS)
+    epsilon = parse(Float64, ARGS[1])
+    seed = parse(Int, ARGS[2])  # Seed passed by submit_mga_sweep.sh through mga_job.slurm.
+    isfinite(epsilon) && epsilon >= 0 || error("epsilon must be finite and nonnegative")
+    seed >= 0 || error("seed must be nonnegative")
+    mga = merge(case.settings.MGA, (
+        Enabled = true, Epsilon = epsilon, RandomSeed = seed,
+        MGAAlgorithm = "RandomVector", NumIterations = 1,
+    ))
+    case = MacroEnergy.Case(case.systems, merge(case.settings, (MGA = mga,)))
+end
+open(joinpath(output_path, "mga_run_settings.txt"), "w") do io
+    println(io, "MGA = ", case.settings.MGA)
+    println(io, "least_cost_original = 1.39e13")
+end
+# log_progress("Case loaded; creating optimizer")
 optim = MacroEnergy.create_optimizer(Gurobi.Optimizer, nothing,
-    ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-3,
-     "LogFile" => joinpath(@__DIR__, "mga_gurobi.log"),
-     "ScaleFlag" => 2, "NumericFocus" => 2))
+    ("Method" => 2, "Crossover" => 0, "BarConvTol" => 1e-6,
+     # "LogFile" => joinpath(output_path, "mga_gurobi.log"),
+    ))
 
 alg = MacroEnergy.solution_algorithm(case)
-log_progress("Starting model generation")
+# log_progress("Starting model generation")
 model = MacroEnergy.generate_model(case, optim, alg)
-log_progress("Model generated; starting MGA")
+# log_progress("Model generated; starting MGA")
 
-MacroEnergy.run_mga(case, model, @__DIR__; least_cost_original=1.39e13)
-log_progress("MGA finished")
+# The batch seed overrides the JSON seed above; standalone runs use the JSON value.
+seed = case.settings.MGA.RandomSeed
+rng = isnothing(seed) ? Random.default_rng() : MersenneTwister(seed)
+MacroEnergy.run_mga(case, model, output_path; rng=rng, least_cost_original=1.39e13)
+# log_progress("MGA finished")
 
 # MacroEnergy.optimize!(model)
 

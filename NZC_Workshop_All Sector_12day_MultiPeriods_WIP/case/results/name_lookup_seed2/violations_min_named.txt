@@ -1,0 +1,169 @@
+Reconstructed names from build-only lookup; assumes matching original variable order.
+Unmapped indices retained; budget/scaling auxiliary variables were not rebuilt.
+Source: NZC_MGA/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results/MGA_sweep_qR2KFX/slack_0.05/seed_2/results/MGAResults_min_01/MGA_0.05_1/numerical_diagnostics.txt
+
+================================================================================
+NUMERICAL DIAGNOSTICS
+================================================================================
+
+--- Solver status ---
+Termination status: OPTIMAL
+Primal status:      FEASIBLE_POINT
+Dual status:        FEASIBLE_POINT
+
+--- Constraint feasibility ---
+Maximum primal violation: 0.00010377168655395508
+
+Top 30 constraint violations:
+
+[1]
+  Violation:  0.00010377168655395508
+  Name:       
+  Constraint: 0.46090498084663617 vCAP_Region1Beijing_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region2Tianjin_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region3Hebei_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region4Shanxi_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region5Innermongolia_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region6Liaoning_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region7Jilin_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region8Heilongjiang_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region9Shanghai_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region10Jiangsu_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region11Zhejiang_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region12Anhui_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region13Fujian_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region14Jiangxi_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region15Shandong_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region16Henan_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region17Hubei_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region18Hunan_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region19Guangdong_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region20Guangxi_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region21Hainan_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region22Chongqing_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region23Sichuan_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region24Guizhou_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region25Yunnan_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region26Tibet_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region27Shaanxi_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region28Gansu_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region29Qinghai_meacement_cement_edge_period1 + 0.46090498084663617 vCAP_Region30Ningxia_meacement_cement_edge_period1 + [[...7411132 terms omitted...]] + _[16507568]{unmapped} + _[16507569]{unmapped} + _[16507570]{unmapped} + _[16507571]{unmapped} + _[16507572]{unmapped} + _[16507573]{unmapped} + _[16507574]{unmapped} + _[16507575]{unmapped} + _[16507576]{unmapped} + _[16507577]{unmapped} + _[16507578]{unmapped} + _[16507579]{unmapped} + _[16507580]{unmapped} + _[16507581]{unmapped} + _[16507582]{unmapped} + _[16507583]{unmapped} + _[16507584]{unmapped} + _[16507585]{unmapped} + _[16507586]{unmapped} + _[16507587]{unmapped} + _[16507588]{unmapped} + _[16507589]{unmapped} + _[16507590]{unmapped} + _[16507591]{unmapped} + _[16507592]{unmapped} + _[16507593]{unmapped} + _[16507594]{unmapped} + _[16507595]{unmapped} + _[16507596]{unmapped} + _[16507597]{unmapped} ≤ 2.6883042923492575e8
+
+[2]
+  Violation:  1.9073486328125e-6
+  Name:       
+  Constraint: vNEWUNIT_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1 - 1000000 _[16473925]{unmapped} = 0
+
+[3]
+  Violation:  4.1398470784770325e-7
+  Name:       
+  Constraint: -vCAP_Region22Chongqing_to_Nanxiang_CO2_Pipeline_transmission_edge_period3 + vCAP_Region22Chongqing_to_Nanxiang_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region22Chongqing_to_Nanxiang_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region22Chongqing_to_Nanxiang_CO2_Pipeline_transmission_edge_period4 = 0
+
+[4]
+  Violation:  4.139837983530015e-7
+  Name:       
+  Constraint: -vCAP_Region27Shaanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period1 + vCAP_Region27Shaanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period2 - 0.001 vNEWUNIT_Region27Shaanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period2 + 0.001 vRETUNIT_Region27Shaanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period2 = 0
+
+[5]
+  Violation:  4.139828888582997e-7
+  Name:       
+  Constraint: -vCAP_Region16Henan_to_Nanxiang_CO2_Pipeline_transmission_edge_period3 + vCAP_Region16Henan_to_Nanxiang_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region16Henan_to_Nanxiang_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region16Henan_to_Nanxiang_CO2_Pipeline_transmission_edge_period4 = 0
+
+[6]
+  Violation:  4.139828888582997e-7
+  Name:       
+  Constraint: -vCAP_Erlian_to_BohaiOffshore_CO2_Pipeline_transmission_edge_period2 + vCAP_Erlian_to_BohaiOffshore_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Erlian_to_BohaiOffshore_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Erlian_to_BohaiOffshore_CO2_Pipeline_transmission_edge_period3 = 0
+
+[7]
+  Violation:  4.139828888582997e-7
+  Name:       
+  Constraint: -vCAP_Region4Shanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period2 + vCAP_Region4Shanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Region4Shanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Region4Shanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period3 = 0
+
+[8]
+  Violation:  4.139828888582997e-7
+  Name:       
+  Constraint: -vCAP_Region9Shanghai_to_Subei_CO2_Pipeline_transmission_edge_period1 + vCAP_Region9Shanghai_to_Subei_CO2_Pipeline_transmission_edge_period2 - 0.001 vNEWUNIT_Region9Shanghai_to_Subei_CO2_Pipeline_transmission_edge_period2 + 0.001 vRETUNIT_Region9Shanghai_to_Subei_CO2_Pipeline_transmission_edge_period2 = 0
+
+[9]
+  Violation:  4.1398197936359793e-7
+  Name:       
+  Constraint: -vCAP_Nanxiang_to_Hehuai_CO2_Pipeline_transmission_edge_period2 + vCAP_Nanxiang_to_Hehuai_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Nanxiang_to_Hehuai_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Nanxiang_to_Hehuai_CO2_Pipeline_transmission_edge_period3 = 0
+
+[10]
+  Violation:  4.1398197936359793e-7
+  Name:       
+  Constraint: -vCAP_Region16Henan_to_Hehuai_CO2_Pipeline_transmission_edge_period2 + vCAP_Region16Henan_to_Hehuai_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Region16Henan_to_Hehuai_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Region16Henan_to_Hehuai_CO2_Pipeline_transmission_edge_period3 = 0
+
+[11]
+  Violation:  4.1398197936359793e-7
+  Name:       
+  Constraint: -vCAP_Region2Tianjin_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period3 + vCAP_Region2Tianjin_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region2Tianjin_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region2Tianjin_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period4 = 0
+
+[12]
+  Violation:  4.1398197936359793e-7
+  Name:       
+  Constraint: -vCAP_Region17Hubei_to_Hehuai_CO2_Pipeline_transmission_edge_period2 + vCAP_Region17Hubei_to_Hehuai_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Region17Hubei_to_Hehuai_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Region17Hubei_to_Hehuai_CO2_Pipeline_transmission_edge_period3 = 0
+
+[13]
+  Violation:  4.1398197936359793e-7
+  Name:       
+  Constraint: -vCAP_Region9Shanghai_to_SouthYellowSea_CO2_Pipeline_transmission_edge_period2 + vCAP_Region9Shanghai_to_SouthYellowSea_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Region9Shanghai_to_SouthYellowSea_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Region9Shanghai_to_SouthYellowSea_CO2_Pipeline_transmission_edge_period3 = 0
+
+[14]
+  Violation:  4.1398106986889616e-7
+  Name:       
+  Constraint: -vCAP_Region11Zhejiang_to_EastChinaSea_CO2_Pipeline_transmission_edge_period3 + vCAP_Region11Zhejiang_to_EastChinaSea_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region11Zhejiang_to_EastChinaSea_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region11Zhejiang_to_EastChinaSea_CO2_Pipeline_transmission_edge_period4 = 0
+
+[15]
+  Violation:  4.1398106986889616e-7
+  Name:       
+  Constraint: -vCAP_Nanxiang_to_Jianghan_CO2_Pipeline_transmission_edge_period2 + vCAP_Nanxiang_to_Jianghan_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Nanxiang_to_Jianghan_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Nanxiang_to_Jianghan_CO2_Pipeline_transmission_edge_period3 = 0
+
+[16]
+  Violation:  4.1398106986889616e-7
+  Name:       
+  Constraint: -vCAP_Region3Hebei_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period3 + vCAP_Region3Hebei_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region3Hebei_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region3Hebei_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period4 = 0
+
+[17]
+  Violation:  4.1398106986889616e-7
+  Name:       
+  Constraint: -vCAP_Region31Xinjiang_to_Tarim_CO2_Pipeline_transmission_edge_period2 + vCAP_Region31Xinjiang_to_Tarim_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Region31Xinjiang_to_Tarim_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Region31Xinjiang_to_Tarim_CO2_Pipeline_transmission_edge_period3 = 0
+
+[18]
+  Violation:  4.139801603741944e-7
+  Name:       
+  Constraint: -vCAP_Region22Chongqing_to_SichuanBasin_CO2_Pipeline_transmission_edge_period3 + vCAP_Region22Chongqing_to_SichuanBasin_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region22Chongqing_to_SichuanBasin_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region22Chongqing_to_SichuanBasin_CO2_Pipeline_transmission_edge_period4 = 0
+
+[19]
+  Violation:  4.139801603741944e-7
+  Name:       
+  Constraint: -vCAP_Region31Xinjiang_to_Qaidam_CO2_Pipeline_transmission_edge_period3 + vCAP_Region31Xinjiang_to_Qaidam_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region31Xinjiang_to_Qaidam_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region31Xinjiang_to_Qaidam_CO2_Pipeline_transmission_edge_period4 = 0
+
+[20]
+  Violation:  4.139801603741944e-7
+  Name:       
+  Constraint: -vCAP_Qaidam_to_YingenEjina_CO2_Pipeline_transmission_edge_period1 + vCAP_Qaidam_to_YingenEjina_CO2_Pipeline_transmission_edge_period2 - 0.001 vNEWUNIT_Qaidam_to_YingenEjina_CO2_Pipeline_transmission_edge_period2 + 0.001 vRETUNIT_Qaidam_to_YingenEjina_CO2_Pipeline_transmission_edge_period2 = 0
+
+[21]
+  Violation:  4.139801603741944e-7
+  Name:       
+  Constraint: -vCAP_Region8Heilongjiang_to_Songliao_CO2_Pipeline_transmission_edge_period2 + vCAP_Region8Heilongjiang_to_Songliao_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Region8Heilongjiang_to_Songliao_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Region8Heilongjiang_to_Songliao_CO2_Pipeline_transmission_edge_period3 = 0
+
+[22]
+  Violation:  4.139801603741944e-7
+  Name:       
+  Constraint: -vCAP_Region6Liaoning_to_Erlian_CO2_Pipeline_transmission_edge_period3 + vCAP_Region6Liaoning_to_Erlian_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region6Liaoning_to_Erlian_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region6Liaoning_to_Erlian_CO2_Pipeline_transmission_edge_period4 = 0
+
+[23]
+  Violation:  4.139792508794926e-7
+  Name:       
+  Constraint: -vCAP_Region27Shaanxi_to_SichuanBasin_CO2_Pipeline_transmission_edge_period3 + vCAP_Region27Shaanxi_to_SichuanBasin_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region27Shaanxi_to_SichuanBasin_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region27Shaanxi_to_SichuanBasin_CO2_Pipeline_transmission_edge_period4 = 0
+
+[24]
+  Violation:  4.139792508794926e-7
+  Name:       
+  Constraint: -vCAP_Region12Anhui_to_Hehuai_CO2_Pipeline_transmission_edge_period1 + vCAP_Region12Anhui_to_Hehuai_CO2_Pipeline_transmission_edge_period2 - 0.001 vNEWUNIT_Region12Anhui_to_Hehuai_CO2_Pipeline_transmission_edge_period2 + 0.001 vRETUNIT_Region12Anhui_to_Hehuai_CO2_Pipeline_transmission_edge_period2 = 0
+
+[25]
+  Violation:  4.139792508794926e-7
+  Name:       
+  Constraint: -vCAP_Region21Hainan_to_PearlRiverMouth_CO2_Pipeline_transmission_edge_period2 + vCAP_Region21Hainan_to_PearlRiverMouth_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Region21Hainan_to_PearlRiverMouth_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Region21Hainan_to_PearlRiverMouth_CO2_Pipeline_transmission_edge_period3 = 0
+
+[26]
+  Violation:  4.139792508794926e-7
+  Name:       
+  Constraint: -vCAP_Region6Liaoning_to_Songliao_CO2_Pipeline_transmission_edge_period1 + vCAP_Region6Liaoning_to_Songliao_CO2_Pipeline_transmission_edge_period2 - 0.001 vNEWUNIT_Region6Liaoning_to_Songliao_CO2_Pipeline_transmission_edge_period2 + 0.001 vRETUNIT_Region6Liaoning_to_Songliao_CO2_Pipeline_transmission_edge_period2 = 0
+
+[27]
+  Violation:  4.139792508794926e-7
+  Name:       
+  Constraint: -vCAP_Region30Ningxia_to_YingenEjina_CO2_Pipeline_transmission_edge_period3 + vCAP_Region30Ningxia_to_YingenEjina_CO2_Pipeline_transmission_edge_period4 - 0.001 vNEWUNIT_Region30Ningxia_to_YingenEjina_CO2_Pipeline_transmission_edge_period4 + 0.001 vRETUNIT_Region30Ningxia_to_YingenEjina_CO2_Pipeline_transmission_edge_period4 = 0
+
+[28]
+  Violation:  4.139792508794926e-7
+  Name:       
+  Constraint: -vCAP_Region22Chongqing_to_Jianghan_CO2_Pipeline_transmission_edge_period1 + vCAP_Region22Chongqing_to_Jianghan_CO2_Pipeline_transmission_edge_period2 - 0.001 vNEWUNIT_Region22Chongqing_to_Jianghan_CO2_Pipeline_transmission_edge_period2 + 0.001 vRETUNIT_Region22Chongqing_to_Jianghan_CO2_Pipeline_transmission_edge_period2 = 0
+
+[29]
+  Violation:  4.1397834138479084e-7
+  Name:       
+  Constraint: -vCAP_Region7Jilin_to_Sanjiang_CO2_Pipeline_transmission_edge_period1 + vCAP_Region7Jilin_to_Sanjiang_CO2_Pipeline_transmission_edge_period2 - 0.001 vNEWUNIT_Region7Jilin_to_Sanjiang_CO2_Pipeline_transmission_edge_period2 + 0.001 vRETUNIT_Region7Jilin_to_Sanjiang_CO2_Pipeline_transmission_edge_period2 = 0
+
+[30]
+  Violation:  4.1397834138479084e-7
+  Name:       
+  Constraint: -vCAP_Region2Tianjin_to_Erlian_CO2_Pipeline_transmission_edge_period2 + vCAP_Region2Tianjin_to_Erlian_CO2_Pipeline_transmission_edge_period3 - 0.001 vNEWUNIT_Region2Tianjin_to_Erlian_CO2_Pipeline_transmission_edge_period3 + 0.001 vRETUNIT_Region2Tianjin_to_Erlian_CO2_Pipeline_transmission_edge_period3 = 0
+
+--------------------------------------------------------------------------------

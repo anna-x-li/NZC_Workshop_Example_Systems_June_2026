@@ -1,0 +1,205 @@
+Set parameter LicenseID to value 197246
+Set parameter GURO_PAR_SPECIAL
+Set parameter TokenServer to value "license.rc.princeton.edu"
+Set parameter Method to value 2
+Set parameter Crossover to value 0
+Set parameter BarConvTol to value 1e-06
+  Activating project at `~/NZC_MGA/MacroEnergy.jl`
+[ Info: Loading case from /home/al3792/NZC_MGA/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/results/name_lookup_seed2/inputs/system_data.json
+[ Info: Loading system data
+[ Info: Done loading system data. It took 1.85 seconds
+[ Info: Done loading case data. It took 1.85 seconds
+[ Info: *** Generating case ***
+[ Info: Configuring case from settings/case_settings.json
+[ Info: Configuring case
+[ Info:  -- Setting solution algorithm
+[ Info:  -- Solution algorithm set to MacroEnergy.Monolithic()
+[ Info:  -- Setting expansion horizon
+[ Info:  -- Expansion horizon set to MacroEnergy.PerfectForesight()
+[ Info: Generating systems
+[ Info: Generating system
+[ Info:  ++ Added user commodities: 1 top-level, 0 subcommodities
+[ Info:  ++ Creating new location: Region21Hainan
+[ Info:  ++ Creating new location: Region26Tibet
+[ Info: Using legacy parser for supply inputs of cog_Region1Beijing.
+[ Info: Using legacy parser for supply inputs of cog_Region2Tianjin.
+[ Info: Using legacy parser for supply inputs of cog_Region3Hebei.
+[ Info: Using legacy parser for supply inputs of cog_Region4Shanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region5Innermongolia.
+[ Info: Using legacy parser for supply inputs of cog_Region6Liaoning.
+[ Info: Using legacy parser for supply inputs of cog_Region7Jilin.
+[ Info: Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+[ Info: Using legacy parser for supply inputs of cog_Region9Shanghai.
+[ Info: Using legacy parser for supply inputs of cog_Region10Jiangsu.
+[ Info: Using legacy parser for supply inputs of cog_Region11Zhejiang.
+[ Info: Using legacy parser for supply inputs of cog_Region12Anhui.
+[ Info: Using legacy parser for supply inputs of cog_Region13Fujian.
+[ Info: Using legacy parser for supply inputs of cog_Region14Jiangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region15Shandong.
+[ Info: Using legacy parser for supply inputs of cog_Region16Henan.
+[ Info: Using legacy parser for supply inputs of cog_Region17Hubei.
+[ Info: Using legacy parser for supply inputs of cog_Region18Hunan.
+[ Info: Using legacy parser for supply inputs of cog_Region19Guangdong.
+[ Info: Using legacy parser for supply inputs of cog_Region20Guangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region21Hainan.
+[ Info: Using legacy parser for supply inputs of cog_Region22Chongqing.
+[ Info: Using legacy parser for supply inputs of cog_Region23Sichuan.
+[ Info: Using legacy parser for supply inputs of cog_Region24Guizhou.
+[ Info: Using legacy parser for supply inputs of cog_Region25Yunnan.
+[ Info: Using legacy parser for supply inputs of cog_Region26Tibet.
+[ Info: Using legacy parser for supply inputs of cog_Region27Shaanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region28Gansu.
+[ Info: Using legacy parser for supply inputs of cog_Region29Qinghai.
+[ Info: Using legacy parser for supply inputs of cog_Region30Ningxia.
+[ Info: Using legacy parser for supply inputs of cog_Region31Xinjiang.
+[ Info: Done generating system. It took 196.35 seconds
+[ Info: Generating system
+[ Info:  ++ Added user commodities: 1 top-level, 0 subcommodities
+[ Info:  ++ Creating new location: Region21Hainan
+[ Info:  ++ Creating new location: Region26Tibet
+[ Info: Using legacy parser for supply inputs of cog_Region1Beijing.
+[ Info: Using legacy parser for supply inputs of cog_Region2Tianjin.
+[ Info: Using legacy parser for supply inputs of cog_Region3Hebei.
+[ Info: Using legacy parser for supply inputs of cog_Region4Shanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region5Innermongolia.
+[ Info: Using legacy parser for supply inputs of cog_Region6Liaoning.
+[ Info: Using legacy parser for supply inputs of cog_Region7Jilin.
+[ Info: Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+[ Info: Using legacy parser for supply inputs of cog_Region9Shanghai.
+[ Info: Using legacy parser for supply inputs of cog_Region10Jiangsu.
+[ Info: Using legacy parser for supply inputs of cog_Region11Zhejiang.
+[ Info: Using legacy parser for supply inputs of cog_Region12Anhui.
+[ Info: Using legacy parser for supply inputs of cog_Region13Fujian.
+[ Info: Using legacy parser for supply inputs of cog_Region14Jiangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region15Shandong.
+[ Info: Using legacy parser for supply inputs of cog_Region16Henan.
+[ Info: Using legacy parser for supply inputs of cog_Region17Hubei.
+[ Info: Using legacy parser for supply inputs of cog_Region18Hunan.
+[ Info: Using legacy parser for supply inputs of cog_Region19Guangdong.
+[ Info: Using legacy parser for supply inputs of cog_Region20Guangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region21Hainan.
+[ Info: Using legacy parser for supply inputs of cog_Region22Chongqing.
+[ Info: Using legacy parser for supply inputs of cog_Region23Sichuan.
+[ Info: Using legacy parser for supply inputs of cog_Region24Guizhou.
+[ Info: Using legacy parser for supply inputs of cog_Region25Yunnan.
+[ Info: Using legacy parser for supply inputs of cog_Region26Tibet.
+[ Info: Using legacy parser for supply inputs of cog_Region27Shaanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region28Gansu.
+[ Info: Using legacy parser for supply inputs of cog_Region29Qinghai.
+[ Info: Using legacy parser for supply inputs of cog_Region30Ningxia.
+[ Info: Using legacy parser for supply inputs of cog_Region31Xinjiang.
+[ Info: Done generating system. It took 102.56 seconds
+[ Info: Generating system
+[ Info:  ++ Added user commodities: 1 top-level, 0 subcommodities
+[ Info:  ++ Creating new location: Region21Hainan
+[ Info:  ++ Creating new location: Region26Tibet
+[ Info: Using legacy parser for supply inputs of cog_Region1Beijing.
+[ Info: Using legacy parser for supply inputs of cog_Region2Tianjin.
+[ Info: Using legacy parser for supply inputs of cog_Region3Hebei.
+[ Info: Using legacy parser for supply inputs of cog_Region4Shanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region5Innermongolia.
+[ Info: Using legacy parser for supply inputs of cog_Region6Liaoning.
+[ Info: Using legacy parser for supply inputs of cog_Region7Jilin.
+[ Info: Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+[ Info: Using legacy parser for supply inputs of cog_Region9Shanghai.
+[ Info: Using legacy parser for supply inputs of cog_Region10Jiangsu.
+[ Info: Using legacy parser for supply inputs of cog_Region11Zhejiang.
+[ Info: Using legacy parser for supply inputs of cog_Region12Anhui.
+[ Info: Using legacy parser for supply inputs of cog_Region13Fujian.
+[ Info: Using legacy parser for supply inputs of cog_Region14Jiangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region15Shandong.
+[ Info: Using legacy parser for supply inputs of cog_Region16Henan.
+[ Info: Using legacy parser for supply inputs of cog_Region17Hubei.
+[ Info: Using legacy parser for supply inputs of cog_Region18Hunan.
+[ Info: Using legacy parser for supply inputs of cog_Region19Guangdong.
+[ Info: Using legacy parser for supply inputs of cog_Region20Guangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region21Hainan.
+[ Info: Using legacy parser for supply inputs of cog_Region22Chongqing.
+[ Info: Using legacy parser for supply inputs of cog_Region23Sichuan.
+[ Info: Using legacy parser for supply inputs of cog_Region24Guizhou.
+[ Info: Using legacy parser for supply inputs of cog_Region25Yunnan.
+[ Info: Using legacy parser for supply inputs of cog_Region26Tibet.
+[ Info: Using legacy parser for supply inputs of cog_Region27Shaanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region28Gansu.
+[ Info: Using legacy parser for supply inputs of cog_Region29Qinghai.
+[ Info: Using legacy parser for supply inputs of cog_Region30Ningxia.
+[ Info: Using legacy parser for supply inputs of cog_Region31Xinjiang.
+[ Info: Done generating system. It took 103.52 seconds
+[ Info: Generating system
+[ Info:  ++ Added user commodities: 1 top-level, 0 subcommodities
+[ Info:  ++ Creating new location: Region21Hainan
+[ Info:  ++ Creating new location: Region26Tibet
+[ Info: Using legacy parser for supply inputs of cog_Region1Beijing.
+[ Info: Using legacy parser for supply inputs of cog_Region2Tianjin.
+[ Info: Using legacy parser for supply inputs of cog_Region3Hebei.
+[ Info: Using legacy parser for supply inputs of cog_Region4Shanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region5Innermongolia.
+[ Info: Using legacy parser for supply inputs of cog_Region6Liaoning.
+[ Info: Using legacy parser for supply inputs of cog_Region7Jilin.
+[ Info: Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+[ Info: Using legacy parser for supply inputs of cog_Region9Shanghai.
+[ Info: Using legacy parser for supply inputs of cog_Region10Jiangsu.
+[ Info: Using legacy parser for supply inputs of cog_Region11Zhejiang.
+[ Info: Using legacy parser for supply inputs of cog_Region12Anhui.
+[ Info: Using legacy parser for supply inputs of cog_Region13Fujian.
+[ Info: Using legacy parser for supply inputs of cog_Region14Jiangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region15Shandong.
+[ Info: Using legacy parser for supply inputs of cog_Region16Henan.
+[ Info: Using legacy parser for supply inputs of cog_Region17Hubei.
+[ Info: Using legacy parser for supply inputs of cog_Region18Hunan.
+[ Info: Using legacy parser for supply inputs of cog_Region19Guangdong.
+[ Info: Using legacy parser for supply inputs of cog_Region20Guangxi.
+[ Info: Using legacy parser for supply inputs of cog_Region21Hainan.
+[ Info: Using legacy parser for supply inputs of cog_Region22Chongqing.
+[ Info: Using legacy parser for supply inputs of cog_Region23Sichuan.
+[ Info: Using legacy parser for supply inputs of cog_Region24Guizhou.
+[ Info: Using legacy parser for supply inputs of cog_Region25Yunnan.
+[ Info: Using legacy parser for supply inputs of cog_Region26Tibet.
+[ Info: Using legacy parser for supply inputs of cog_Region27Shaanxi.
+[ Info: Using legacy parser for supply inputs of cog_Region28Gansu.
+[ Info: Using legacy parser for supply inputs of cog_Region29Qinghai.
+[ Info: Using legacy parser for supply inputs of cog_Region30Ningxia.
+[ Info: Using legacy parser for supply inputs of cog_Region31Xinjiang.
+[ Info: Done generating system. It took 104.2 seconds
+[ Info:  -- Discounting fixed costs for period 1
+[ Info:  -- Computing retirement case for period 1
+[ Info:  -- Discounting fixed costs for period 2
+[ Info:  -- Computing retirement case for period 2
+[ Info:  -- Discounting fixed costs for period 3
+[ Info:  -- Computing retirement case for period 3
+[ Info:  -- Discounting fixed costs for period 4
+[ Info:  -- Computing retirement case for period 4
+[ Info: *** Done generating case. It took 526.29 seconds ***
+[ Info: *** Generating monolithic model ***
+[ Info: Generating model
+[ Info:  -- Period 1
+[ Info:  -- Adding linking variables
+[ Info:  -- Defining available capacity
+[ Info:  -- Generating planning model
+[ Info:  -- Including age-based retirements
+[ Info:  -- Available capacity in period 1 is being carried over to period 2
+[ Info:  -- Generating operational model
+[ Info:  -- Period 2
+[ Info:  -- Adding linking variables
+[ Info:  -- Defining available capacity
+[ Info:  -- Generating planning model
+[ Info:  -- Including age-based retirements
+[ Info:  -- Available capacity in period 2 is being carried over to period 3
+[ Info:  -- Generating operational model
+[ Info:  -- Period 3
+[ Info:  -- Adding linking variables
+[ Info:  -- Defining available capacity
+[ Info:  -- Generating planning model
+[ Info:  -- Including age-based retirements
+[ Info:  -- Available capacity in period 3 is being carried over to period 4
+[ Info:  -- Generating operational model
+[ Info:  -- Period 4
+[ Info:  -- Adding linking variables
+[ Info:  -- Defining available capacity
+[ Info:  -- Generating planning model
+[ Info:  -- Including age-based retirements
+[ Info:  -- Generating operational model
+[ Info:  -- Adding MGA variables
+[ Info: Scaling constraints and RHS
+[ Info:  -- Model generation complete, it took 399.1337628364563 seconds
+LOOKUP COMPLETE: 16473789 variables; no optimization performed

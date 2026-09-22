@@ -1,11 +1,6 @@
 using Pkg
 Pkg.activate("/home/al3792/NZC_MGA/MacroEnergy.jl")
 
-using MacroEnergy
-using Gurobi
-using Random
-using Dates
-
 # Batch jobs pass epsilon, seed, and an isolated output directory.
 length(ARGS) in (0, 3) || error("Usage: run.jl [epsilon seed output_directory]")
 if isempty(ARGS)

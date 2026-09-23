@@ -1,0 +1,74 @@
+MGA budget coefficients BEFORE constraint scaling/presolve
+Ranked by absolute coefficient, not by coefficient × solution value.
+Coefficients are in model units; no physical-unit conversion is applied.
+Nonzero terms: 7411192
+Cost constant: 0.0
+Budget limit: 1.511543e7
+RHS after moving constant: 1.511543e7
+Max/min coefficient magnitude ratio: 2.5216852876928896e7
+
+SMALLEST 30 NONZERO COEFFICIENT MAGNITUDES
+rank	cost_coefficient	variable_index	variable_name
+1	0.001003618975433684	16473949	_[16473949]
+2	0.001004016200875178	16474245	_[16474245]
+3	0.0010041923716153755	16473800	_[16473800]
+4	0.0010050882247307532	16473830	_[16473830]
+5	0.0010069000061013497	16473801	_[16473801]
+6	0.0010181360172025191	16474158	_[16474158]
+7	0.0010210245680779282	16474532	_[16474532]
+8	0.0010244941632455281	16474160	_[16474160]
+9	0.001025832243386646	16474339	_[16474339]
+10	0.0010269488204193771	16474271	_[16474271]
+11	0.0010322398513648967	16473911	_[16473911]
+12	0.0010351369449831148	16473934	_[16473934]
+13	0.001035424334812101	16474363	_[16474363]
+14	0.0010400603730289731	16473850	_[16473850]
+15	0.001045843267999249	16473829	_[16473829]
+16	0.0010491004594383542	16473919	_[16473919]
+17	0.0010507064706255865	16473794	_[16473794]
+18	0.0010573714170525998	16473986	_[16473986]
+19	0.0010574743021442817	16473832	_[16473832]
+20	0.0010679133748612906	16473879	_[16473879]
+21	0.0010679447422672912	16473944	_[16473944]
+22	0.0010707527524524674	16473973	_[16473973]
+23	0.001072695253295095	16474157	_[16474157]
+24	0.0010778580972597295	16473840	_[16473840]
+25	0.0010782710906325748	16474167	_[16474167]
+26	0.001081623440676045	16473985	_[16473985]
+27	0.0010904427005471815	16473948	_[16473948]
+28	0.001092362715655212	16474233	_[16474233]
+29	0.0010991427642755155	16473968	_[16473968]
+30	0.0011055153664786032	16473900	_[16473900]
+
+LARGEST 30 NONZERO COEFFICIENT MAGNITUDES
+rank	cost_coefficient	variable_index	variable_name
+1	25308.11204800533	4120750	vCAP_alumina_plant_Region1Beijing_alumina_edge_period2
+2	25308.11204800533	4120751	vCAP_alumina_plant_Region2Tianjin_alumina_edge_period2
+3	25308.11204800533	4120752	vCAP_alumina_plant_Region12Anhui_alumina_edge_period2
+4	25308.11204800533	4120753	vCAP_alumina_plant_Region9Shanghai_alumina_edge_period2
+5	25308.11204800533	4120754	vCAP_alumina_plant_Region22Chongqing_alumina_edge_period2
+6	25308.11204800533	4120755	vCAP_alumina_plant_Region13Fujian_alumina_edge_period2
+7	25308.11204800533	4120756	vCAP_alumina_plant_Region28Gansu_alumina_edge_period2
+8	25308.11204800533	4120757	vCAP_alumina_plant_Region19Guangdong_alumina_edge_period2
+9	25308.11204800533	4120758	vCAP_alumina_plant_Region20Guangxi_alumina_edge_period2
+10	25308.11204800533	4120759	vCAP_alumina_plant_Region24Guizhou_alumina_edge_period2
+11	25308.11204800533	4120760	vCAP_alumina_plant_Region21Hainan_alumina_edge_period2
+12	25308.11204800533	4120761	vCAP_alumina_plant_Region3Hebei_alumina_edge_period2
+13	25308.11204800533	4120762	vCAP_alumina_plant_Region8Heilongjiang_alumina_edge_period2
+14	25308.11204800533	4120763	vCAP_alumina_plant_Region16Henan_alumina_edge_period2
+15	25308.11204800533	4120764	vCAP_alumina_plant_Region17Hubei_alumina_edge_period2
+16	25308.11204800533	4120765	vCAP_alumina_plant_Region18Hunan_alumina_edge_period2
+17	25308.11204800533	4120766	vCAP_alumina_plant_Region5Innermongolia_alumina_edge_period2
+18	25308.11204800533	4120767	vCAP_alumina_plant_Region10Jiangsu_alumina_edge_period2
+19	25308.11204800533	4120768	vCAP_alumina_plant_Region14Jiangxi_alumina_edge_period2
+20	25308.11204800533	4120769	vCAP_alumina_plant_Region7Jilin_alumina_edge_period2
+21	25308.11204800533	4120770	vCAP_alumina_plant_Region6Liaoning_alumina_edge_period2
+22	25308.11204800533	4120771	vCAP_alumina_plant_Region30Ningxia_alumina_edge_period2
+23	25308.11204800533	4120772	vCAP_alumina_plant_Region29Qinghai_alumina_edge_period2
+24	25308.11204800533	4120773	vCAP_alumina_plant_Region27Shaanxi_alumina_edge_period2
+25	25308.11204800533	4120774	vCAP_alumina_plant_Region15Shandong_alumina_edge_period2
+26	25308.11204800533	4120775	vCAP_alumina_plant_Region4Shanxi_alumina_edge_period2
+27	25308.11204800533	4120776	vCAP_alumina_plant_Region23Sichuan_alumina_edge_period2
+28	25308.11204800533	4120777	vCAP_alumina_plant_Region26Tibet_alumina_edge_period2
+29	25308.11204800533	4120778	vCAP_alumina_plant_Region31Xinjiang_alumina_edge_period2
+30	25308.11204800533	4120779	vCAP_alumina_plant_Region25Yunnan_alumina_edge_period2

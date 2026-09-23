@@ -1,0 +1,257 @@
+
+================================================================================
+NUMERICAL DIAGNOSTICS
+================================================================================
+
+--- Solver status ---
+Termination status: OPTIMAL
+Primal status:      FEASIBLE_POINT
+Dual status:        FEASIBLE_POINT
+
+--- Constraint feasibility ---
+Maximum primal violation: 0.060769133269786835
+
+Top 30 constraint violations:
+
+[1]
+  Violation:  0.060769133269786835
+  Name:       mga_budget
+  Constraint: mga_budget : 0.025022867443246694 vCAP_Region1Beijing_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region2Tianjin_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region3Hebei_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region4Shanxi_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region5Innermongolia_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region6Liaoning_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region7Jilin_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region8Heilongjiang_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region9Shanghai_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region10Jiangsu_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region11Zhejiang_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region12Anhui_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region13Fujian_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region14Jiangxi_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region15Shandong_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region16Henan_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region17Hubei_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region18Hunan_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region19Guangdong_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region20Guangxi_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region21Hainan_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region22Chongqing_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region23Sichuan_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region24Guizhou_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region25Yunnan_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region26Tibet_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region27Shaanxi_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region28Gansu_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region29Qinghai_meacement_cement_edge_period1 + 0.025022867443246694 vCAP_Region30Ningxia_meacement_cement_edge_period1 + [[...7411132 terms omitted...]] + _[16618117] + _[16618118] + _[16618119] + _[16618120] + _[16618121] + _[16618122] + _[16618123] + _[16618124] + _[16618125] + _[16618126] + _[16618127] + _[16618128] + _[16618129] + _[16618130] + _[16618131] + _[16618132] + _[16618133] + _[16618134] + _[16618135] + _[16618136] + _[16618137] + _[16618138] + _[16618139] + _[16618140] + _[16618141] + _[16618142] + _[16618143] + _[16618144] + _[16618145] + _[16618146] ≤ 15115430
+
+[2]
+  Violation:  4.6349168671746275e-7
+  Name:       
+  Constraint: -vCAP_Region5Innermongolia_onshore_wind_edge_period1 + vCAP_Region5Innermongolia_onshore_wind_edge_period2 - 0.2 vNEWUNIT_Region5Innermongolia_onshore_wind_edge_period2 + 0.2 vRETUNIT_Region5Innermongolia_onshore_wind_edge_period2 = 0
+
+[3]
+  Violation:  2.0964337315264314e-7
+  Name:       
+  Constraint: -vAggregatedDemandConstraint_Budget_crudesteel_Region3Hebei_period1[9] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[1] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[2] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[3] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[4] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[5] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[6] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[7] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[8] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[9] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[10] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[11] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[12] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[13] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[14] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[15] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[16] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[17] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[18] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[19] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[20] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[21] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[22] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[23] + 15 vFLOW_Region3Hebei_bfbofccs_crudesteel_edge_period1[24] + 15 vFLOW_Region3Hebei_drieaf_crudesteel_edge_period1[1] + 15 vFLOW_Region3Hebei_drieaf_crudesteel_edge_period1[2] + 15 vFLOW_Region3Hebei_drieaf_crudesteel_edge_period1[3] + 15 vFLOW_Region3Hebei_drieaf_crudesteel_edge_period1[4] + 15 vFLOW_Region3Hebei_drieaf_crudesteel_edge_period1[5] + [[...1453 terms omitted...]] + 15 vFLOW_Region3Hebei_bfbof_crudesteel_edge_period1[19] + 15 vFLOW_Region3Hebei_bfbof_crudesteel_edge_period1[20] + 15 vFLOW_Region3Hebei_bfbof_crudesteel_edge_period1[21] + 15 vFLOW_Region3Hebei_bfbof_crudesteel_edge_period1[22] + 15 vFLOW_Region3Hebei_bfbof_crudesteel_edge_period1[23] + 15 vFLOW_Region3Hebei_bfbof_crudesteel_edge_period1[24] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[1] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[2] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[3] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[4] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[5] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[6] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[7] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[8] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[9] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[10] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[11] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[12] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[13] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[14] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[15] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[16] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[17] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[18] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[19] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[20] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[21] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[22] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[23] + 15 vFLOW_Region3Hebei_scrapeaf56_crudesteel_edge_period1[24] ≥ 0
+
+[4]
+  Violation:  1.2629293848795235e-7
+  Name:       
+  Constraint: -vCAP_Region5Innermongolia_utility_scale_solar_pv_edge_period1 + vCAP_Region5Innermongolia_utility_scale_solar_pv_edge_period2 - 0.2 vNEWUNIT_Region5Innermongolia_utility_scale_solar_pv_edge_period2 + 0.2 vRETUNIT_Region5Innermongolia_utility_scale_solar_pv_edge_period2 = 0
+
+[5]
+  Violation:  9.027485248225275e-8
+  Name:       
+  Constraint: vCAP_Region5Innermongolia_onshore_wind_edge_period1 - 0.2 vNEWUNIT_Region5Innermongolia_onshore_wind_edge_period1 + 0.2 vRETUNIT_Region5Innermongolia_onshore_wind_edge_period1 = 85.99
+
+[6]
+  Violation:  7.393786901840633e-8
+  Name:       
+  Constraint: -vCAP_Region25Yunnan_onshore_wind_edge_period1 + vCAP_Region25Yunnan_onshore_wind_edge_period2 - 0.2 vNEWUNIT_Region25Yunnan_onshore_wind_edge_period2 + 0.2 vRETUNIT_Region25Yunnan_onshore_wind_edge_period2 = 0
+
+[7]
+  Violation:  6.443431203791714e-8
+  Name:       
+  Constraint: -vCAP_Region28Gansu_utility_scale_solar_pv_edge_period1 + vCAP_Region28Gansu_utility_scale_solar_pv_edge_period2 - 0.2 vNEWUNIT_Region28Gansu_utility_scale_solar_pv_edge_period2 + 0.2 vRETUNIT_Region28Gansu_utility_scale_solar_pv_edge_period2 = 0
+
+[8]
+  Violation:  4.813440952246284e-8
+  Name:       
+  Constraint: -vCAP_Region31Xinjiang_onshore_wind_edge_period1 + vCAP_Region31Xinjiang_onshore_wind_edge_period2 - 0.2 vNEWUNIT_Region31Xinjiang_onshore_wind_edge_period2 + 0.2 vRETUNIT_Region31Xinjiang_onshore_wind_edge_period2 = 0
+
+[9]
+  Violation:  4.534363861837844e-8
+  Name:       
+  Constraint: -vCAP_Region10Jiangsu_utility_scale_solar_pv_edge_period1 + vCAP_Region10Jiangsu_utility_scale_solar_pv_edge_period2 - 0.2 vNEWUNIT_Region10Jiangsu_utility_scale_solar_pv_edge_period2 + 0.2 vRETUNIT_Region10Jiangsu_utility_scale_solar_pv_edge_period2 = 0
+
+[10]
+  Violation:  4.1181756671448966e-8
+  Name:       
+  Constraint: -195.80637280000002 vREF + vNSD_elec_Region10Jiangsu_period4[1,206] + vNSD_elec_Region10Jiangsu_period4[2,206] + vNSD_elec_Region10Jiangsu_period4[3,206] + vNSD_elec_Region10Jiangsu_period4[4,206] - vFLOW_Region10Jiangsu_meacement_elec_edge_period4[206] - vFLOW_Region10Jiangsu_oxyfuelcement_elec_edge_period4[206] - vFLOW_Region10Jiangsu_bfbofccs_elec_edge_period4[206] - vFLOW_Region10Jiangsu_drieaf_elec_edge_period4[206] - vFLOW_Region10Jiangsu_scrapeaf100_elec_edge_period4[206] - vFLOW_alumina_plant_Region10Jiangsu_elec_edge_period4[206] - vFLOW_aluminum_refining_Region10Jiangsu_elec_edge_period4[206] - vFLOW_aluminum_smelting_Region10Jiangsu_elec_edge_period4[206] - vFLOW_Region10Jiangsu_ammonia_coal_elec_edge_period4[206] - vFLOW_Region10Jiangsu_ammonia_coal_ccs_elec_edge_period4[206] - vFLOW_Region10Jiangsu_ammonia_cog_elec_edge_period4[206] - vFLOW_Region10Jiangsu_ammonia_gas_elec_edge_period4[206] - vFLOW_Region10Jiangsu_ammonia_gas_ccs_elec_edge_period4[206] - vFLOW_Region10Jiangsu_ammonia_h2_elec_edge_period4[206] - vFLOW_Region10Jiangsu_gasdri_elec_edge_period4[206] - vFLOW_Region10Jiangsu_gasdriccs_elec_edge_period4[206] - vFLOW_Region10Jiangsu_h2dri_elec_edge_period4[206] - vFLOW_Region10Jiangsu_methanol_coal_elec_edge_period4[206] - vFLOW_Region10Jiangsu_methanol_coal_ccs_elec_edge_period4[206] - vFLOW_Region10Jiangsu_methanol_cog_elec_edge_period4[206] - vFLOW_Region10Jiangsu_methanol_gas_elec_edge_period4[206] - vFLOW_Region10Jiangsu_methanol_gas_ccs_elec_edge_period4[206] - vFLOW_Region10Jiangsu_methanol_h2_elec_edge_period4[206] - vFLOW_Region10Jiangsu_bfbof_elec_edge_period4[206] - vFLOW_Region10Jiangsu_scrapeaf56_elec_edge_period4[206] - [[...10 terms omitted...]] + vFLOW_Region10Jiangsu_offshore_wind_edge_period4[206] + vFLOW_Region10Jiangsu_utility_scale_solar_pv_edge_period4[206] + vFLOW_Region10Jiangsu_distributed_solar_pv_edge_period4[206] - vFLOW_Region10Jiangsu_ALK_Electrolyzer_elec_edge_period4[206] - vFLOW_Region10Jiangsu_SMR_elec_edge_period4[206] - vFLOW_Region10Jiangsu_SMR_CCS_elec_edge_period4[206] - vFLOW_Region10Jiangsu_CoalGasification_elec_edge_period4[206] - vFLOW_Region10Jiangsu_CoalGasification_CCS_elec_edge_period4[206] + 0.9299999999999999 vFLOW_OWTL_E_Existing_DC_R4Shanxi_to_R10Jiangsu_transmission_edge_period4[206] + 0.9330769230769231 vFLOW_OWTL_E_ExistingCandidate_DC_R5Innermongolia_to_R10Jiangsu_transmission_edge_period4[206] + 0.925 vFLOW_OWTL_E_Existing_DC_R17Hubei_to_R10Jiangsu_transmission_edge_period4[206] + 0.933448275862069 vFLOW_OWTL_E_ExistingCandidate_DC_R23Sichuan_to_R10Jiangsu_transmission_edge_period4[206] + vFLOW_Region10Jiangsu_battery_discharge_edge_period4[206] - vFLOW_Region10Jiangsu_battery_charge_edge_period4[206] + vFLOW_Region10Jiangsu_pumpedhydro_discharge_edge_period4[206] - vFLOW_Region10Jiangsu_pumpedhydro_charge_edge_period4[206] - vFLOW_Region10Jiangsu_H2Storage_LD_charge_elec_edge_period4[206] - vFLOW_Region10Jiangsu_H2Storage_LD_discharge_elec_edge_period4[206] - vFLOW_Region10Jiangsu_H2Tank_ST_charge_elec_edge_period4[206] - vFLOW_Region10Jiangsu_H2Tank_ST_discharge_elec_edge_period4[206] + 0.9836363636363636 vFLOWPOS_TL_E_ExistingCandidate_AC_R4Shanxi_to_R10Jiangsu_transmission_edge_period4[206] - vFLOWNEG_TL_E_ExistingCandidate_AC_R4Shanxi_to_R10Jiangsu_transmission_edge_period4[206] + 0.9841562841530055 vFLOWPOS_TL_E_ExistingCandidate_AC_R9Shanghai_to_R10Jiangsu_transmission_edge_period4[206] - vFLOWNEG_TL_E_ExistingCandidate_AC_R9Shanghai_to_R10Jiangsu_transmission_edge_period4[206] - vFLOWPOS_TL_E_Existing_AC_R10Jiangsu_to_R11Zhejiang_transmission_edge_period4[206] + 0.9917 vFLOWNEG_TL_E_Existing_AC_R10Jiangsu_to_R11Zhejiang_transmission_edge_period4[206] - vFLOWPOS_TL_E_ExistingCandidate_AC_R10Jiangsu_to_R12Anhui_transmission_edge_period4[206] + 0.9822536796536796 vFLOWNEG_TL_E_ExistingCandidate_AC_R10Jiangsu_to_R12Anhui_transmission_edge_period4[206] - vFLOWPOS_TL_E_Candidate_AC_R10Jiangsu_to_R15Shandong_transmission_edge_period4[206] + 0.985 vFLOWNEG_TL_E_Candidate_AC_R10Jiangsu_to_R15Shandong_transmission_edge_period4[206] = 0
+
+[11]
+  Violation:  3.852312158159066e-8
+  Name:       
+  Constraint: -277.75811070000003 vREF + vNSD_elec_Region19Guangdong_period4[1,159] + vNSD_elec_Region19Guangdong_period4[2,159] + vNSD_elec_Region19Guangdong_period4[3,159] + vNSD_elec_Region19Guangdong_period4[4,159] - vFLOW_Region19Guangdong_meacement_elec_edge_period4[159] - vFLOW_Region19Guangdong_oxyfuelcement_elec_edge_period4[159] - vFLOW_Region19Guangdong_bfbofccs_elec_edge_period4[159] - vFLOW_Region19Guangdong_drieaf_elec_edge_period4[159] - vFLOW_Region19Guangdong_scrapeaf100_elec_edge_period4[159] - vFLOW_alumina_plant_Region19Guangdong_elec_edge_period4[159] - vFLOW_aluminum_refining_Region19Guangdong_elec_edge_period4[159] - vFLOW_aluminum_smelting_Region19Guangdong_elec_edge_period4[159] - vFLOW_Region19Guangdong_ammonia_coal_elec_edge_period4[159] - vFLOW_Region19Guangdong_ammonia_coal_ccs_elec_edge_period4[159] - vFLOW_Region19Guangdong_ammonia_cog_elec_edge_period4[159] - vFLOW_Region19Guangdong_ammonia_gas_elec_edge_period4[159] - vFLOW_Region19Guangdong_ammonia_gas_ccs_elec_edge_period4[159] - vFLOW_Region19Guangdong_ammonia_h2_elec_edge_period4[159] - vFLOW_Region19Guangdong_gasdri_elec_edge_period4[159] - vFLOW_Region19Guangdong_gasdriccs_elec_edge_period4[159] - vFLOW_Region19Guangdong_h2dri_elec_edge_period4[159] - vFLOW_Region19Guangdong_methanol_coal_elec_edge_period4[159] - vFLOW_Region19Guangdong_methanol_coal_ccs_elec_edge_period4[159] - vFLOW_Region19Guangdong_methanol_cog_elec_edge_period4[159] - vFLOW_Region19Guangdong_methanol_gas_elec_edge_period4[159] - vFLOW_Region19Guangdong_methanol_gas_ccs_elec_edge_period4[159] - vFLOW_Region19Guangdong_methanol_h2_elec_edge_period4[159] - vFLOW_Region19Guangdong_bfbof_elec_edge_period4[159] - vFLOW_Region19Guangdong_scrapeaf56_elec_edge_period4[159] - [[...8 terms omitted...]] + vFLOW_Region19Guangdong_Hydropower_discharge_edge_period4[159] + vFLOW_Region19Guangdong_onshore_wind_edge_period4[159] + vFLOW_Region19Guangdong_offshore_wind_edge_period4[159] + vFLOW_Region19Guangdong_utility_scale_solar_pv_edge_period4[159] + vFLOW_Region19Guangdong_distributed_solar_pv_edge_period4[159] - vFLOW_Region19Guangdong_ALK_Electrolyzer_elec_edge_period4[159] - vFLOW_Region19Guangdong_SMR_elec_edge_period4[159] - vFLOW_Region19Guangdong_SMR_CCS_elec_edge_period4[159] - vFLOW_Region19Guangdong_CoalGasification_elec_edge_period4[159] - vFLOW_Region19Guangdong_CoalGasification_CCS_elec_edge_period4[159] + 0.9235 vFLOW_OWTL_E_Existing_DC_R17Hubei_to_R19Guangdong_transmission_edge_period4[159] + 0.9342714285714285 vFLOW_OWTL_E_ExistingCandidate_DC_R24Guizhou_to_R19Guangdong_transmission_edge_period4[159] + 0.9348033707865169 vFLOW_OWTL_E_ExistingCandidate_DC_R25Yunnan_to_R19Guangdong_transmission_edge_period4[159] + 0.935 vFLOW_OWTL_E_Candidate_DC_R26Tibet_to_R19Guangdong_transmission_edge_period4[159] + vFLOW_Region19Guangdong_battery_discharge_edge_period4[159] - vFLOW_Region19Guangdong_battery_charge_edge_period4[159] + vFLOW_Region19Guangdong_pumpedhydro_discharge_edge_period4[159] - vFLOW_Region19Guangdong_pumpedhydro_charge_edge_period4[159] - vFLOW_Region19Guangdong_H2Storage_LD_charge_elec_edge_period4[159] - vFLOW_Region19Guangdong_H2Storage_LD_discharge_elec_edge_period4[159] - vFLOW_Region19Guangdong_H2Tank_ST_charge_elec_edge_period4[159] - vFLOW_Region19Guangdong_H2Tank_ST_discharge_elec_edge_period4[159] + 0.975 vFLOWPOS_TL_E_Candidate_AC_R13Fujian_to_R19Guangdong_transmission_edge_period4[159] - vFLOWNEG_TL_E_Candidate_AC_R13Fujian_to_R19Guangdong_transmission_edge_period4[159] - vFLOWPOS_TL_E_ExistingCandidate_AC_R19Guangdong_to_R20Guangxi_transmission_edge_period4[159] + 0.97575 vFLOWNEG_TL_E_ExistingCandidate_AC_R19Guangdong_to_R20Guangxi_transmission_edge_period4[159] - vFLOWPOS_TL_E_ExistingCandidate_AC_R19Guangdong_to_R21Hainan_transmission_edge_period4[159] + 0.9755555555555555 vFLOWNEG_TL_E_ExistingCandidate_AC_R19Guangdong_to_R21Hainan_transmission_edge_period4[159] - vFLOWPOS_TL_E_Candidate_AC_R19Guangdong_to_R24Guizhou_transmission_edge_period4[159] + 0.975 vFLOWNEG_TL_E_Candidate_AC_R19Guangdong_to_R24Guizhou_transmission_edge_period4[159] = 0
+
+[12]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[281] ≥ 0
+
+[13]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[170] ≥ 0
+
+[14]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: -1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 + vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[186] ≤ 0
+
+[15]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[215] ≥ 0
+
+[16]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: -1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 + vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[260] ≤ 0
+
+[17]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[148] ≥ 0
+
+[18]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[241] ≥ 0
+
+[19]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[278] ≥ 0
+
+[20]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[240] ≥ 0
+
+[21]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: -1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 + vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[146] ≤ 0
+
+[22]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: -1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 + vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[219] ≤ 0
+
+[23]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[133] ≥ 0
+
+[24]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: -1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 + vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[282] ≤ 0
+
+[25]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[214] ≥ 0
+
+[26]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[95] ≥ 0
+
+[27]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: -1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 + vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[229] ≤ 0
+
+[28]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[32] ≥ 0
+
+[29]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[164] ≥ 0
+
+[30]
+  Violation:  3.7487552617676556e-8
+  Name:       
+  Constraint: 1000 vCAP_aluminum_smelting_Region4Shanxi_aluminum_edge_period3 - vCOMMIT_aluminum_smelting_Region4Shanxi_aluminum_edge_period3[112] ≥ 0
+
+--------------------------------------------------------------------------------
+LARGEST VARIABLE VALUES
+--------------------------------------------------------------------------------
+[1] |x| = 1.4771489094437775e8   x = 1.4771489094437775e8   [0.0, Inf]   vNEWUNIT_Region18Hunan_to_Region22Chongqing_CO2_Pipeline_transmission_edge_period1
+[2] |x| = 1.4749940230077332e8   x = 1.4749940230077332e8   [0.0, Inf]   vNEWUNIT_Region17Hubei_to_Region18Hunan_CO2_Pipeline_transmission_edge_period1
+[3] |x| = 1.4713259746681288e8   x = 1.4713259746681288e8   [0.0, Inf]   vNEWUNIT_Region14Jiangxi_to_Region18Hunan_CO2_Pipeline_transmission_edge_period1
+[4] |x| = 1.4695393433746785e8   x = 1.4695393433746785e8   [0.0, Inf]   vNEWUNIT_Region25Yunnan_to_Region26Tibet_CO2_Pipeline_transmission_edge_period1
+[5] |x| = 1.4679542501682287e8   x = 1.4679542501682287e8   [0.0, Inf]   vNEWUNIT_Region22Chongqing_to_Region23Sichuan_CO2_Pipeline_transmission_edge_period1
+[6] |x| = 1.4667270999257135e8   x = 1.4667270999257135e8   [0.0, Inf]   vNEWUNIT_Region19Guangdong_to_Region20Guangxi_CO2_Pipeline_transmission_edge_period1
+[7] |x| = 1.4647220372723764e8   x = 1.4647220372723764e8   [0.0, Inf]   vNEWUNIT_Region14Jiangxi_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1
+[8] |x| = 1.464717847692071e8   x = 1.464717847692071e8   [0.0, Inf]   vNEWUNIT_Region5Innermongolia_to_Region30Ningxia_CO2_Pipeline_transmission_edge_period1
+[9] |x| = 1.464667165090562e8   x = 1.464667165090562e8   [0.0, Inf]   vNEWUNIT_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1
+[10] |x| = 1.4645611444410023e8   x = 1.4645611444410023e8   [0.0, Inf]   vNEWUNIT_Region9Shanghai_to_Region11Zhejiang_CO2_Pipeline_transmission_edge_period1
+[11] |x| = 1.4644632050604656e8   x = 1.4644632050604656e8   [0.0, Inf]   vNEWUNIT_Region14Jiangxi_to_Region19Guangdong_CO2_Pipeline_transmission_edge_period1
+[12] |x| = 1.464330811333799e8   x = 1.464330811333799e8   [0.0, Inf]   vNEWUNIT_Region12Anhui_to_Region14Jiangxi_CO2_Pipeline_transmission_edge_period1
+[13] |x| = 1.4642370998203465e8   x = 1.4642370998203465e8   [0.0, Inf]   vNEWUNIT_Region11Zhejiang_to_Region14Jiangxi_CO2_Pipeline_transmission_edge_period1
+[14] |x| = 1.464154076836963e8   x = 1.464154076836963e8   [0.0, Inf]   vNEWUNIT_Region13Fujian_to_Region19Guangdong_CO2_Pipeline_transmission_edge_period1
+[15] |x| = 1.464097307639797e8   x = 1.464097307639797e8   [0.0, Inf]   vNEWUNIT_Region1Beijing_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period1
+[16] |x| = 1.463987815457544e8   x = 1.463987815457544e8   [0.0, Inf]   vNEWUNIT_Region10Jiangsu_to_Region12Anhui_CO2_Pipeline_transmission_edge_period1
+[17] |x| = 1.463881935704232e8   x = 1.463881935704232e8   [0.0, Inf]   vNEWUNIT_Region10Jiangsu_to_Region11Zhejiang_CO2_Pipeline_transmission_edge_period1
+[18] |x| = 1.463794807906135e8   x = 1.463794807906135e8   [0.0, Inf]   vNEWUNIT_Region15Shandong_to_Region16Henan_CO2_Pipeline_transmission_edge_period1
+[19] |x| = 1.4637691269313425e8   x = 1.4637691269313425e8   [0.0, Inf]   vNEWUNIT_Region6Liaoning_to_Region7Jilin_CO2_Pipeline_transmission_edge_period1
+[20] |x| = 1.4636579954431152e8   x = 1.4636579954431152e8   [0.0, Inf]   vNEWUNIT_Region6Liaoning_to_BohaiOffshore_CO2_Pipeline_transmission_edge_period1
+[21] |x| = 1.4635711200658315e8   x = 1.4635711200658315e8   [0.0, Inf]   vNEWUNIT_Region9Shanghai_to_Subei_CO2_Pipeline_transmission_edge_period1
+[22] |x| = 1.463450417289733e8   x = 1.463450417289733e8   [0.0, Inf]   vNEWUNIT_Region9Shanghai_to_Region10Jiangsu_CO2_Pipeline_transmission_edge_period1
+[23] |x| = 1.4633895697876322e8   x = 1.4633895697876322e8   [0.0, Inf]   vNEWUNIT_Region11Zhejiang_to_Region13Fujian_CO2_Pipeline_transmission_edge_period1
+[24] |x| = 1.4632744623626184e8   x = 1.4632744623626184e8   [0.0, Inf]   vNEWUNIT_Region27Shaanxi_to_Region28Gansu_CO2_Pipeline_transmission_edge_period1
+[25] |x| = 1.463232562983727e8   x = 1.463232562983727e8   [0.0, Inf]   vNEWUNIT_Region20Guangxi_to_BeibuGulf_CO2_Pipeline_transmission_edge_period1
+[26] |x| = 1.463141019805628e8   x = 1.463141019805628e8   [0.0, Inf]   vNEWUNIT_Region20Guangxi_to_Region25Yunnan_CO2_Pipeline_transmission_edge_period1
+[27] |x| = 1.4631123203976777e8   x = 1.4631123203976777e8   [0.0, Inf]   vNEWUNIT_Region18Hunan_to_Region20Guangxi_CO2_Pipeline_transmission_edge_period1
+[28] |x| = 1.462923867699147e8   x = 1.462923867699147e8   [0.0, Inf]   vNEWUNIT_Region23Sichuan_to_Region26Tibet_CO2_Pipeline_transmission_edge_period1
+[29] |x| = 1.462837611493981e8   x = 1.462837611493981e8   [0.0, Inf]   vNEWUNIT_Region2Tianjin_to_BohaiOffshore_CO2_Pipeline_transmission_edge_period1
+[30] |x| = 1.462762339569734e8   x = 1.462762339569734e8   [0.0, Inf]   vNEWUNIT_Region10Jiangsu_to_Subei_CO2_Pipeline_transmission_edge_period1
+
+--------------------------------------------------------------------------------
+SMALLEST NONZERO VARIABLE VALUES
+--------------------------------------------------------------------------------
+[1] |x| = 3.469446951953614e-18   x = 3.469446951953614e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region25Yunnan_to_Region7Jilin_transmission_edge_period2
+[2] |x| = 6.938893903907228e-18   x = -6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_cement_transport_Region31Xinjiang_to_Region15Shandong_transmission_edge_period2
+[3] |x| = 6.938893903907228e-18   x = 6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region9Shanghai_to_Region8Heilongjiang_transmission_edge_period2
+[4] |x| = 6.938893903907228e-18   x = -6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region19Guangdong_to_Region4Shanxi_transmission_edge_period2
+[5] |x| = 6.938893903907228e-18   x = -6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region21Hainan_to_Region11Zhejiang_transmission_edge_period2
+[6] |x| = 6.938893903907228e-18   x = 6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region21Hainan_to_Region14Jiangxi_transmission_edge_period2
+[7] |x| = 6.938893903907228e-18   x = 6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region23Sichuan_to_Region7Jilin_transmission_edge_period2
+[8] |x| = 6.938893903907228e-18   x = 6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region28Gansu_to_Region8Heilongjiang_transmission_edge_period2
+[9] |x| = 6.938893903907228e-18   x = -6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_cement_transport_Region31Xinjiang_to_Region15Shandong_transmission_edge_period3
+[10] |x| = 6.938893903907228e-18   x = -6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region19Guangdong_to_Region4Shanxi_transmission_edge_period3
+[11] |x| = 6.938893903907228e-18   x = -6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region21Hainan_to_Region11Zhejiang_transmission_edge_period3
+[12] |x| = 6.938893903907228e-18   x = 6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region21Hainan_to_Region14Jiangxi_transmission_edge_period3
+[13] |x| = 6.938893903907228e-18   x = -6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region21Hainan_to_Region11Zhejiang_transmission_edge_period4
+[14] |x| = 6.938893903907228e-18   x = 6.938893903907228e-18   [0.0, Inf]   vNEWUNIT_crudesteel_transport_Region21Hainan_to_Region14Jiangxi_transmission_edge_period4
+[15] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_aluminum_transport_Region1Beijing_to_Region31Xinjiang_transmission_edge_period2
+[16] |x| = 1.3877787807814457e-17   x = 1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_aluminum_transport_Region17Hubei_to_Region6Liaoning_transmission_edge_period2
+[17] |x| = 1.3877787807814457e-17   x = 1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_aluminum_transport_Region17Hubei_to_Region20Guangxi_transmission_edge_period2
+[18] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_aluminum_transport_Region19Guangdong_to_Region28Gansu_transmission_edge_period2
+[19] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_aluminum_transport_Region19Guangdong_to_Region29Qinghai_transmission_edge_period2
+[20] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_aluminum_transport_Region23Sichuan_to_Region11Zhejiang_transmission_edge_period2
+[21] |x| = 1.3877787807814457e-17   x = 1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_aluminum_transport_Region28Gansu_to_Region18Hunan_transmission_edge_period2
+[22] |x| = 1.3877787807814457e-17   x = 1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region2Tianjin_to_Region24Guizhou_transmission_edge_period2
+[23] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region3Hebei_to_Region20Guangxi_transmission_edge_period2
+[24] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region7Jilin_to_Region14Jiangxi_transmission_edge_period2
+[25] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region8Heilongjiang_to_Region25Yunnan_transmission_edge_period2
+[26] |x| = 1.3877787807814457e-17   x = 1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region9Shanghai_to_Region5Innermongolia_transmission_edge_period2
+[27] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region10Jiangsu_to_Region8Heilongjiang_transmission_edge_period2
+[28] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region11Zhejiang_to_Region21Hainan_transmission_edge_period2
+[29] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region12Anhui_to_Region24Guizhou_transmission_edge_period2
+[30] |x| = 1.3877787807814457e-17   x = -1.3877787807814457e-17   [0.0, Inf]   vNEWUNIT_cement_transport_Region19Guangdong_to_Region8Heilongjiang_transmission_edge_period2
+
+--------------------------------------------------------------------------------
+EXTREME VARIABLE SUMMARY
+--------------------------------------------------------------------------------
+Tiny nonzero variables (0 < |x| < 1.0e-8): 1032454
+Large variables (|x| > 1.0e8): 132
+
+--------------------------------------------------------------------------------
+VARIABLE MAGNITUDE DISTRIBUTION
+--------------------------------------------------------------------------------
+exactly zero: 5386724
+(0.0, 1.0e-12] : 8519
+(1.0e-12, 1.0e-9] : 599896
+(1.0e-9, 1.0e-6] : 887861
+(1.0e-6, 0.001] : 823914
+(0.001, 1.0] : 6982414
+(1.0, 1000.0] : 1878873
+(1000.0, 1.0e6] : 49407
+(1.0e6, 1.0e9] : 538
+(1.0e9, 1.0e12] : 0
+(1.0e12, Inf] : 0
+
+================================================================================
+END NUMERICAL DIAGNOSTICS
+================================================================================

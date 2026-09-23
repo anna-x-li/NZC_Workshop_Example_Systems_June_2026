@@ -1,0 +1,11 @@
+
+================================================================================
+NUMERICAL DIAGNOSTICS
+================================================================================
+
+--- Solver status ---
+Termination status: INFEASIBLE_OR_UNBOUNDED
+Primal status:      NO_SOLUTION
+Dual status:        NO_SOLUTION
+
+No primal solution is available.

@@ -17,12 +17,12 @@
         },
         "edges": {
           "elec_edge": {
-            "type": "Electricity",
+            "commodity": "Electricity",
             "unidirectional": true,
             "has_capacity": false
           },
           "alumina_edge": {
-            "type": "Alumina",
+            "commodity": "Alumina",
             "unidirectional": true,
             "has_capacity": true,
             "can_retire": true,
@@ -41,17 +41,17 @@
             "min_flow_fraction": 1
           },
           "bauxite_edge": {
-            "type": "Bauxite",
+            "commodity": "Bauxite",
             "unidirectional": true,
             "has_capacity": false
           },
           "fuel_edge": {
-            "type": "NaturalGas",
+            "commodity": "NaturalGas",
             "unidirectional": true,
             "has_capacity": false
           },
           "co2_edge": {
-            "type": "CO2",
+            "commodity": "CO2",
             "unidirectional": true,
             "has_capacity": false,
             "end_vertex": "co2_sink_national"

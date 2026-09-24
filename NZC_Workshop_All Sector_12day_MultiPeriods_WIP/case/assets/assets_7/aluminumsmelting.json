@@ -17,12 +17,12 @@
         },
         "edges": {
           "elec_edge": {
-            "type": "Electricity",
+            "commodity": "Electricity",
             "unidirectional": true,
             "has_capacity": false
           },
           "aluminum_edge": {
-            "type": "Aluminum",
+            "commodity": "Aluminum",
             "uc": true,
             "unidirectional": true,
             "has_capacity": true,
@@ -44,17 +44,17 @@
             "mga_enabled": true
           },
           "alumina_edge": {
-            "type": "Alumina",
+            "commodity": "Alumina",
             "unidirectional": true,
             "has_capacity": false
           },
           "graphite_edge": {
-            "type": "Graphite",
+            "commodity": "Graphite",
             "unidirectional": true,
             "has_capacity": false
           },
           "co2_edge": {
-            "type": "CO2",
+            "commodity": "CO2",
             "unidirectional": true,
             "has_capacity": false,
             "end_vertex": "co2_sink_national"

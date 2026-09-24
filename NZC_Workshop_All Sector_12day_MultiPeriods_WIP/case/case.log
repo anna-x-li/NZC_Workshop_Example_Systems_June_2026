@@ -1,206 +1,206 @@
-2026-09-24 00:28:33 | INFO | 1 | MacroEnergy | run_tools.jl:125 | Running case at /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case
-2026-09-24 00:28:33 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/user_additions
-2026-09-24 00:28:33 | INFO | 1 | MacroEnergy | user_additions.jl:114 |  ++ Successfully loaded user additions.
-2026-09-24 00:28:33 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
-2026-09-24 00:28:51 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/system_data.json
-2026-09-24 00:28:51 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
-2026-09-24 00:28:52 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.69 seconds
-2026-09-24 00:28:52 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 0.69 seconds
-2026-09-24 00:28:52 | INFO | 1 | MacroEnergy | case.jl:16 | *** Generating case ***
-2026-09-24 00:28:52 | INFO | 1 | MacroEnergy | case_settings.jl:123 | Configuring case from settings/case_settings.json
-2026-09-24 00:28:53 | INFO | 1 | MacroEnergy | case_settings.jl:141 | Configuring case
-2026-09-24 00:28:53 | INFO | 1 | MacroEnergy | case_settings.jl:173 |  -- Setting solution algorithm
-2026-09-24 00:28:53 | INFO | 1 | MacroEnergy | case_settings.jl:190 |  -- Solution algorithm set to MacroEnergy.Monolithic()
-2026-09-24 00:28:53 | INFO | 1 | MacroEnergy | case_settings.jl:195 |  -- Setting expansion horizon
-2026-09-24 00:28:53 | INFO | 1 | MacroEnergy | case_settings.jl:204 |  -- Expansion horizon set to MacroEnergy.PerfectForesight()
-2026-09-24 00:28:53 | INFO | 1 | MacroEnergy | case.jl:31 | Generating systems
-2026-09-24 00:28:53 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
-2026-09-24 00:28:54 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
-2026-09-24 00:29:14 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
-2026-09-24 00:29:14 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
-2026-09-24 00:29:16 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
-2026-09-24 00:30:04 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 70.9 seconds
-2026-09-24 00:30:04 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
-2026-09-24 00:30:04 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
-2026-09-24 00:30:17 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
-2026-09-24 00:30:39 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 34.74 seconds
-2026-09-24 00:30:39 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
-2026-09-24 00:30:39 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
-2026-09-24 00:30:52 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
-2026-09-24 00:31:13 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 34.68 seconds
-2026-09-24 00:31:13 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
-2026-09-24 00:31:14 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
-2026-09-24 00:31:26 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
-2026-09-24 00:31:48 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 34.23 seconds
-2026-09-24 00:31:51 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 1
-2026-09-24 00:31:52 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 1
-2026-09-24 00:31:53 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 2
-2026-09-24 00:31:53 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 2
-2026-09-24 00:31:54 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 3
-2026-09-24 00:31:54 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 3
-2026-09-24 00:31:56 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 4
-2026-09-24 00:31:56 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 4
-2026-09-24 00:31:57 | INFO | 1 | MacroEnergy | case.jl:46 | *** Done generating case. It took 184.03 seconds ***
-2026-09-24 00:31:57 | INFO | 1 | MacroEnergy | solver.jl:10 | *** Running simulation with Perfect Foresight expansion horizon and Monolithic solution algorithm ***
-2026-09-24 00:31:57 | INFO | 1 | MacroEnergy | generate_model.jl:2 | *** Generating monolithic model ***
-2026-09-24 00:31:57 | INFO | 1 | MacroEnergy | generate_model.jl:13 | Generating model
-2026-09-24 00:31:57 | INFO | 1 | MacroEnergy | generate_model.jl:179 |  -- Period 1
-2026-09-24 00:31:57 | INFO | 1 | MacroEnergy | generate_model.jl:185 |  -- Adding linking variables
-2026-09-24 00:31:59 | INFO | 1 | MacroEnergy | generate_model.jl:188 |  -- Defining available capacity
-2026-09-24 00:32:02 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Generating planning model
-2026-09-24 00:32:06 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Adding retrofit constraints
-2026-09-24 00:32:07 | INFO | 1 | MacroEnergy | generate_model.jl:199 |  -- Including age-based retirements
-2026-09-24 00:32:07 | INFO | 1 | MacroEnergy | generate_model.jl:203 |  -- Available capacity in period 1 is being carried over to period 2
-2026-09-24 00:32:11 | INFO | 1 | MacroEnergy | generate_model.jl:162 |  -- Generating operational model
-2026-09-24 00:32:59 | INFO | 1 | MacroEnergy | generate_model.jl:179 |  -- Period 2
-2026-09-24 00:32:59 | INFO | 1 | MacroEnergy | generate_model.jl:185 |  -- Adding linking variables
-2026-09-24 00:32:59 | INFO | 1 | MacroEnergy | generate_model.jl:188 |  -- Defining available capacity
-2026-09-24 00:32:59 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Generating planning model
-2026-09-24 00:32:59 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Adding retrofit constraints
-2026-09-24 00:32:59 | INFO | 1 | MacroEnergy | generate_model.jl:199 |  -- Including age-based retirements
-2026-09-24 00:33:00 | INFO | 1 | MacroEnergy | generate_model.jl:203 |  -- Available capacity in period 2 is being carried over to period 3
-2026-09-24 00:33:01 | INFO | 1 | MacroEnergy | generate_model.jl:162 |  -- Generating operational model
-2026-09-24 00:33:23 | INFO | 1 | MacroEnergy | generate_model.jl:179 |  -- Period 3
-2026-09-24 00:33:23 | INFO | 1 | MacroEnergy | generate_model.jl:185 |  -- Adding linking variables
-2026-09-24 00:33:24 | INFO | 1 | MacroEnergy | generate_model.jl:188 |  -- Defining available capacity
-2026-09-24 00:33:24 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Generating planning model
-2026-09-24 00:33:24 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Adding retrofit constraints
-2026-09-24 00:33:25 | INFO | 1 | MacroEnergy | generate_model.jl:199 |  -- Including age-based retirements
-2026-09-24 00:33:25 | INFO | 1 | MacroEnergy | generate_model.jl:203 |  -- Available capacity in period 3 is being carried over to period 4
-2026-09-24 00:33:26 | INFO | 1 | MacroEnergy | generate_model.jl:162 |  -- Generating operational model
-2026-09-24 00:33:53 | INFO | 1 | MacroEnergy | generate_model.jl:179 |  -- Period 4
-2026-09-24 00:33:53 | INFO | 1 | MacroEnergy | generate_model.jl:185 |  -- Adding linking variables
-2026-09-24 00:33:53 | INFO | 1 | MacroEnergy | generate_model.jl:188 |  -- Defining available capacity
-2026-09-24 00:33:53 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Generating planning model
-2026-09-24 00:33:53 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Adding retrofit constraints
-2026-09-24 00:33:53 | INFO | 1 | MacroEnergy | generate_model.jl:199 |  -- Including age-based retirements
-2026-09-24 00:33:54 | INFO | 1 | MacroEnergy | generate_model.jl:162 |  -- Generating operational model
-2026-09-24 00:34:21 | INFO | 1 | MacroEnergy | generate_model.jl:28 |  -- Adding MGA variables
-2026-09-24 00:34:35 | INFO | 1 | MacroEnergy | scaling.jl:191 | Scaling constraints and RHS
-2026-09-24 00:35:23 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Model generation complete, it took 206.45447897911072 seconds
+2026-09-24 16:15:56 | INFO | 1 | MacroEnergy | run_tools.jl:125 | Running case at /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case
+2026-09-24 16:15:56 | INFO | 1 | MacroEnergy | user_additions.jl:78 |  ++ Loading user additions from NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/user_additions
+2026-09-24 16:15:56 | INFO | 1 | MacroEnergy | user_additions.jl:114 |  ++ Successfully loaded user additions.
+2026-09-24 16:15:56 | INFO | 1 | MacroEnergy | user_additions.jl:122 |  ++ Added user assets: 0
+2026-09-24 16:16:14 | INFO | 1 | MacroEnergy | load_stages_data.jl:37 | Loading case from /Users/al3792/Documents_Local/NZC_June_2026/NZC_Workshop_Example_Systems_June_2026/NZC_Workshop_All Sector_12day_MultiPeriods_WIP/case/system_data.json
+2026-09-24 16:16:14 | INFO | 1 | MacroEnergy | load_system_data.jl:17 | Loading system data
+2026-09-24 16:16:14 | INFO | 1 | MacroEnergy | load_system_data.jl:25 | Done loading system data. It took 0.71 seconds
+2026-09-24 16:16:14 | INFO | 1 | MacroEnergy | load_stages_data.jl:20 | Done loading case data. It took 0.71 seconds
+2026-09-24 16:16:14 | INFO | 1 | MacroEnergy | case.jl:16 | *** Generating case ***
+2026-09-24 16:16:15 | INFO | 1 | MacroEnergy | case_settings.jl:123 | Configuring case from settings/case_settings.json
+2026-09-24 16:16:15 | INFO | 1 | MacroEnergy | case_settings.jl:141 | Configuring case
+2026-09-24 16:16:15 | INFO | 1 | MacroEnergy | case_settings.jl:173 |  -- Setting solution algorithm
+2026-09-24 16:16:15 | INFO | 1 | MacroEnergy | case_settings.jl:190 |  -- Solution algorithm set to MacroEnergy.Monolithic()
+2026-09-24 16:16:15 | INFO | 1 | MacroEnergy | case_settings.jl:195 |  -- Setting expansion horizon
+2026-09-24 16:16:15 | INFO | 1 | MacroEnergy | case_settings.jl:204 |  -- Expansion horizon set to MacroEnergy.PerfectForesight()
+2026-09-24 16:16:15 | INFO | 1 | MacroEnergy | case.jl:31 | Generating systems
+2026-09-24 16:16:16 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-09-24 16:16:17 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-09-24 16:16:37 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
+2026-09-24 16:16:37 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
+2026-09-24 16:16:39 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
+2026-09-24 16:17:27 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 71.03 seconds
+2026-09-24 16:17:27 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-09-24 16:17:27 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
+2026-09-24 16:17:40 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
+2026-09-24 16:18:02 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 35.0 seconds
+2026-09-24 16:18:02 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-09-24 16:18:02 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
+2026-09-24 16:18:15 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
+2026-09-24 16:18:36 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 34.36 seconds
+2026-09-24 16:18:36 | INFO | 1 | MacroEnergy | generate_system.jl:18 | Generating system
+2026-09-24 16:18:37 | INFO | 1 | MacroEnergy | load_commodities.jl:299 |  ++ Added user commodities: 0 top-level, 0 subcommodities
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region21Hainan
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | node.jl:295 |  ++ Creating new location: Region26Tibet
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region1Beijing.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region2Tianjin.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region3Hebei.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region4Shanxi.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region5Innermongolia.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region6Liaoning.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region7Jilin.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region8Heilongjiang.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region9Shanghai.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region10Jiangsu.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region11Zhejiang.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region12Anhui.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region13Fujian.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region14Jiangxi.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region15Shandong.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region16Henan.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region17Hubei.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region18Hunan.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region19Guangdong.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region20Guangxi.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region21Hainan.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region22Chongqing.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region23Sichuan.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region24Guizhou.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region25Yunnan.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region26Tibet.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region27Shaanxi.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region28Gansu.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region29Qinghai.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region30Ningxia.
+2026-09-24 16:18:50 | INFO | 1 | MacroEnergy | supply_inputs.jl:9 | Using legacy parser for supply inputs of cog_Region31Xinjiang.
+2026-09-24 16:19:11 | INFO | 1 | MacroEnergy | generate_system.jl:51 | Done generating system. It took 34.86 seconds
+2026-09-24 16:19:14 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 1
+2026-09-24 16:19:15 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 1
+2026-09-24 16:19:16 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 2
+2026-09-24 16:19:16 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 2
+2026-09-24 16:19:18 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 3
+2026-09-24 16:19:18 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 3
+2026-09-24 16:19:19 | INFO | 1 | MacroEnergy | case.jl:61 |  -- Discounting fixed costs for period 4
+2026-09-24 16:19:19 | INFO | 1 | MacroEnergy | case.jl:64 |  -- Computing retirement case for period 4
+2026-09-24 16:19:20 | INFO | 1 | MacroEnergy | case.jl:46 | *** Done generating case. It took 185.06 seconds ***
+2026-09-24 16:19:20 | INFO | 1 | MacroEnergy | solver.jl:10 | *** Running simulation with Perfect Foresight expansion horizon and Monolithic solution algorithm ***
+2026-09-24 16:19:20 | INFO | 1 | MacroEnergy | generate_model.jl:2 | *** Generating monolithic model ***
+2026-09-24 16:19:20 | INFO | 1 | MacroEnergy | generate_model.jl:13 | Generating model
+2026-09-24 16:19:21 | INFO | 1 | MacroEnergy | generate_model.jl:179 |  -- Period 1
+2026-09-24 16:19:21 | INFO | 1 | MacroEnergy | generate_model.jl:185 |  -- Adding linking variables
+2026-09-24 16:19:23 | INFO | 1 | MacroEnergy | generate_model.jl:188 |  -- Defining available capacity
+2026-09-24 16:19:25 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Generating planning model
+2026-09-24 16:19:30 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Adding retrofit constraints
+2026-09-24 16:19:30 | INFO | 1 | MacroEnergy | generate_model.jl:199 |  -- Including age-based retirements
+2026-09-24 16:19:30 | INFO | 1 | MacroEnergy | generate_model.jl:203 |  -- Available capacity in period 1 is being carried over to period 2
+2026-09-24 16:19:34 | INFO | 1 | MacroEnergy | generate_model.jl:162 |  -- Generating operational model
+2026-09-24 16:20:22 | INFO | 1 | MacroEnergy | generate_model.jl:179 |  -- Period 2
+2026-09-24 16:20:22 | INFO | 1 | MacroEnergy | generate_model.jl:185 |  -- Adding linking variables
+2026-09-24 16:20:22 | INFO | 1 | MacroEnergy | generate_model.jl:188 |  -- Defining available capacity
+2026-09-24 16:20:22 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Generating planning model
+2026-09-24 16:20:23 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Adding retrofit constraints
+2026-09-24 16:20:23 | INFO | 1 | MacroEnergy | generate_model.jl:199 |  -- Including age-based retirements
+2026-09-24 16:20:23 | INFO | 1 | MacroEnergy | generate_model.jl:203 |  -- Available capacity in period 2 is being carried over to period 3
+2026-09-24 16:20:24 | INFO | 1 | MacroEnergy | generate_model.jl:162 |  -- Generating operational model
+2026-09-24 16:20:49 | INFO | 1 | MacroEnergy | generate_model.jl:179 |  -- Period 3
+2026-09-24 16:20:49 | INFO | 1 | MacroEnergy | generate_model.jl:185 |  -- Adding linking variables
+2026-09-24 16:20:49 | INFO | 1 | MacroEnergy | generate_model.jl:188 |  -- Defining available capacity
+2026-09-24 16:20:49 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Generating planning model
+2026-09-24 16:20:49 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Adding retrofit constraints
+2026-09-24 16:20:49 | INFO | 1 | MacroEnergy | generate_model.jl:199 |  -- Including age-based retirements
+2026-09-24 16:20:49 | INFO | 1 | MacroEnergy | generate_model.jl:203 |  -- Available capacity in period 3 is being carried over to period 4
+2026-09-24 16:20:51 | INFO | 1 | MacroEnergy | generate_model.jl:162 |  -- Generating operational model
+2026-09-24 16:21:20 | INFO | 1 | MacroEnergy | generate_model.jl:179 |  -- Period 4
+2026-09-24 16:21:20 | INFO | 1 | MacroEnergy | generate_model.jl:185 |  -- Adding linking variables
+2026-09-24 16:21:20 | INFO | 1 | MacroEnergy | generate_model.jl:188 |  -- Defining available capacity
+2026-09-24 16:21:20 | INFO | 1 | MacroEnergy | generate_model.jl:191 |  -- Generating planning model
+2026-09-24 16:21:20 | INFO | 1 | MacroEnergy | generate_model.jl:195 |  -- Adding retrofit constraints
+2026-09-24 16:21:21 | INFO | 1 | MacroEnergy | generate_model.jl:199 |  -- Including age-based retirements
+2026-09-24 16:21:21 | INFO | 1 | MacroEnergy | generate_model.jl:162 |  -- Generating operational model
+2026-09-24 16:21:46 | INFO | 1 | MacroEnergy | generate_model.jl:28 |  -- Adding MGA variables
+2026-09-24 16:22:13 | INFO | 1 | MacroEnergy | scaling.jl:191 | Scaling constraints and RHS
+2026-09-24 16:23:09 | INFO | 1 | MacroEnergy | generate_model.jl:43 |  -- Model generation complete, it took 228.7482681274414 seconds

@@ -5,16 +5,16 @@
       "fuel_commodity": "Coal",
       "edges": {
         "elec_edge": {
-          "type": "Electricity"
+          "commodity": "Electricity"
         },
         "fuel_edge": {
-          "type": "Coal"
+          "commodity": "Coal"
         },
         "co2_emissions_edge": {
-          "type": "CO2"
+          "commodity": "CO2"
         },
         "co2_captured_edge": {
-          "type": "CO2Captured"
+          "commodity": "CO2Captured"
         },
         "cement_edge": {
           "wacc": 0.1286,
@@ -23,7 +23,7 @@
           "can_retire": true,
           "fixed_om_cost": 5.7,
           "variable_om_cost": 9.6,
-          "type": "Cement",
+          "commodity": "Cement",
           "investment_cost": 578679.96,
           "capacity_size": 125,
           "can_expand": false,

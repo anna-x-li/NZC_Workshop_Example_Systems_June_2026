@@ -31,7 +31,8 @@
             ],
             "lifetime": 30,
             "capital_recovery_period": 30,
-            "mga_enabled": true
+            "mga_enabled": true,
+            "can_retrofit": true
           },
           "fuel_edge": {
             "commodity": "NaturalGas",
@@ -67,7 +68,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region1Beijing"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region1Beijing_ammonia_gas_ccs",
+              "id": "Region1Beijing_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region2Tianjin_ammonia_gas",
@@ -85,7 +101,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region2Tianjin"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region2Tianjin_ammonia_gas_ccs",
+              "id": "Region2Tianjin_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region3Hebei_ammonia_gas",
@@ -103,7 +134,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region3Hebei"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region3Hebei_ammonia_gas_ccs",
+              "id": "Region3Hebei_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region4Shanxi_ammonia_gas",
@@ -121,7 +167,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region4Shanxi"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region4Shanxi_ammonia_gas_ccs",
+              "id": "Region4Shanxi_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region5Innermongolia_ammonia_gas",
@@ -139,7 +200,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region5Innermongolia"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region5Innermongolia_ammonia_gas_ccs",
+              "id": "Region5Innermongolia_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region6Liaoning_ammonia_gas",
@@ -157,7 +233,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region6Liaoning"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region6Liaoning_ammonia_gas_ccs",
+              "id": "Region6Liaoning_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region7Jilin_ammonia_gas",
@@ -175,7 +266,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region7Jilin"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region7Jilin_ammonia_gas_ccs",
+              "id": "Region7Jilin_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region8Heilongjiang_ammonia_gas",
@@ -193,7 +299,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region8Heilongjiang"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region8Heilongjiang_ammonia_gas_ccs",
+              "id": "Region8Heilongjiang_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region9Shanghai_ammonia_gas",
@@ -211,7 +332,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region9Shanghai"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region9Shanghai_ammonia_gas_ccs",
+              "id": "Region9Shanghai_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region10Jiangsu_ammonia_gas",
@@ -229,7 +365,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region10Jiangsu"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region10Jiangsu_ammonia_gas_ccs",
+              "id": "Region10Jiangsu_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region11Zhejiang_ammonia_gas",
@@ -247,7 +398,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region11Zhejiang"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region11Zhejiang_ammonia_gas_ccs",
+              "id": "Region11Zhejiang_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region12Anhui_ammonia_gas",
@@ -265,7 +431,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region12Anhui"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region12Anhui_ammonia_gas_ccs",
+              "id": "Region12Anhui_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region13Fujian_ammonia_gas",
@@ -283,7 +464,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region13Fujian"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region13Fujian_ammonia_gas_ccs",
+              "id": "Region13Fujian_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region14Jiangxi_ammonia_gas",
@@ -301,7 +497,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region14Jiangxi"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region14Jiangxi_ammonia_gas_ccs",
+              "id": "Region14Jiangxi_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region15Shandong_ammonia_gas",
@@ -319,7 +530,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region15Shandong"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region15Shandong_ammonia_gas_ccs",
+              "id": "Region15Shandong_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region16Henan_ammonia_gas",
@@ -337,7 +563,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region16Henan"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region16Henan_ammonia_gas_ccs",
+              "id": "Region16Henan_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region17Hubei_ammonia_gas",
@@ -355,7 +596,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region17Hubei"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region17Hubei_ammonia_gas_ccs",
+              "id": "Region17Hubei_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region18Hunan_ammonia_gas",
@@ -373,7 +629,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region18Hunan"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region18Hunan_ammonia_gas_ccs",
+              "id": "Region18Hunan_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region19Guangdong_ammonia_gas",
@@ -391,7 +662,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region19Guangdong"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region19Guangdong_ammonia_gas_ccs",
+              "id": "Region19Guangdong_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region20Guangxi_ammonia_gas",
@@ -409,7 +695,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region20Guangxi"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region20Guangxi_ammonia_gas_ccs",
+              "id": "Region20Guangxi_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region21Hainan_ammonia_gas",
@@ -427,7 +728,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region21Hainan"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region21Hainan_ammonia_gas_ccs",
+              "id": "Region21Hainan_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region22Chongqing_ammonia_gas",
@@ -445,7 +761,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region22Chongqing"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region22Chongqing_ammonia_gas_ccs",
+              "id": "Region22Chongqing_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region23Sichuan_ammonia_gas",
@@ -463,7 +794,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region23Sichuan"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region23Sichuan_ammonia_gas_ccs",
+              "id": "Region23Sichuan_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region24Guizhou_ammonia_gas",
@@ -481,7 +827,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region24Guizhou"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region24Guizhou_ammonia_gas_ccs",
+              "id": "Region24Guizhou_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region25Yunnan_ammonia_gas",
@@ -499,7 +860,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region25Yunnan"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region25Yunnan_ammonia_gas_ccs",
+              "id": "Region25Yunnan_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region26Tibet_ammonia_gas",
@@ -517,7 +893,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region26Tibet"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region26Tibet_ammonia_gas_ccs",
+              "id": "Region26Tibet_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region27Shaanxi_ammonia_gas",
@@ -535,7 +926,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region27Shaanxi"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region27Shaanxi_ammonia_gas_ccs",
+              "id": "Region27Shaanxi_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region28Gansu_ammonia_gas",
@@ -553,7 +959,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region28Gansu"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region28Gansu_ammonia_gas_ccs",
+              "id": "Region28Gansu_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region29Qinghai_ammonia_gas",
@@ -571,7 +992,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region29Qinghai"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region29Qinghai_ammonia_gas_ccs",
+              "id": "Region29Qinghai_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region30Ningxia_ammonia_gas",
@@ -589,7 +1025,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region30Ningxia"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region30Ningxia_ammonia_gas_ccs",
+              "id": "Region30Ningxia_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         },
         {
           "id": "Region31Xinjiang_ammonia_gas",
@@ -607,7 +1058,22 @@
             "co2_edge": {
               "end_vertex": "co2_sink_Region31Xinjiang"
             }
-          }
+          },
+          "retrofit_options": [
+            {
+              "template_id": "Region31Xinjiang_ammonia_gas_ccs",
+              "id": "Region31Xinjiang_ammonia_gas_ccs_retrofit",
+              "edges": {
+                "nh3_edge": {
+                  "is_retrofit": true,
+                  "retrofit_efficiency": 1,
+                  "can_expand": true,
+                  "investment_cost": 1725681.16,
+                  "existing_capacity": 0
+                }
+              }
+            }
+          ]
         }
       ]
     }

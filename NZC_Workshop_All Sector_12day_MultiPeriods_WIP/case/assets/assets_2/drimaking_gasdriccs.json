@@ -20,6 +20,7 @@
         },
         "edges": {
           "dri_edge": {
+            "wacc": 0.108,
             "lifetime": 30,
             "capital_recovery_period": 30,
             "commodity": "DRI",

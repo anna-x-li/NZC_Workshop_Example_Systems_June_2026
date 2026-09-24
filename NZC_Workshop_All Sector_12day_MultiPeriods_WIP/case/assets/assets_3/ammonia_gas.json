@@ -14,6 +14,7 @@
         },
         "edges": {
           "nh3_edge": {
+            "wacc": 0.1201,
             "commodity": "Ammonia",
             "unidirectional": true,
             "has_capacity": true,

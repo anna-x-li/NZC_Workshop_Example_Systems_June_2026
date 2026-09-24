@@ -29,7 +29,7 @@
             "investment_cost": 2400000,
             "fixed_om_cost": 420000,
             "variable_om_cost": 123,
-            "wacc": 0.039,
+            "wacc": 0.1404,
             "lifetime": 20,
             "capital_recovery_period": 20,
             "constraints": {

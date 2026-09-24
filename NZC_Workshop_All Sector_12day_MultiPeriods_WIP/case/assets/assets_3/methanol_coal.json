@@ -12,6 +12,7 @@
     },
     "edges": {
       "ch3oh_edge": {
+        "wacc": 0.1201,
         "commodity": "Methanol",
         "unidirectional": true,
         "has_capacity": true,

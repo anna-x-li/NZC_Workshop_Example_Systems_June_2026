@@ -17,6 +17,7 @@
           "type": "CO2Captured"
         },
         "cement_edge": {
+          "wacc": 0.1286,
           "lifetime": 30,
           "capital_recovery_period": 30,
           "can_retire": true,

@@ -21,6 +21,8 @@
         },
         "edges": {
           "crudesteel_edge": {
+            "lifetime": 30,
+            "capital_recovery_period": 30,
             "commodity": "CrudeSteel",
             "unidirectional": true,
             "has_capacity": true,
@@ -35,7 +37,8 @@
               "MinFlowConstraint": true
             },
             "min_flow_fraction": 1,
-            "mga_enabled": true
+            "mga_enabled": true,
+            "is_retrofit": true
           },
           "dri_edge": {
             "commodity": "DRI",

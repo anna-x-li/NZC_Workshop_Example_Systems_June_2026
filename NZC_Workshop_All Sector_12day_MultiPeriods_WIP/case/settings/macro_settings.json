@@ -1,4 +1,5 @@
 {
+    "Retrofitting":  true,
     "ConstraintScaling":  true,
     "EnableJuMPStringNames":  true,
     "OutputLayout":  "wide",

@@ -14,6 +14,8 @@
           "type": "CO2"
         },
         "cement_edge": {
+          "lifetime": 30,
+          "capital_recovery_period": 30,
           "can_retire": true,
           "fixed_om_cost": 37.9,
           "variable_om_cost": 6.4,
@@ -52,6 +54,7 @@
     "instance_data": [
       {
         "id": "Region1Beijing_tradcement",
+        "location": "Region1Beijing",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region1Beijing",
@@ -97,6 +100,7 @@
       },
       {
         "id": "Region2Tianjin_tradcement",
+        "location": "Region2Tianjin",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region2Tianjin",
@@ -142,6 +146,7 @@
       },
       {
         "id": "Region3Hebei_tradcement",
+        "location": "Region3Hebei",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region3Hebei",
@@ -187,6 +192,7 @@
       },
       {
         "id": "Region4Shanxi_tradcement",
+        "location": "Region4Shanxi",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region4Shanxi",
@@ -232,6 +238,7 @@
       },
       {
         "id": "Region5Innermongolia_tradcement",
+        "location": "Region5Innermongolia",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region5Innermongolia",
@@ -277,6 +284,7 @@
       },
       {
         "id": "Region6Liaoning_tradcement",
+        "location": "Region6Liaoning",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region6Liaoning",
@@ -322,6 +330,7 @@
       },
       {
         "id": "Region7Jilin_tradcement",
+        "location": "Region7Jilin",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region7Jilin",
@@ -367,6 +376,7 @@
       },
       {
         "id": "Region8Heilongjiang_tradcement",
+        "location": "Region8Heilongjiang",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region8Heilongjiang",
@@ -412,6 +422,7 @@
       },
       {
         "id": "Region9Shanghai_tradcement",
+        "location": "Region9Shanghai",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region9Shanghai",
@@ -457,6 +468,7 @@
       },
       {
         "id": "Region10Jiangsu_tradcement",
+        "location": "Region10Jiangsu",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region10Jiangsu",
@@ -502,6 +514,7 @@
       },
       {
         "id": "Region11Zhejiang_tradcement",
+        "location": "Region11Zhejiang",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region11Zhejiang",
@@ -547,6 +560,7 @@
       },
       {
         "id": "Region12Anhui_tradcement",
+        "location": "Region12Anhui",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region12Anhui",
@@ -592,6 +606,7 @@
       },
       {
         "id": "Region13Fujian_tradcement",
+        "location": "Region13Fujian",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region13Fujian",
@@ -637,6 +652,7 @@
       },
       {
         "id": "Region14Jiangxi_tradcement",
+        "location": "Region14Jiangxi",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region14Jiangxi",
@@ -682,6 +698,7 @@
       },
       {
         "id": "Region15Shandong_tradcement",
+        "location": "Region15Shandong",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region15Shandong",
@@ -727,6 +744,7 @@
       },
       {
         "id": "Region16Henan_tradcement",
+        "location": "Region16Henan",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region16Henan",
@@ -772,6 +790,7 @@
       },
       {
         "id": "Region17Hubei_tradcement",
+        "location": "Region17Hubei",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region17Hubei",
@@ -817,6 +836,7 @@
       },
       {
         "id": "Region18Hunan_tradcement",
+        "location": "Region18Hunan",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region18Hunan",
@@ -862,6 +882,7 @@
       },
       {
         "id": "Region19Guangdong_tradcement",
+        "location": "Region19Guangdong",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region19Guangdong",
@@ -907,6 +928,7 @@
       },
       {
         "id": "Region20Guangxi_tradcement",
+        "location": "Region20Guangxi",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region20Guangxi",
@@ -952,6 +974,7 @@
       },
       {
         "id": "Region21Hainan_tradcement",
+        "location": "Region21Hainan",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region21Hainan",
@@ -997,6 +1020,7 @@
       },
       {
         "id": "Region22Chongqing_tradcement",
+        "location": "Region22Chongqing",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region22Chongqing",
@@ -1042,6 +1066,7 @@
       },
       {
         "id": "Region23Sichuan_tradcement",
+        "location": "Region23Sichuan",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region23Sichuan",
@@ -1087,6 +1112,7 @@
       },
       {
         "id": "Region24Guizhou_tradcement",
+        "location": "Region24Guizhou",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region24Guizhou",
@@ -1132,6 +1158,7 @@
       },
       {
         "id": "Region25Yunnan_tradcement",
+        "location": "Region25Yunnan",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region25Yunnan",
@@ -1177,6 +1204,7 @@
       },
       {
         "id": "Region26Tibet_tradcement",
+        "location": "Region26Tibet",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region26Tibet",
@@ -1222,6 +1250,7 @@
       },
       {
         "id": "Region27Shaanxi_tradcement",
+        "location": "Region27Shaanxi",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region27Shaanxi",
@@ -1267,6 +1296,7 @@
       },
       {
         "id": "Region28Gansu_tradcement",
+        "location": "Region28Gansu",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region28Gansu",
@@ -1312,6 +1342,7 @@
       },
       {
         "id": "Region29Qinghai_tradcement",
+        "location": "Region29Qinghai",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region29Qinghai",
@@ -1357,6 +1388,7 @@
       },
       {
         "id": "Region30Ningxia_tradcement",
+        "location": "Region30Ningxia",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region30Ningxia",
@@ -1402,6 +1434,7 @@
       },
       {
         "id": "Region31Xinjiang_tradcement",
+        "location": "Region31Xinjiang",
         "edges": {
           "cement_edge": {
             "end_vertex": "cement_Region31Xinjiang",

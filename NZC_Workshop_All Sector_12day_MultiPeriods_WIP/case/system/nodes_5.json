@@ -2107,6 +2107,7 @@
       "instance_data": [
         {
           "id": "cement_Region1Beijing",
+          "location": "Region1Beijing",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2116,6 +2117,7 @@
         },
         {
           "id": "cement_Region2Tianjin",
+          "location": "Region2Tianjin",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2125,6 +2127,7 @@
         },
         {
           "id": "cement_Region3Hebei",
+          "location": "Region3Hebei",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2134,6 +2137,7 @@
         },
         {
           "id": "cement_Region4Shanxi",
+          "location": "Region4Shanxi",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2143,6 +2147,7 @@
         },
         {
           "id": "cement_Region5Innermongolia",
+          "location": "Region5Innermongolia",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2152,6 +2157,7 @@
         },
         {
           "id": "cement_Region6Liaoning",
+          "location": "Region6Liaoning",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2161,6 +2167,7 @@
         },
         {
           "id": "cement_Region7Jilin",
+          "location": "Region7Jilin",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2170,6 +2177,7 @@
         },
         {
           "id": "cement_Region8Heilongjiang",
+          "location": "Region8Heilongjiang",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2179,6 +2187,7 @@
         },
         {
           "id": "cement_Region9Shanghai",
+          "location": "Region9Shanghai",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2188,6 +2197,7 @@
         },
         {
           "id": "cement_Region10Jiangsu",
+          "location": "Region10Jiangsu",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2197,6 +2207,7 @@
         },
         {
           "id": "cement_Region11Zhejiang",
+          "location": "Region11Zhejiang",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2206,6 +2217,7 @@
         },
         {
           "id": "cement_Region12Anhui",
+          "location": "Region12Anhui",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2215,6 +2227,7 @@
         },
         {
           "id": "cement_Region13Fujian",
+          "location": "Region13Fujian",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2224,6 +2237,7 @@
         },
         {
           "id": "cement_Region14Jiangxi",
+          "location": "Region14Jiangxi",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2233,6 +2247,7 @@
         },
         {
           "id": "cement_Region15Shandong",
+          "location": "Region15Shandong",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2242,6 +2257,7 @@
         },
         {
           "id": "cement_Region16Henan",
+          "location": "Region16Henan",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2251,6 +2267,7 @@
         },
         {
           "id": "cement_Region17Hubei",
+          "location": "Region17Hubei",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2260,6 +2277,7 @@
         },
         {
           "id": "cement_Region18Hunan",
+          "location": "Region18Hunan",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2269,6 +2287,7 @@
         },
         {
           "id": "cement_Region19Guangdong",
+          "location": "Region19Guangdong",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2278,6 +2297,7 @@
         },
         {
           "id": "cement_Region20Guangxi",
+          "location": "Region20Guangxi",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2296,6 +2316,7 @@
         },
         {
           "id": "cement_Region22Chongqing",
+          "location": "Region22Chongqing",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2305,6 +2326,7 @@
         },
         {
           "id": "cement_Region23Sichuan",
+          "location": "Region23Sichuan",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2314,6 +2336,7 @@
         },
         {
           "id": "cement_Region24Guizhou",
+          "location": "Region24Guizhou",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2323,6 +2346,7 @@
         },
         {
           "id": "cement_Region25Yunnan",
+          "location": "Region25Yunnan",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2341,6 +2365,7 @@
         },
         {
           "id": "cement_Region27Shaanxi",
+          "location": "Region27Shaanxi",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2350,6 +2375,7 @@
         },
         {
           "id": "cement_Region28Gansu",
+          "location": "Region28Gansu",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2359,6 +2385,7 @@
         },
         {
           "id": "cement_Region29Qinghai",
+          "location": "Region29Qinghai",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2368,6 +2395,7 @@
         },
         {
           "id": "cement_Region30Ningxia",
+          "location": "Region30Ningxia",
           "constraints": {
             "AggregatedDemandConstraint": true
           },
@@ -2377,6 +2405,7 @@
         },
         {
           "id": "cement_Region31Xinjiang",
+          "location": "Region31Xinjiang",
           "constraints": {
             "AggregatedDemandConstraint": true
           },

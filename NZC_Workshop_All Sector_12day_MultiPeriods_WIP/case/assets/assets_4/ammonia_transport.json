@@ -6,7 +6,8 @@
       "edges": {
         "transmission_edge": {
           "unidirectional": true,
-          "has_capacity": false,
+          "has_capacity": true,
+          "investment_cost": 0,
           "commodity": "Ammonia",
           "loss_fraction": 0
         }
@@ -8713,7 +8714,7 @@
           }
         }
       }
-    ]
-  },
-  "type": "OneWayTransmissionLink"
+    ],
+    "type": "OneWayTransmissionLink"
+  }
 }

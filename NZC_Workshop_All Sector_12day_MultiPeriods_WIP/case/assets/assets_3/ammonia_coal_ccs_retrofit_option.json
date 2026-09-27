@@ -71,7 +71,7 @@
               "start_vertex": "elec_Region1Beijing"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region1Beijing"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region1Beijing"
@@ -92,7 +92,7 @@
               "start_vertex": "elec_Region2Tianjin"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region2Tianjin"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region2Tianjin"
@@ -113,7 +113,7 @@
               "start_vertex": "elec_Region3Hebei"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region3Hebei"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region3Hebei"
@@ -134,7 +134,7 @@
               "start_vertex": "elec_Region4Shanxi"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region4Shanxi"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region4Shanxi"
@@ -155,7 +155,7 @@
               "start_vertex": "elec_Region5Innermongolia"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region5Innermongolia"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region5Innermongolia"
@@ -176,7 +176,7 @@
               "start_vertex": "elec_Region6Liaoning"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region6Liaoning"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region6Liaoning"
@@ -197,7 +197,7 @@
               "start_vertex": "elec_Region7Jilin"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region7Jilin"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region7Jilin"
@@ -218,7 +218,7 @@
               "start_vertex": "elec_Region8Heilongjiang"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region8Heilongjiang"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region8Heilongjiang"
@@ -239,7 +239,7 @@
               "start_vertex": "elec_Region9Shanghai"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region9Shanghai"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region9Shanghai"
@@ -260,7 +260,7 @@
               "start_vertex": "elec_Region10Jiangsu"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region10Jiangsu"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region10Jiangsu"
@@ -281,7 +281,7 @@
               "start_vertex": "elec_Region11Zhejiang"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region11Zhejiang"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region11Zhejiang"
@@ -302,7 +302,7 @@
               "start_vertex": "elec_Region12Anhui"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region12Anhui"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region12Anhui"
@@ -323,7 +323,7 @@
               "start_vertex": "elec_Region13Fujian"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region13Fujian"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region13Fujian"
@@ -344,7 +344,7 @@
               "start_vertex": "elec_Region14Jiangxi"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region14Jiangxi"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region14Jiangxi"
@@ -365,7 +365,7 @@
               "start_vertex": "elec_Region15Shandong"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region15Shandong"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region15Shandong"
@@ -386,7 +386,7 @@
               "start_vertex": "elec_Region16Henan"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region16Henan"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region16Henan"
@@ -407,7 +407,7 @@
               "start_vertex": "elec_Region17Hubei"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region17Hubei"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region17Hubei"
@@ -428,7 +428,7 @@
               "start_vertex": "elec_Region18Hunan"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region18Hunan"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region18Hunan"
@@ -449,7 +449,7 @@
               "start_vertex": "elec_Region19Guangdong"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region19Guangdong"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region19Guangdong"
@@ -470,7 +470,7 @@
               "start_vertex": "elec_Region20Guangxi"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region20Guangxi"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region20Guangxi"
@@ -491,7 +491,7 @@
               "start_vertex": "elec_Region21Hainan"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region21Hainan"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region21Hainan"
@@ -512,7 +512,7 @@
               "start_vertex": "elec_Region22Chongqing"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region22Chongqing"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region22Chongqing"
@@ -533,7 +533,7 @@
               "start_vertex": "elec_Region23Sichuan"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region23Sichuan"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region23Sichuan"
@@ -554,7 +554,7 @@
               "start_vertex": "elec_Region24Guizhou"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region24Guizhou"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region24Guizhou"
@@ -575,7 +575,7 @@
               "start_vertex": "elec_Region25Yunnan"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region25Yunnan"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region25Yunnan"
@@ -596,7 +596,7 @@
               "start_vertex": "elec_Region26Tibet"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region26Tibet"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region26Tibet"
@@ -617,7 +617,7 @@
               "start_vertex": "elec_Region27Shaanxi"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region27Shaanxi"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region27Shaanxi"
@@ -638,7 +638,7 @@
               "start_vertex": "elec_Region28Gansu"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region28Gansu"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region28Gansu"
@@ -659,7 +659,7 @@
               "start_vertex": "elec_Region29Qinghai"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region29Qinghai"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region29Qinghai"
@@ -680,7 +680,7 @@
               "start_vertex": "elec_Region30Ningxia"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region30Ningxia"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region30Ningxia"
@@ -701,7 +701,7 @@
               "start_vertex": "elec_Region31Xinjiang"
             },
             "co2_edge": {
-              "end_vertex": "co2_sink_Region31Xinjiang"
+              "end_vertex": "co2_sink_national"
             },
             "co2_captured_edge": {
               "end_vertex": "co2captured_Region31Xinjiang"

@@ -2648,7 +2648,7 @@
             "CO2CapConstraint": true
           },
           "rhs_policy": {
-            "CO2CapConstraint": 6666666667
+            "CO2CapConstraint": 7452208926
           }
         }
       ]

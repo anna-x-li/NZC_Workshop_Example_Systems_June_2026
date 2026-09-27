@@ -72,7 +72,7 @@
           "start_vertex": "h2_Region1Beijing"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region1Beijing"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -93,7 +93,7 @@
           "start_vertex": "h2_Region2Tianjin"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region2Tianjin"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -114,7 +114,7 @@
           "start_vertex": "h2_Region3Hebei"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region3Hebei"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -135,7 +135,7 @@
           "start_vertex": "h2_Region4Shanxi"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region4Shanxi"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -156,7 +156,7 @@
           "start_vertex": "h2_Region5Innermongolia"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region5Innermongolia"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -177,7 +177,7 @@
           "start_vertex": "h2_Region6Liaoning"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region6Liaoning"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -198,7 +198,7 @@
           "start_vertex": "h2_Region7Jilin"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region7Jilin"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -219,7 +219,7 @@
           "start_vertex": "h2_Region8Heilongjiang"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region8Heilongjiang"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -240,7 +240,7 @@
           "start_vertex": "h2_Region9Shanghai"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region9Shanghai"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -261,7 +261,7 @@
           "start_vertex": "h2_Region10Jiangsu"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region10Jiangsu"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -282,7 +282,7 @@
           "start_vertex": "h2_Region11Zhejiang"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region11Zhejiang"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -303,7 +303,7 @@
           "start_vertex": "h2_Region12Anhui"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region12Anhui"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -324,7 +324,7 @@
           "start_vertex": "h2_Region13Fujian"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region13Fujian"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -345,7 +345,7 @@
           "start_vertex": "h2_Region14Jiangxi"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region14Jiangxi"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -366,7 +366,7 @@
           "start_vertex": "h2_Region15Shandong"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region15Shandong"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -387,7 +387,7 @@
           "start_vertex": "h2_Region16Henan"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region16Henan"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -408,7 +408,7 @@
           "start_vertex": "h2_Region17Hubei"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region17Hubei"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -429,7 +429,7 @@
           "start_vertex": "h2_Region18Hunan"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region18Hunan"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -450,7 +450,7 @@
           "start_vertex": "h2_Region19Guangdong"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region19Guangdong"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -471,7 +471,7 @@
           "start_vertex": "h2_Region20Guangxi"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region20Guangxi"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -492,7 +492,7 @@
           "start_vertex": "h2_Region21Hainan"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region21Hainan"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -513,7 +513,7 @@
           "start_vertex": "h2_Region22Chongqing"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region22Chongqing"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -534,7 +534,7 @@
           "start_vertex": "h2_Region23Sichuan"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region23Sichuan"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -555,7 +555,7 @@
           "start_vertex": "h2_Region24Guizhou"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region24Guizhou"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -576,7 +576,7 @@
           "start_vertex": "h2_Region25Yunnan"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region25Yunnan"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -597,7 +597,7 @@
           "start_vertex": "h2_Region26Tibet"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region26Tibet"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -618,7 +618,7 @@
           "start_vertex": "h2_Region27Shaanxi"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region27Shaanxi"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -639,7 +639,7 @@
           "start_vertex": "h2_Region28Gansu"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region28Gansu"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -660,7 +660,7 @@
           "start_vertex": "h2_Region29Qinghai"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region29Qinghai"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -681,7 +681,7 @@
           "start_vertex": "h2_Region30Ningxia"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region30Ningxia"
+          "end_vertex": "co2_sink_national"
         }
       }
     },
@@ -702,7 +702,7 @@
           "start_vertex": "h2_Region31Xinjiang"
         },
         "co2_emission_edge": {
-          "end_vertex": "co2_sink_Region31Xinjiang"
+          "end_vertex": "co2_sink_national"
         }
       }
     }

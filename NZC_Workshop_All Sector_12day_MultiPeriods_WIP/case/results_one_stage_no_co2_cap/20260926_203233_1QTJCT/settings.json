@@ -1,0 +1,40 @@
+{
+    "case_settings": {
+        "MGA": {
+            "Quantity": "capacity",
+            "NumIterations": 1,
+            "Enabled": false,
+            "MGAAlgorithm": "RandomVector",
+            "Groupings": [
+                "technology"
+            ],
+            "RandomSeed": 1,
+            "Epsilon": 0.1
+        },
+        "ParameterScaling": true,
+        "PeriodLengths": [
+            5
+        ],
+        "DiscountRate": 0.045,
+        "ExpansionHorizon": "MacroEnergy.PerfectForesight()",
+        "ParameterScalingFactor": 1000,
+        "WriteFullTimeseries": false,
+        "SolutionAlgorithm": "MacroEnergy.Monolithic()"
+    },
+    "system_settings": [
+        {
+            "ConstraintScaling": true,
+            "EnableJuMPDirectModel": false,
+            "EnableJuMPStringNames": true,
+            "AllowImplicitTopLevelCommodities": true,
+            "WriteSubcommodities": true,
+            "OverwriteResults": true,
+            "OutputDir": "results_one_stage_no_co2_cap",
+            "OutputLayout": "wide",
+            "AutoCreateNodes": false,
+            "AutoCreateLocations": true,
+            "Retrofitting": true,
+            "DualExportsEnabled": true
+        }
+    ]
+}

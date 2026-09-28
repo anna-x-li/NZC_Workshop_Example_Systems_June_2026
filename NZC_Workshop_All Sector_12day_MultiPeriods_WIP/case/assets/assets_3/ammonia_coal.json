@@ -31,6 +31,7 @@
             ],
             "lifetime": 30,
             "capital_recovery_period": 30,
+            "mga_group": "ammonia_coal",
             "mga_enabled": true,
             "can_retrofit": true
           },

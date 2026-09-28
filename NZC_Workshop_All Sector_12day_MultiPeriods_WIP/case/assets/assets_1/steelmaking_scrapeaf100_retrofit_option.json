@@ -38,6 +38,7 @@
               "MinFlowConstraint": true
             },
             "min_flow_fraction": 1,
+            "mga_group": "steelmaking_scrapeaf100_retrofit_option",
             "mga_enabled": true,
             "is_retrofit": true
           },

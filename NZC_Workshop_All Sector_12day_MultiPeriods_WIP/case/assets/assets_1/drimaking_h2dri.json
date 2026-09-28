@@ -37,6 +37,7 @@
               "MinFlowConstraint": true
             },
             "min_flow_fraction": 1,
+            "mga_group": "drimaking_h2dri",
             "mga_enabled": true
           },
           "ironore_edge": {

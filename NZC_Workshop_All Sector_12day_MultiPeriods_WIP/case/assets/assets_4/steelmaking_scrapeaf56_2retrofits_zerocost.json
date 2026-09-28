@@ -39,6 +39,7 @@
             },
             "can_retrofit": true,
             "min_flow_fraction": 1,
+            "mga_group": "steelmaking_scrapeaf56_2retrofits_zerocost",
             "mga_enabled": true
           },
           "dri_edge": {

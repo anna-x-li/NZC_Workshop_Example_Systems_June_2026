@@ -32,6 +32,7 @@
               0.85
             ],
             "lifetime": 30,
+            "mga_group": "ammonia_gas_ccs_retrofit_option",
             "mga_enabled": true
           },
           "fuel_edge": {

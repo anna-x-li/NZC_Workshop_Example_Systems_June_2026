@@ -41,6 +41,7 @@
               "MinFlowConstraint": true
             },
             "min_flow_fraction": 1,
+            "mga_group": "aluminumsmelting",
             "mga_enabled": true
           },
           "alumina_edge": {

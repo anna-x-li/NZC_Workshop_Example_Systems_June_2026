@@ -1,0 +1,257 @@
+
+================================================================================
+NUMERICAL DIAGNOSTICS
+================================================================================
+
+--- Solver status ---
+Termination status: OPTIMAL
+Primal status:      FEASIBLE_POINT
+Dual status:        FEASIBLE_POINT
+
+--- Constraint feasibility ---
+Maximum primal violation: 4.2988518673191625e-8
+
+Top 30 constraint violations:
+
+[1]
+  Violation:  4.2988518673191625e-8
+  Name:       
+  Constraint: -vCO2CapConstraint_Budget_co2_sink_national_period2[263] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[217] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[218] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[219] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[220] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[221] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[222] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[223] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[224] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[225] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[226] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[227] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[228] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[229] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[230] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[231] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[232] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[233] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[234] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[235] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[236] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[237] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[238] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[239] + 53 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[240] + 53 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[217] + 53 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[218] + 53 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[219] + 53 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[220] + 53 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[221] + [[...33638 terms omitted...]] + 53 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[236] + 53 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[237] + 53 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[238] + 53 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[239] + 53 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[240] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[217] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[218] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[219] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[220] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[221] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[222] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[223] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[224] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[225] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[226] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[227] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[228] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[229] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[230] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[231] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[232] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[233] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[234] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[235] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[236] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[237] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[238] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[239] + 53 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[240] - vCO2CapConstraint_Slack_co2_sink_national_period2[263] ≤ 0
+
+[2]
+  Violation:  1.7125967933092424e-8
+  Name:       
+  Constraint: -vCO2CapConstraint_Budget_co2_sink_national_period2[68] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[49] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[50] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[51] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[52] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[53] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[54] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[55] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[56] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[57] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[58] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[59] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[60] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[61] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[62] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[63] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[64] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[65] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[66] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[67] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[68] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[69] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[70] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[71] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[72] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[49] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[50] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[51] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[52] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[53] + [[...33638 terms omitted...]] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[68] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[69] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[70] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[71] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[72] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[49] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[50] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[51] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[52] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[53] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[54] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[55] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[56] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[57] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[58] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[59] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[60] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[61] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[62] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[63] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[64] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[65] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[66] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[67] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[68] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[69] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[70] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[71] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[72] - vCO2CapConstraint_Slack_co2_sink_national_period2[68] ≤ 0
+
+[3]
+  Violation:  1.5290575056772272e-8
+  Name:       
+  Constraint: -vCO2CapConstraint_Budget_co2_sink_national_period2[327] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[241] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[242] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[243] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[244] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[245] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[246] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[247] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[248] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[249] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[250] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[251] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[252] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[253] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[254] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[255] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[256] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[257] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[258] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[259] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[260] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[261] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[262] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[263] + 65 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[264] + 65 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[241] + 65 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[242] + 65 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[243] + 65 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[244] + 65 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[245] + [[...33638 terms omitted...]] + 65 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[260] + 65 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[261] + 65 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[262] + 65 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[263] + 65 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[264] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[241] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[242] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[243] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[244] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[245] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[246] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[247] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[248] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[249] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[250] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[251] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[252] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[253] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[254] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[255] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[256] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[257] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[258] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[259] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[260] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[261] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[262] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[263] + 65 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[264] - vCO2CapConstraint_Slack_co2_sink_national_period2[327] ≤ 0
+
+[4]
+  Violation:  1.1599055933423199e-8
+  Name:       
+  Constraint: -vCO2CapConstraint_Budget_co2_sink_national_period4[263] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[217] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[218] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[219] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[220] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[221] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[222] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[223] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[224] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[225] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[226] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[227] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[228] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[229] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[230] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[231] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[232] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[233] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[234] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[235] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[236] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[237] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[238] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[239] + 52 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period4[240] + 52 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period4[217] + 52 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period4[218] + 52 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period4[219] + 52 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period4[220] + 52 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period4[221] + [[...33638 terms omitted...]] + 52 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period4[236] + 52 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period4[237] + 52 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period4[238] + 52 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period4[239] + 52 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period4[240] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[217] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[218] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[219] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[220] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[221] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[222] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[223] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[224] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[225] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[226] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[227] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[228] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[229] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[230] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[231] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[232] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[233] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[234] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[235] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[236] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[237] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[238] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[239] + 52 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period4[240] - vCO2CapConstraint_Slack_co2_sink_national_period4[263] ≤ 0
+
+[5]
+  Violation:  1.0239798272650667e-8
+  Name:       
+  Constraint: -vCO2CapConstraint_Budget_co2_sink_national_period3[68] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[49] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[50] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[51] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[52] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[53] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[54] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[55] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[56] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[57] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[58] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[59] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[60] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[61] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[62] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[63] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[64] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[65] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[66] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[67] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[68] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[69] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[70] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[71] + 68 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[72] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[49] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[50] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[51] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[52] + 68 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[53] + [[...33638 terms omitted...]] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[68] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[69] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[70] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[71] + 68 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[72] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[49] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[50] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[51] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[52] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[53] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[54] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[55] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[56] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[57] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[58] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[59] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[60] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[61] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[62] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[63] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[64] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[65] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[66] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[67] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[68] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[69] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[70] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[71] + 68 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[72] - vCO2CapConstraint_Slack_co2_sink_national_period3[68] ≤ 0
+
+[6]
+  Violation:  9.955168633890565e-9
+  Name:       
+  Constraint: -vCO2CapConstraint_Budget_co2_sink_national_period3[206] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[145] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[146] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[147] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[148] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[149] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[150] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[151] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[152] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[153] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[154] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[155] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[156] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[157] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[158] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[159] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[160] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[161] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[162] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[163] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[164] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[165] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[166] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[167] + 19 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period3[168] + 19 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[145] + 19 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[146] + 19 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[147] + 19 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[148] + 19 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period3[149] + [[...33638 terms omitted...]] + 19 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[164] + 19 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[165] + 19 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[166] + 19 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[167] + 19 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period3[168] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[145] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[146] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[147] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[148] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[149] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[150] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[151] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[152] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[153] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[154] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[155] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[156] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[157] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[158] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[159] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[160] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[161] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[162] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[163] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[164] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[165] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[166] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[167] + 19 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period3[168] - vCO2CapConstraint_Slack_co2_sink_national_period3[206] ≤ 0
+
+[7]
+  Violation:  9.862443004876294e-9
+  Name:       
+  Constraint: -vCO2CapConstraint_Budget_co2_sink_national_period2[206] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[145] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[146] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[147] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[148] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[149] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[150] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[151] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[152] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[153] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[154] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[155] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[156] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[157] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[158] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[159] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[160] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[161] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[162] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[163] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[164] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[165] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[166] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[167] + 10 vFLOW_Region1Beijing_ammonia_coal_ccs_co2_edge_period2[168] + 10 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[145] + 10 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[146] + 10 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[147] + 10 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[148] + 10 vFLOW_Region2Tianjin_ammonia_coal_ccs_co2_edge_period2[149] + [[...33638 terms omitted...]] + 10 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[164] + 10 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[165] + 10 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[166] + 10 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[167] + 10 vFLOW_Region30Ningxia_CoalGasification_CCS_co2_edge_period2[168] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[145] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[146] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[147] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[148] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[149] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[150] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[151] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[152] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[153] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[154] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[155] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[156] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[157] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[158] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[159] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[160] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[161] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[162] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[163] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[164] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[165] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[166] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[167] + 10 vFLOW_Region31Xinjiang_CoalGasification_CCS_co2_edge_period2[168] - vCO2CapConstraint_Slack_co2_sink_national_period2[206] ≤ 0
+
+[8]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region6Liaoning_to_Erlian_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576360] = 0
+
+[9]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region5Innermongolia_to_YingenEjina_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576339] = 0
+
+[10]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region20Guangxi_to_Region25Yunnan_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576291] = 0
+
+[11]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region14Jiangxi_to_Region18Hunan_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576350] = 0
+
+[12]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region11Zhejiang_to_Region14Jiangxi_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576456] = 0
+
+[13]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region9Shanghai_to_Region10Jiangsu_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576408] = 0
+
+[14]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region1Beijing_to_Region2Tianjin_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576262] = 0
+
+[15]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region28Gansu_to_SichuanBasin_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576282] = 0
+
+[16]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Nanxiang_to_Qinshui_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576371] = 0
+
+[17]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region19Guangdong_to_Region20Guangxi_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576283] = 0
+
+[18]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region15Shandong_to_Hehuai_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576400] = 0
+
+[19]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region18Hunan_to_Region22Chongqing_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576327] = 0
+
+[20]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region16Henan_to_Nanxiang_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576315] = 0
+
+[21]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region14Jiangxi_to_Region19Guangdong_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576347] = 0
+
+[22]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region31Xinjiang_to_Junggar_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576443] = 0
+
+[23]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region10Jiangsu_to_Region15Shandong_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576342] = 0
+
+[24]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region24Guizhou_to_Region25Yunnan_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576292] = 0
+
+[25]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region26Tibet_to_Region29Qinghai_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576435] = 0
+
+[26]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region20Guangxi_to_BeibuGulf_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576287] = 0
+
+[27]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Qaidam_to_YingenEjina_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576379] = 0
+
+[28]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region12Anhui_to_Hehuai_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576250] = 0
+
+[29]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region23Sichuan_to_Region26Tibet_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576425] = 0
+
+[30]
+  Violation:  7.450580596923828e-9
+  Name:       
+  Constraint: vNEWUNIT_Region28Gansu_to_Region29Qinghai_CO2_Pipeline_transmission_edge_period1 - 1000000 _[20576280] = 0
+
+--------------------------------------------------------------------------------
+LARGEST VARIABLE VALUES
+--------------------------------------------------------------------------------
+[1] |x| = 5.077329537948281e7   x = 5.077329537948281e7   [0.0, Inf]   vNEWUNIT_Region18Hunan_to_Region22Chongqing_CO2_Pipeline_transmission_edge_period1
+[2] |x| = 5.070670112369689e7   x = 5.070670112369689e7   [0.0, Inf]   vNEWUNIT_Region17Hubei_to_Region18Hunan_CO2_Pipeline_transmission_edge_period1
+[3] |x| = 5.062647043634036e7   x = 5.062647043634036e7   [0.0, Inf]   vNEWUNIT_Region14Jiangxi_to_Region18Hunan_CO2_Pipeline_transmission_edge_period1
+[4] |x| = 5.055104913251583e7   x = 5.055104913251583e7   [0.0, Inf]   vNEWUNIT_Region22Chongqing_to_Region23Sichuan_CO2_Pipeline_transmission_edge_period1
+[5] |x| = 5.0524896539236106e7   x = 5.0524896539236106e7   [0.0, Inf]   vNEWUNIT_Region19Guangdong_to_Region20Guangxi_CO2_Pipeline_transmission_edge_period1
+[6] |x| = 5.0504563245362386e7   x = 5.0504563245362386e7   [0.0, Inf]   vNEWUNIT_Region10Jiangsu_to_Region11Zhejiang_CO2_Pipeline_transmission_edge_period1
+[7] |x| = 5.0495302996874556e7   x = 5.0495302996874556e7   [0.0, Inf]   vNEWUNIT_Region12Anhui_to_Region14Jiangxi_CO2_Pipeline_transmission_edge_period1
+[8] |x| = 5.049229376635284e7   x = 5.049229376635284e7   [0.0, Inf]   vNEWUNIT_Region24Guizhou_to_Region25Yunnan_CO2_Pipeline_transmission_edge_period1
+[9] |x| = 5.049132520780033e7   x = 5.049132520780033e7   [0.0, Inf]   vNEWUNIT_Region12Anhui_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1
+[10] |x| = 5.047952158682383e7   x = 5.047952158682383e7   [0.0, Inf]   vNEWUNIT_Region14Jiangxi_to_Region17Hubei_CO2_Pipeline_transmission_edge_period1
+[11] |x| = 5.047457381462459e7   x = 5.047457381462459e7   [0.0, Inf]   vNEWUNIT_Region10Jiangsu_to_Region12Anhui_CO2_Pipeline_transmission_edge_period1
+[12] |x| = 5.045879015908141e7   x = 5.045879015908141e7   [0.0, Inf]   vNEWUNIT_Region1Beijing_to_Region3Hebei_CO2_Pipeline_transmission_edge_period1
+[13] |x| = 5.045760585868259e7   x = 5.045760585868259e7   [0.0, Inf]   vNEWUNIT_Region9Shanghai_to_Region11Zhejiang_CO2_Pipeline_transmission_edge_period1
+[14] |x| = 5.045746670491828e7   x = 5.045746670491828e7   [0.0, Inf]   vNEWUNIT_Region25Yunnan_to_Region26Tibet_CO2_Pipeline_transmission_edge_period1
+[15] |x| = 5.045302144848797e7   x = 5.045302144848797e7   [0.0, Inf]   vNEWUNIT_Region11Zhejiang_to_Region13Fujian_CO2_Pipeline_transmission_edge_period1
+[16] |x| = 5.044565047561646e7   x = 5.044565047561646e7   [0.0, Inf]   vNEWUNIT_Region9Shanghai_to_Region10Jiangsu_CO2_Pipeline_transmission_edge_period1
+[17] |x| = 5.043847971408559e7   x = 5.043847971408559e7   [0.0, Inf]   vNEWUNIT_Region11Zhejiang_to_Region12Anhui_CO2_Pipeline_transmission_edge_period1
+[18] |x| = 5.043661481881743e7   x = 5.043661481881743e7   [0.0, Inf]   vNEWUNIT_Region11Zhejiang_to_Region14Jiangxi_CO2_Pipeline_transmission_edge_period1
+[19] |x| = 5.043564782064318e7   x = 5.043564782064318e7   [0.0, Inf]   vNEWUNIT_Region13Fujian_to_Region14Jiangxi_CO2_Pipeline_transmission_edge_period1
+[20] |x| = 5.043114035123594e7   x = 5.043114035123594e7   [0.0, Inf]   vNEWUNIT_Region2Tianjin_to_BohaiOffshore_CO2_Pipeline_transmission_edge_period1
+[21] |x| = 5.043007316044111e7   x = 5.043007316044111e7   [0.0, Inf]   vNEWUNIT_Region31Xinjiang_to_Junggar_CO2_Pipeline_transmission_edge_period1
+[22] |x| = 5.042971728512418e7   x = 5.042971728512418e7   [0.0, Inf]   vNEWUNIT_Region1Beijing_to_BohaiOnshore_CO2_Pipeline_transmission_edge_period1
+[23] |x| = 5.042890528133741e7   x = 5.042890528133741e7   [0.0, Inf]   vNEWUNIT_Region5Innermongolia_to_Region30Ningxia_CO2_Pipeline_transmission_edge_period1
+[24] |x| = 5.042319138075032e7   x = 5.042319138075032e7   [0.0, Inf]   vNEWUNIT_Region28Gansu_to_Region29Qinghai_CO2_Pipeline_transmission_edge_period1
+[25] |x| = 5.042275764944765e7   x = 5.042275764944765e7   [0.0, Inf]   vNEWUNIT_Region29Qinghai_to_Region30Ningxia_CO2_Pipeline_transmission_edge_period1
+[26] |x| = 5.042233259963514e7   x = 5.042233259963514e7   [0.0, Inf]   vNEWUNIT_Region10Jiangsu_to_Subei_CO2_Pipeline_transmission_edge_period1
+[27] |x| = 5.042232147020786e7   x = 5.042232147020786e7   [0.0, Inf]   vNEWUNIT_Region4Shanxi_to_Qinshui_CO2_Pipeline_transmission_edge_period1
+[28] |x| = 5.042017227273712e7   x = 5.042017227273712e7   [0.0, Inf]   vNEWUNIT_Region3Hebei_to_Region4Shanxi_CO2_Pipeline_transmission_edge_period1
+[29] |x| = 5.042011442990413e7   x = 5.042011442990413e7   [0.0, Inf]   vNEWUNIT_Region15Shandong_to_Region16Henan_CO2_Pipeline_transmission_edge_period1
+[30] |x| = 5.042007145440084e7   x = 5.042007145440084e7   [0.0, Inf]   vNEWUNIT_Region9Shanghai_to_Subei_CO2_Pipeline_transmission_edge_period1
+
+--------------------------------------------------------------------------------
+SMALLEST NONZERO VARIABLE VALUES
+--------------------------------------------------------------------------------
+[1] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[1]
+[2] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[2]
+[3] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[3]
+[4] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[4]
+[5] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[5]
+[6] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[6]
+[7] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[7]
+[8] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[8]
+[9] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[9]
+[10] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[10]
+[11] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[11]
+[12] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[12]
+[13] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[13]
+[14] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[14]
+[15] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[15]
+[16] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[16]
+[17] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[17]
+[18] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[18]
+[19] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[19]
+[20] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[20]
+[21] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[21]
+[22] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[22]
+[23] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[23]
+[24] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[24]
+[25] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[25]
+[26] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[26]
+[27] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[27]
+[28] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[28]
+[29] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[29]
+[30] |x| = 7.531030349077229e-12   x = 7.531030349077229e-12   [0.0, Inf]   vFLOW_Region26Tibet_oxyfuelcement_retrofit_co2_emissions_edge_period4[30]
+
+--------------------------------------------------------------------------------
+EXTREME VARIABLE SUMMARY
+--------------------------------------------------------------------------------
+Tiny nonzero variables (0 < |x| < 1.0e-8): 968208
+Large variables (|x| > 1.0e8): 0
+
+--------------------------------------------------------------------------------
+VARIABLE MAGNITUDE DISTRIBUTION
+--------------------------------------------------------------------------------
+exactly zero: 8078576
+(0.0, 1.0e-12] : 0
+(1.0e-12, 1.0e-9] : 752395
+(1.0e-9, 1.0e-6] : 791173
+(1.0e-6, 0.001] : 1727051
+(0.001, 1.0] : 7447841
+(1.0, 1000.0] : 1869833
+(1000.0, 1.0e6] : 53199
+(1.0e6, 1.0e9] : 538
+(1.0e9, 1.0e12] : 0
+(1.0e12, Inf] : 0
+
+================================================================================
+END NUMERICAL DIAGNOSTICS
+================================================================================

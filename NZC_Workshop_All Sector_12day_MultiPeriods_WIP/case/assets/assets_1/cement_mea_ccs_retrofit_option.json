@@ -34,6 +34,7 @@
             "RampingLimitConstraint": true,
             "MinFlowConstraint": true
           },
+          "mga_group": "cement_mea_ccs_retrofit_option",
           "mga_enabled": true
         }
       },

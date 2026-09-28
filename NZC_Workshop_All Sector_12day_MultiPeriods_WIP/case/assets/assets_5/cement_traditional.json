@@ -31,6 +31,7 @@
             "RampingLimitConstraint": true,
             "MinFlowConstraint": true
           },
+          "mga_group": "cement_traditional",
           "mga_enabled": true
         },
         "co2_captured_edge": {

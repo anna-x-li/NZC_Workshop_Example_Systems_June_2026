@@ -37,6 +37,7 @@
               "MinFlowConstraint": true
             },
             "min_flow_fraction": 1,
+            "mga_group": "aluminumrefining",
             "mga_enabled": true
           },
           "aluminumscrap_edge": {
